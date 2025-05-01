@@ -1,0 +1,40 @@
+{
+  "backEnd": [
+    { "language": "mongo", "percentage": "75", "expertise": "Expert" },
+    { "language": "postgress", "percentage": "60", "expertise": "Expert" },
+    { "language": "OpenAI Library", "percentage": "50", "expertise": "Expert" },
+    { "language": "Cloud vercel heroku", "percentage": "50", "expertise": "" },
+    { "language": "Prisma", "percentage": "50", "expertise": "" },
+    { "language": "GraphQl", "percentage": "50", "expertise": "" },
+    {
+      "language": "Stripe Payment Gateway",
+      "percentage": "50",
+      "expertise": ""
+    },
+    { "language": "cms firebase", "percentage": "50", "expertise": "Expert" },
+    {
+      "language": "cms aws-amplify",
+      "percentage": "50",
+      "expertise": "Expert"
+    }
+  ],
+  "frontEnd": [
+    { "language": "react", "percentage": "90", "expertise": "Expert" },
+    { "language": "next", "percentage": "80", "expertise": "Intermediate" },
+    { "language": "react-native", "percentage": "70", "expertise": "Basic" },
+    { "language": "java-script", "percentage": "80", "expertise": "" },
+    { "language": "type-script", "percentage": "60", "expertise": "" },
+    { "language": "node", "percentage": "80", "expertise": "" },
+    { "language": "express", "percentage": "80", "expertise": "" },
+    { "language": "java", "percentage": "80", "expertise": "" },
+    { "language": "spring-boot", "percentage": "80", "expertise": "" },
+    { "language": "css", "percentage": "80", "expertise": "" },
+    { "language": "tailwind", "percentage": "80", "expertise": "" },
+    { "language": "bootstrap", "percentage": "50", "expertise": "" },
+    { "language": "MaterialUI", "percentage": "80", "expertise": "" },
+    { "language": "ChakraUI", "percentage": "80", "expertise": "" },
+    { "language": "Shadcn", "percentage": "50", "expertise": "" },
+    { "language": "Clerk", "percentage": "50", "expertise": "" },
+    { "language": "JWT", "percentage": "50", "expertise": "" }
+  ]
+}

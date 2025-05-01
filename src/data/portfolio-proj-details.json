@@ -1,0 +1,225 @@
+[
+  {
+    "projectId": "blog app",
+    "category": "React Blog Application",
+    "gitUrl": "https://github.com/narendravs/reactblogapp",
+    "tmpUrl": "https://github.com/reactblogapp",
+    "image": "../assets/img/portfolio/blog-app.jpg",
+    "description": "A React blog application provides a dynamic,user-friendly, and often performant platform for content sharing. Leveraging React's strengths, it offers features for content display, navigation, user interaction, and often incorporates enhancements for SEO, analytics, and administrative management. The specific features and complexity can vary greatly depending on the project's requirements.",
+    "skills": [
+      "Component-Based Architecture:The blog is built using reusable React components for different parts of the UI (e.g., post cards, navigation bar, comment section).",
+      "State Management:Utilizes React's built-in useState and useContext hooks or external state management libraries like Redux or Zustand to manage application data.",
+      " Routing:Implements client-side routing using libraries like React Router to handle navigation between different blog pages without full page reloads.",
+      "API Interactions:If the blog has a separate backend, it uses fetch or libraries like Axios to communicate with the API for fetching blog post data, submitting comments, etc.",
+      "Styling: Uses CSS, CSS Modules, Styled Components, or CSS-in-JS libraries for styling the blog's appearance."
+    ],
+    "features": [
+      "Individual Post Pages: Dedicated pages for each blog post, displaying the full content, author information,and publication details.",
+      "Categorization and Tagging: Allows users to browse content based on predefined categories and tags, making it easier to find relevant articles.",
+      "Navigation: Clear and intuitive navigation to different sections of the blog (homepage, categories, tags, about page, contact page, etc.).",
+      "Pagination for handling a large number of posts across multiple pages.",
+      "Search Functionality: Enables users to search for specific content within the blog using keywords.",
+      "Author Profiles: Pages dedicated to showcasing the blog authors, their biographies, and potentially links to their other work or social media.",
+      "Date and Time Display: Clearly shows the publication date and time of each blog post.",
+      "Responsive Design: Ensures the blog is accessible and visually appealing on various devices (desktops,tablets, and mobile phones).",
+      "Enhanced Features (Often Included): Comments Section: Allows users to engage with the content by leaving comments, fostering a community around the blog. This often integrates with third-party commenting platforms like Disqus or a custom-built solution.",
+      "Social Sharing: Buttons or links to easily share blog posts on various social media platforms.",
+      "Related Posts: Suggests other relevant articles to readers, encouraging further engagement. Image and Media Handling: Ability to embed images, videos, and other media within blog posts. Syntax Highlighting: For technical blogs, automatically highlights code snippets for better readability. Markdown Support: Allows authors to write blog posts in Markdown, which is then rendered into HTML.",
+      "Admin Interface (Often a Separate Application): A backend or separate React application for administrators to create, edit, delete, and manage blog posts,categories, tags, and users. This might involve API calls to a backend server.",
+      "SEO Optimization: Implementation of meta tags, semantic HTML, and potentially server-side rendering (SSR) or static site generation (SSG) (often using frameworks like Next.js or Gatsby) to improve search engine visibility.",
+      "Analytics Integration: Integration with tools like Google Analytics to track website traffic and user behavior. Newsletter Subscription: Allows users to subscribe to receive updates on new blog posts.",
+      " Accessibility Features: Implementation of ARIA attributes and semantic HTML to make the blog accessible to users with disabilities."
+    ]
+  },
+  {
+    "projectId": "leet code",
+    "category": "Nextjs Leet-Code Application",
+    "gitUrl": "https://github.com/narendravs/nextjsleet",
+    "tmpUrl": "https://github.com/leet-code",
+    "image": "../assets/img/portfolio/leetcode.jpg",
+    "description": "LeetCode is a popular online platform widely used by software engineers and developers to practice and improve their coding skills, particularly in algorithms and data structures. It provides a vast library of coding problems categorized by difficulty (Easy, Medium, Hard), topic (e.g., Arrays, Linked Lists, Trees, Dynamic Programming, Graph), and company (problems asked in interviews at specific tech companies).",
+    "skills": [
+      "Component-Based Architecture:The application is built using Next components for different parts of the UI.",
+      "State Management:Utilizes React's built-in useState and useContext hooks or external state management libraries like Redux or Zustand to manage application data.",
+      " Routing:Implements client-side and SSR (server-side-rendering) routing using libraries like React Router to handle navigation between different pages without full page reloads.",
+      "API Interactions:It has used MongoDb for the backend, it uses fetch libraries like Axios to communicate with the API for fetching data from the data base etc.",
+      "Styling: Uses CSS, Tailwind CSS, Styled Components libraries for styling the leetcode application appearance."
+    ],
+    "features": [
+      "Extensive Problem Set: LeetCode boasts thousands of coding problems covering a wide range of algorithmic and data structure concepts. New problems are added regularly.",
+      "Categorization and Filtering: Problems can be filtered by difficulty, topic, frequency (how often they appear in interviews), and company. This allows users to focus their practice on specific areas.",
+      "Online Code Editor: The platform provides an integrated code editor where users can write and run their solutions in various programming languages (e.g., Python, Java, C++, JavaScript, Go, Ruby, Swift, C#, Kotlin).",
+      "Test Cases and Submission: Users can test their code against a set of predefined test cases. Once they believe their solution is correct, they can submit it for evaluation against more comprehensive test cases.",
+      "Solutions and Discussions: For each problem, LeetCode often provides official solutions and a community discussion forum where users can share their approaches, ask questions, and learn from others.",
+      "Mock Interviews and Contests: LeetCode offers features like mock interviews to simulate the interview experience and competitive programming contests (LeetCode Weekly and Biweekly Contests) where users can test their skills against others in a timed setting.",
+      "Study Plans and Explore Cards: The platform provides structured study plans and Explore Cards that guide users through specific topics with curated problems and explanations.",
+      " Premium Subscription: LeetCode Premium offers additional features such as:Company-specific problem sets: Access to problems frequently asked in interviews at specific companies.Frequency lists: Insights into how often certain problems appear in interviews.Detailed solutions and articles: More in-depth explanations and resources.Debugger: An integrated debugger for easier troubleshooting.Concurrency and Database problem sets."
+    ]
+  },
+  {
+    "projectId": "ticketbooking app",
+    "category": "Reactjs ticketbooking Application",
+    "gitUrl": "https://github.com/narendravs/ticketbooking",
+    "tmpUrl": "https://github.com/ticketbooking",
+    "image": "../assets/img/portfolio/ticketbooking.jpg",
+    "description": "A ticket booking app is a software application designed to streamline the process of purchasing tickets for various events, transportation, and activities. It provides users with a convenient and efficient way to browse, select, and pay for tickets directly from their mobile devices or web browsers.",
+    "skills": [
+      "Component-Based Architecture:The application is built using React components for different parts of the UI.",
+      "State Management:Utilizes React's built-in useState and useContext hooks or external state management libraries like Redux or Zustand to manage application data.",
+      " Routing:Implements client-side routing using libraries like React Router to handle navigation between different pages without full page reloads.",
+      "API Interactions:It has used MongoDb for the backend, it uses fetch libraries to communicate with the API for fetching data from the data base etc.",
+      "Styling: Uses CSS, Tailwind CSS, Styled Components libraries for styling the ticketbooking application appearance."
+    ],
+    "features": [
+      "Event/Service Discovery: Allows users to browse and search for tickets based on various criteria such as event type (movies, concerts, sports, theater), location, date, time, venue, and transportation (flights, trains, buses).",
+      "Detailed Information: Provides comprehensive details about the event or service, including descriptions, schedules, seat maps (for venues), amenities, and rules/regulations.",
+      "Availability and Pricing: Displays real-time availability of tickets and their corresponding prices, often including different tiers or classes.",
+      "Seat Selection (for venues): Enables users to view seating charts and select specific seats based on their preferences and budget.",
+      "Filtering and Sorting: Offers options to filter and sort results based on price, date, time, category, and other relevant criteria.",
+      "Secure Payment Gateway Integration: Facilitates secure online payments through various methods like credit/debit cards, digital wallets, and other online payment options.",
+      "Booking Confirmation and Ticket Delivery: Provides instant booking confirmation and delivers tickets electronically (e.g., QR codes, mobile tickets, email attachments) or offers options for physical ticket collection.",
+      "User Accounts and Booking History: Allows users to create accounts to save their preferences, view past and upcoming bookings, and manage their information.",
+      "Notifications and Reminders: Sends alerts about upcoming events, booking confirmations, and other relevant information.",
+      "Cancellation and Rescheduling (subject to policies): May offer options to cancel or reschedule bookings based on the terms and conditions set by the event organizer or service provider.",
+      "Customer Support: Provides access to customer support channels for assistance with bookings, cancellations, or other queries."
+    ]
+  },
+  {
+    "projectId": "hotelbooking app",
+    "category": "Reactjs hotelbooking Application",
+    "gitUrl": "https://github.com/narendravs/hotelmgmt",
+    "tmpUrl": "https://github.com/hotelbooking",
+    "image": "../assets/img/portfolio/hotelbooking.jpg",
+    "description": "A hotel booking app is a software application designed to streamline the process of searching for, comparing, and reserving accommodations at various hotels, resorts, and other lodging establishments, including those in Bengaluru and around the world. It offers convenience and efficiency for both travelers and hotel owners in Bengaluru and globally.",
+    "skills": [
+      "Component-Based Architecture:The application is built using React components for different parts of the UI.",
+      "State Management:Utilizes React's built-in useState and useContext hooks or external state management libraries like Redux or Zustand to manage application data.",
+      " Routing:Implements client-side routing using libraries like React Router to handle navigation between different pages without full page reloads.",
+      "API Interactions:It has used MongoDb for the backend, it uses fetch libraries to communicate with the API for fetching data from the data base etc.",
+      "Styling: Uses CSS, Tailwind CSS, Styled Components libraries for styling the hotelbooking application appearance."
+    ],
+    "features": [
+      "Search Functionality: Enables users to search for hotels in Bengaluru, other cities, or specific locations based on criteria like dates, guests, price, and amenities.",
+      "Hotel Information: Provides details about hotels in Bengaluru and other locations, including descriptions, photos, room types, amenities, and policies.",
+      "Availability and Pricing: Displays real-time availability and prices for hotels in Bengaluru and other destinations, often with deals.",
+      "Comparison Tools: Allows comparison of hotels in Bengaluru and other areas based on various factors.",
+      "Reviews and Ratings: Offers reviews from previous guests who stayed in Bengaluru hotels and others worldwide.",
+      "Booking and Payment: Facilitates secure booking and payment for hotels in Bengaluru and globally.",
+      "Booking Confirmation and Management: Sends confirmations and allows users to manage reservations for Bengaluru hotels and others.",
+      "User Accounts: Saves preferences and booking history for users booking hotels in Bengaluru and other locations."
+    ]
+  },
+  {
+    "projectId": "delivery app",
+    "category": "React-Native delivery Application",
+    "gitUrl": "https://github.com/narendravs/react-native-ubereats",
+    "tmpUrl": "https://github.com/deliveryapp",
+    "image": "../assets/img/portfolio/delivery.jpg",
+    "description": "A React Native delivery app is a mobile application built using the React Native framework that enables users in Bengaluru, and potentially beyond, to request and track the delivery of goods or services directly from their smartphones. Leveraging React Native's cross-platform capabilities, a single codebase can often target both iOS and Android users in Bengaluru and other regions.",
+    "skills": [
+      "Component-Based Architecture:The application is built using React-Native components for different parts of the UI.",
+      "State Management:Utilizes React's built-in useState and useContext hooks or external state management libraries like Redux or Zustand to manage application data.",
+      " Routing:Implements client-side routing using libraries like React-Native Navigation Router to handle navigation between different pages without full page reloads.",
+      "API Interactions:It has used MongoDb for the backend, it uses fetch libraries to communicate with the API for fetching data from the data base etc.",
+      "Styling: Uses CSS, Tailwind CSS, Styled Components libraries for styling the delivery application appearance."
+    ],
+    "features": [
+      "Platform Agnostic: Works seamlessly on both iOS and Android devices popular in Bengaluru.",
+      "Order Placement: Allows users in Bengaluru to specify pickup and delivery locations within the city or other supported areas. They can detail the items for delivery and any special instructions.",
+      "Service Selection: May offer various delivery options relevant to Bengaluru, such as food delivery from local restaurants, package delivery, or grocery delivery.",
+      "Real-time Tracking (Map Integration): Users in Bengaluru can see the live location of their delivery person on a map within the app.",
+      "Estimated Time of Arrival (ETA): Provides an estimated delivery time specific to the user's location in Bengaluru.",
+      "Communication: May allow users in Bengaluru to communicate with the assigned delivery driver via in-app messaging or calls.",
+      "Payment Options: Integrates popular payment methods used in Bengaluru, including UPI, local digital wallets, credit/debit cards, and potentially cash on delivery.",
+      "Order History: Users in Bengaluru can view their past delivery orders.",
+      "Ratings and Reviews: Allows users in Bengaluru to rate and review their delivery experience.",
+      "Notifications: Sends timely updates about order status, pickup, and delivery within Bengaluru."
+    ]
+  },
+  {
+    "projectId": "hotelbooking app",
+    "category": "Reactjs hotelbooking Application",
+    "gitUrl": "https://github.com/narendravs/hotelmgmt",
+    "tmpUrl": "https://github.com/hotelbooking",
+    "image": "../assets/img/portfolio/hotelbooking.jpg",
+    "description": "A hotel booking app is a software application designed to streamline the process of searching for, comparing, and reserving accommodations at various hotels, resorts, and other lodging establishments, including those in Bengaluru and around the world. It offers convenience and efficiency for both travelers and hotel owners in Bengaluru and globally.",
+    "skills": [
+      "Component-Based Architecture:The application is built using React components for different parts of the UI.",
+      "State Management:Utilizes React's built-in useState and useContext hooks or external state management libraries like Redux or Zustand to manage application data.",
+      " Routing:Implements client-side routing using libraries like React Router to handle navigation between different pages without full page reloads.",
+      "API Interactions:It has used MongoDb for the backend, it uses fetch libraries to communicate with the API for fetching data from the data base etc.",
+      "Styling: Uses CSS, Tailwind CSS, Styled Components libraries for styling the hotelbooking application appearance."
+    ],
+    "features": [
+      "Search Functionality: Enables users to search for hotels in Bengaluru, other cities, or specific locations based on criteria like dates, guests, price, and amenities.",
+      "Hotel Information: Provides details about hotels in Bengaluru and other locations, including descriptions, photos, room types, amenities, and policies.",
+      "Availability and Pricing: Displays real-time availability and prices for hotels in Bengaluru and other destinations, often with deals.",
+      "Comparison Tools: Allows comparison of hotels in Bengaluru and other areas based on various factors.",
+      "Reviews and Ratings: Offers reviews from previous guests who stayed in Bengaluru hotels and others worldwide.",
+      "Booking and Payment: Facilitates secure booking and payment for hotels in Bengaluru and globally.",
+      "Booking Confirmation and Management: Sends confirmations and allows users to manage reservations for Bengaluru hotels and others.",
+      "User Accounts: Saves preferences and booking history for users booking hotels in Bengaluru and other locations."
+    ]
+  },
+  {
+    "projectId": "subscription app",
+    "category": "React subscription Application",
+    "gitUrl": "https://github.com/narendravs/subscription",
+    "tmpUrl": "https://github.com/subscription",
+    "image": "../assets/img/portfolio/subscribe.jpg",
+    "description": "Stripe Subscriptions is a powerful and flexible platform offered by Stripe that allows businesses in Bengaluru and globally to easily create and manage recurring billing for their products and services. It handles the complexities of subscription management, from initial signup and payment to recurring invoices, proration, upgrades, downgrades, and cancellations,",
+    "skills": [
+      "Payment gateway: Stripe api has used to implement the payment gateway",
+      "Component-Based Architecture:The application is built using React-Native components for different parts of the UI.",
+      "State Management:Utilizes React's built-in useState and useContext hooks or external state management libraries like Redux or Zustand to manage application data.",
+      " Routing:Implements client-side routing using libraries like React-Native Navigation Router to handle navigation between different pages without full page reloads.",
+      "API Interactions:It has used MongoDb for the backend, it uses fetch libraries to communicate with the API for fetching data from the data base etc.",
+      "Styling: Uses CSS, Tailwind CSS, Styled Components libraries for styling the subscription application appearance."
+    ],
+    "features": [
+      "Subscription Plans: Define various subscription tiers with different prices, billing intervals (e.g., monthly, yearly), and features suitable for the Bengaluru market and international customers.",
+      "Customer Management: Securely store customer data, including billing information and subscription status for customers in Bengaluru and worldwide.",
+      "Payment Processing: Seamlessly integrates with Stripe's robust payment processing capabilities, supporting various payment methods popular in Bengaluru (like UPI, local cards) and internationally, handling failed payments with automatic retries.",
+      "Recurring Invoices: Automatically generate and send invoices to customers in Bengaluru and other regions based on their subscription schedule, complying with local regulations where applicable.",
+      "Proration: Handles billing adjustments when customers in Bengaluru or elsewhere upgrade, downgrade, or change their subscription mid-cycle.",
+      "Trials: Offer free trial periods to attract new subscribers in Bengaluru and globally.",
+      "Discounts and Coupons: Create and manage promotional discounts and coupon codes for customers in Bengaluru and internationally.",
+      "Tax Handling: Automates the calculation and collection of sales tax and GST relevant to transactions within Bengaluru and handles VAT/other taxes for international customers.",
+      "Email Notifications: Automatically send customizable email notifications for events like successful payments, failed payments, upcoming renewals, and trial endings to customers in Bengaluru and worldwide.",
+      "Customer Portal: Provides a customizable self-service portal where customers in Bengaluru and other locations can manage their subscriptions, update payment information, view invoices, and cancel their plans.",
+      "Webhooks: Allows businesses in Bengaluru to receive real-time notifications about subscription events, enabling integration with other local and global systems.",
+      "Analytics and Reporting: Offers dashboards and reports to track subscription metrics like MRR (Monthly Recurring Revenue), churn rate, and customer lifetime value for both Bengaluru and international customers."
+    ]
+  },
+  {
+    "projectId": "social app",
+    "category": "React social Application",
+    "gitUrl": "https://github.com/narendravs/react-native-ubereats",
+    "tmpUrl": "https://github.com/social-app",
+    "image": "../assets/img/portfolio/social-app.jpg",
+    "description": "A social app is a mobile or web-based application designed to facilitate communication, connection, sharing, and interaction among users in Bengaluru, across India, and globally. These platforms leverage various features to enable individuals and communities to build relationships, share content, express themselves, and stay informed about the activities and interests of others, both within Bengaluru and worldwide.",
+    "skills": [
+      "Component-Based Architecture:The application is built using React components for different parts of the UI.",
+      "State Management:Utilizes React's built-in useState and useContext hooks or external state management libraries like Redux or Zustand to manage application data.",
+      " Routing:Implements client-side routing using libraries like Router to handle navigation between different pages without full page reloads.",
+      "API Interactions:It has used MongoDb for the backend, it uses fetch libraries to communicate with the API for fetching data from the data base etc.",
+      "Styling: Uses CSS, Tailwind CSS, Styled Components libraries for styling the social application appearance."
+    ],
+    "features": [
+      "User Profiles: Each user typically has a personal profile where they can share information about themselves, including name, bio, photos, and interests relevant to their connections in Bengaluru and beyond.",
+      "Content Sharing: Users in Bengaluru and elsewhere can share various forms of content, such as text updates, photos, videos, links, and stories about their lives and interests.",
+      "Connecting with Others: The core functionality involves connecting with friends, family, colleagues, and people with shared interests in Bengaluru, India, and around the world through following, friending, or other connection mechanisms.",
+      "Feeds/Timelines: A central stream of content from the users and communities a person follows, often algorithmically curated to show relevant content from Bengaluru and global sources.",
+      "Messaging (Direct and Group): Features for private one-on-one conversations and group chats with individuals in Bengaluru and across the globe.",
+      "Notifications: Alerts to keep users informed about new activity related to their connections and content (e.g., likes, comments, follows, messages) from both local Bengaluru interactions and global ones.",
+      "Groups and Communities: Spaces dedicated to specific topics, interests, or organizations relevant to users in Bengaluru and their wider online communities.",
+      "Search and Discovery: Tools to find other users, groups, and content based on keywords, hashtags, or location, allowing users in Bengaluru to discover local content and connect with others nearby.",
+      "Engagement Features: Ways for users to interact with content, such as liking, commenting, sharing, and saving posts from Bengaluru and around the world.",
+      "Privacy Settings: Controls that allow users in Bengaluru to manage the visibility of their profiles and content to local connections and the broader internet.",
+      "Personalization: Features that tailor the user experience based on their interests and interactions, potentially highlighting content and connections relevant to Bengaluru.",
+      "Location-Based Services: Some social apps utilize location data for features like finding nearby friends or local events happening in Bengaluru.",
+      "Live Streaming: The ability for users in Bengaluru to broadcast live video content to their followers, both locally and globally.",
+      "Stories/Ephemeral Content: Short-lived content (photos, videos) that disappears after a set period, popular among users in Bengaluru and worldwide."
+    ]
+  }
+]

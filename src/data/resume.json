@@ -1,0 +1,71 @@
+{
+  "description": "",
+  "company1": {
+    "name": "Scheneider",
+    "location": "bangalore",
+    "responsibilities": [
+      {
+        "res1": {
+          "desc": "Developed UI Components accordingly to the business functionality"
+        },
+        "res2": {
+          "desc": "Implemented API's and middleware services as per the requirement"
+        },
+        "res3": {
+          "desc": "Changed design and developed functionality for the project pertaining to the client interaction"
+        }
+      }
+    ]
+  },
+  "company2": {
+    "name": "Capgemini",
+    "location": "bangalore",
+    "responsibilities": [
+      {
+        "res1": {
+          "desc": "Developed UI Components accordingly to the business functionality"
+        },
+        "res2": {
+          "desc": "Implemented API's and middleware services as per the requirement"
+        },
+        "res3": {
+          "desc": "Changed design and developed functionality for the project pertaining to the client interaction"
+        }
+      }
+    ]
+  },
+  "company3": {
+    "name": "Accenture",
+    "location": "bangalore",
+    "responsibilities": [
+      {
+        "res1": {
+          "desc": "Developed UI Components accordingly to the business functionality"
+        },
+        "res2": {
+          "desc": "Implemented API's and middleware services as per the requirement"
+        },
+        "res3": {
+          "desc": "Changed design and developed functionality for the project pertaining to the client interaction"
+        }
+      }
+    ]
+  },
+  "company4": {
+    "name": "Technologia",
+    "location": "bangalore",
+    "responsibilities": [
+      {
+        "res1": {
+          "desc": "Developed UI Components accordingly to the business functionality"
+        },
+        "res2": {
+          "desc": "Implemented API's and middleware services as per the requirement"
+        },
+        "res3": {
+          "desc": "Changed design and developed functionality for the project pertaining to the client interaction"
+        }
+      }
+    ]
+  }
+}
