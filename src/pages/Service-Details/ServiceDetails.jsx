@@ -119,6 +119,11 @@ const ServiceDetails = () => {
                   <div class="col-lg-8">
                     <div data-aos="fade-down" data-aos-delay="200">
                       <img
+                        style={{
+                          width: "100%",
+                          height: "350px",
+                          objectFit: "cover",
+                        }}
                         src="assets/img/santillan.jpg"
                         alt=""
                         class="img-fluid services-img"
