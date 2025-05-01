@@ -1,0 +1,55 @@
+{
+  "hash": "0eb74a5f",
+  "configHash": "f9b713af",
+  "lockfileHash": "9fc94224",
+  "browserHash": "65f05de9",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "2da92508",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "a93b2736",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "5c835980",
+      "needsInterop": false
+    },
+    "react-typed": {
+      "src": "../../node_modules/react-typed/dist/mjs/index.js",
+      "file": "react-typed.js",
+      "fileHash": "14bb8a40",
+      "needsInterop": false
+    },
+    "@emailjs/browser": {
+      "src": "../../node_modules/@emailjs/browser/es/index.js",
+      "file": "@emailjs_browser.js",
+      "fileHash": "75e6bdef",
+      "needsInterop": false
+    },
+    "react-toastify": {
+      "src": "../../node_modules/react-toastify/dist/index.mjs",
+      "file": "react-toastify.js",
+      "fileHash": "d5b40186",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-QJWJCAXU": {
+      "file": "chunk-QJWJCAXU.js"
+    },
+    "chunk-3527N3GG": {
+      "file": "chunk-3527N3GG.js"
+    },
+    "chunk-EQCVQC35": {
+      "file": "chunk-EQCVQC35.js"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "projectId": "ticketbooking app",
+    "name": "ticketbooking app",
+    "description": "A ticket booking app is a software application designed to streamline the process of purchasing tickets for various events, transportation, and activities.",
+    "image": "assets/img/portfolio/ticketbooking.jpg"
+  },
+  {
+    "projectId": "hotelbooking app",
+    "name": "hotelbooking app",
+    "description": "A hotel booking system is a software application or platform that allows users to search for, compare, and reserve accommodations at various hotels, resorts, and other lodging establishments",
+    "image": "assets/img/portfolio/hotelbooking.jpg"
+  },
+  {
+    "projectId": "subscription app",
+    "name": "subscription app",
+    "description": "Stripe Subscriptions is a powerful and flexible platform offered by Stripe that allows businesses to easily create and manage recurring billing for their products and services.",
+    "image": "assets/img/portfolio/subscribe.jpg"
+  },
+  {
+    "projectId": "delivery app",
+    "name": "delivery app",
+    "description": "A delivery app is a software application designed to facilitate the transportation of goods or services from a point of origin to a designated destination.",
+    "image": "assets/img/portfolio/delivery.jpg"
+  },
+  {
+    "projectId": "social app",
+    "name": "social app",
+    "description": "A social app is a mobile or web-based application designed to facilitate communication, connection, sharing, and interaction among users.",
+    "image": "assets/img/portfolio/social-app.jpg"
+  },
+  {
+    "projectId": "leet code",
+    "name": "leet code",
+    "description": "LeetCode is a comprehensive platform for practicing and mastering algorithms and data structures, particularly valuable for software engineers looking to improve their coding skills and prepare for technical interviews.",
+    "image": "assets/img/portfolio/leetcode.jpg"
+  },
+  {
+    "projectId": "blog app",
+    "name": "blog app",
+    "description": "A React blog application provides a dynamic,user-friendly, and often performant platform for content sharing. ",
+    "image": "assets/img/portfolio/blog-app.jpg"
+  }
+]
