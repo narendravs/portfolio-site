@@ -5,41 +5,42 @@ const Header = () => {
   const [select, setSelect] = useState(false);
   return (
     <header id="header" className="header dark-background d-flex flex-column">
-      <i
+      <div
         className="header-toggle d-xl-none bi bi-list"
         onClick={() => {
           setSelect(!select);
         }}
       >
         {select && (
-          <div className="menu ">
+          <div>
             <ul
               onClick={() => {
                 setSelect(false);
               }}
+              className="menu"
             >
-              <li>
-                <a href="/">Home</a>
-              </li>
-              <li>
-                <a href="/about">About</a>
-              </li>
-              <li>
-                <a href="/services">Services</a>
-              </li>
-              <li>
-                <a href="/portfolio">Portfolio</a>
-              </li>
-              <li>
-                <a href="/resume">Resume</a>
-              </li>
-              <li>
-                <a href="/contact">Contact</a>
-              </li>
+              <span className="span">
+                <Link to="/">Home</Link>
+              </span>
+              <span className="span">
+                <Link to="/about">About</Link>
+              </span>
+              <span className="span">
+                <Link to="/services">Services</Link>
+              </span>
+              <span className="span">
+                <Link to="/portfolio">Portfolio</Link>
+              </span>
+              <span className="span">
+                <Link to="/resume">Resume</Link>
+              </span>
+              <span className="span">
+                <Link to="/contact">Contact</Link>
+              </span>
             </ul>
           </div>
         )}
-      </i>
+      </div>
 
       <div className="profile-img">
         <img

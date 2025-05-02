@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import Header from "../../components/Header";
 import { Link } from "react-router-dom";
+import useWindowDimensions from "../Dimensions/Dimensions";
+
 const ServiceDetails = () => {
+  const { width } = useWindowDimensions();
   const [react, setReact] = useState(false);
   const [next, setNext] = useState(false);
   const [native, setNative] = useState(false);
@@ -11,7 +14,14 @@ const ServiceDetails = () => {
         <div class="col">
           <Header />
         </div>
-        <div class="col-9" style={{ width: "1060px", marginLeft: "180px" }}>
+        <div
+          class="col-9"
+          style={
+            width > 750
+              ? { width: "1060px", marginLeft: "180px" }
+              : { width: "100%" }
+          }
+        >
           <main class="main">
             <div class="page-title dark-background">
               <div class="container d-lg-flex justify-content-between align-items-center">

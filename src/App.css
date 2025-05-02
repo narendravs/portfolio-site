@@ -1287,25 +1287,25 @@ section,
   right: 0;
   margin-top: 50px;
   position: absolute;
-  background-color: #151f2b;
+  background-color: #d2dbe7;
   z-index: 50;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   padding: 10px;
   width: 150px;
-  height: 200px;
+  height: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 10px;
   flex-direction: column;
-  text-decoration: none;
-  outline: none;
-  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 6px;
+  box-shadow: rgba(223, 8, 43, 0.24) 20px 20px 60px;
+  border-radius: 10px;
 }
-.menu: a hover {
-  background-color: rgba(209, 209, 224, 0.596);
+.span :hover {
+  color: #040b14;
 }
-.toast-message {
+toast-message {
   background: rgb(125, 125, 172);
   color: #fff;
   font-size: 20px;
