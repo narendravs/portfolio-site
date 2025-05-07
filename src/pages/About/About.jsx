@@ -24,9 +24,9 @@ const About = () => {
               <h2>About</h2>
               <p>
                 Having 3+ years of experience in implementing web applications
-                by using React js, Nextjs, React Native,Javascript, Typescript,
-                Tailwind, Node js, Express js, Redux, Mongo db, graphql ,
-                Prisma, aws amplify, firebase etc.., As a '3+ year React
+                by using <span style={{fontWeight:"700"}}> React js, Nextjs, React Native,Javascript, Typescript,
+                Tailwind, Node js, Express js, Redux,Tanskstank Query/React-Query,JWT, Auth0,Clerk, Shadcn,Material/Chakra UI, Mongo db, graphql ,
+                Prisma, aws amplify, firebase etc..</span>, As a '3+ year React
                 developer,' I possess a strong understanding of the React
                 ecosystem and can proficiently build complex and interactive
                 user interfaces. I'm adept at utilizing component-based
