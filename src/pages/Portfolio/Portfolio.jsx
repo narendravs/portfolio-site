@@ -107,11 +107,7 @@ const Portfolio = () => {
                             </Link>
                            
                           </div>
-                         
-                          
-                         
                         </div>
-                        
                       </div>
                     );
                   })}

@@ -831,15 +831,12 @@ section,
 } */
 
 .portfolio .portfolio-content .portfolio-info {
-  
   position: absolute;
   inset: 0;
   z-index: 3;
   background: rgba(0, 0, 0, 0.6);
   padding: 15px;
-  
-}
-
+ }
 
 .portfolio .portfolio-content .portfolio-info h4 {
   font-size: 16px;
@@ -875,8 +872,8 @@ section,
   right: 0;
   font-size: 14px;
   font-weight: 500;
-  color: rgba(8, 8, 8, 0.8);
-  background-color: white;
+  color: white;
+  /* background-color: white; */
 
 }
 
