@@ -842,7 +842,7 @@ section,
 
 
 .portfolio .portfolio-content .portfolio-info h4 {
-  font-size: 14px;
+  font-size: 16px;
   position: absolute;
   top: 0;
   left: 0;
@@ -850,7 +850,7 @@ section,
   font-weight: 500;
   color: #ffffff;
   display: inline-block;
-  background-color: var(--accent-color);
+  /* background-color: var(--accent-color); */
   
 }
 
@@ -859,11 +859,12 @@ section,
   position: absolute;
   bottom: 0;
   right: 0;
-  padding: 2px;
+  padding: 2px 15px;
   font-weight: 400;
   color: #ffffff;
   display: inline-block;
   background-color: var(--accent-color);
+  /* background-color: gray; */
 }
 .portfolio .portfolio-content .portfolio-info p {
   position: absolute;
