@@ -13,7 +13,7 @@ const Header = () => {
       >
         {select && (
           <div>
-            <ul
+            <div
               onClick={() => {
                 setSelect(false);
               }}
@@ -37,7 +37,7 @@ const Header = () => {
               <span className="span">
                 <Link to="/contact">Contact</Link>
               </span>
-            </ul>
+            </div>
           </div>
         )}
       </div>

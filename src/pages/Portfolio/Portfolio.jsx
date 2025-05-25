@@ -75,7 +75,7 @@ const Portfolio = () => {
                         className="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
                         key={ind}
                       >
-                        <div className="portfolio-content h-100">
+                        <div className="portfolio-content h-100" title="More Details">
                           <img
                             style={{
                               width: "430px",
