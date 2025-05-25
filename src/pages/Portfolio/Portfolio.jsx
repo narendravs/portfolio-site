@@ -75,7 +75,7 @@ const Portfolio = () => {
                         className="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
                         key={ind}
                       >
-                        <div className="portfolio-content h-100" title="More Details">
+                        <div className="portfolio-content h-150" title="More Details">
                           <img
                             style={{
                               width: "430px",
@@ -97,16 +97,21 @@ const Portfolio = () => {
                               {" "}
                               <p>{project.description}</p>
                             </Link>
-
-                            <Link
+                          
+                           <Link
                               to={`/Portfolio-details/${project.name}`}
                               title="More Details"
-                              className="details-link"
+                              className="button"
                             >
-                              <i className="bi bi-link-45deg"></i>
+                              <spna>View Details</spna>
                             </Link>
+                           
                           </div>
+                         
+                          
+                         
                         </div>
+                        
                       </div>
                     );
                   })}
