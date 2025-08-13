@@ -23,24 +23,38 @@ const About = () => {
             <div className="container section-title " data-aos="fade-up">
               <h2>About</h2>
               <p>
-                Having 3+ years of experience in implementing web applications
-                by using <span style={{fontWeight:"700"}}> React js, Nextjs, React Native,Javascript, Typescript,
-                Tailwind, Node js, Express js, Redux,Tanskstank Query/React-Query,JWT, Auth0,Clerk, Shadcn,Material/Chakra UI, Mongo db, graphql ,
-                Prisma, aws amplify, firebase etc..</span>, As a '3+ year React
-                developer,' I possess a strong understanding of the React
-                ecosystem and can proficiently build complex and interactive
-                user interfaces. I'm adept at utilizing component-based
-                architecture, managing application state effectively with tools
-                like Redux and the Context API, and integrating seamlessly with
-                backend APIs. I have a solid grasp of JavaScript (ES6+), HTML,
-                and CSS, and I prioritize writing clean, efficient, and
-                well-tested code using libraries like Jest and React Testing
-                Library. I'm comfortable with debugging and troubleshooting
-                front-end issues and collaborating effectively within a team,
-                participating in code reviews and contributing to technical
-                discussions. I'm also committed to staying up-to-date with the
-                latest React best practices and exploring new advancements in
-                the front-end landscape.
+                Having overall 10+ years into IT and having 3+ years of
+                experience in implementing web applications by using{" "}
+                <span style={{ fontWeight: "700" }}>
+                  {" "}
+                  React js, Nextjs, React Native,Javascript, Typescript,
+                  Tailwind, Node js, Express js, Redux,Tanskstank
+                  Query/React-Query,JWT, Auth0,Clerk, Shadcn,Material/Chakra UI,
+                  Mongo db, graphql , Prisma, aws amplify, firebase etc..
+                </span>
+                <span style={{ fontWeight: "700", color: "blue" }}>
+                  {" "}
+                  Latestly using and exploring modern AI libraries OpenAI
+                  LangChain LangGraph. 1.Implemented Chatbot with documents
+                  either pdf or text. 2.Converted data bases of the applications
+                  into vector search using hugging face embeddings and pincone
+                  vector data base, with the chatbot prompt you can chat with
+                  your data base.{" "}
+                </span>
+                , As a '3+ year React developer,' I possess a strong
+                understanding of the React ecosystem and can proficiently build
+                complex and interactive user interfaces. I'm adept at utilizing
+                component-based architecture, managing application state
+                effectively with tools like Redux and the Context API, and
+                integrating seamlessly with backend APIs. I have a solid grasp
+                of JavaScript (ES6+), HTML, and CSS, and I prioritize writing
+                clean, efficient, and well-tested code using libraries like Jest
+                and React Testing Library. I'm comfortable with debugging and
+                troubleshooting front-end issues and collaborating effectively
+                within a team, participating in code reviews and contributing to
+                technical discussions. I'm also committed to staying up-to-date
+                with the latest React best practices and exploring new
+                advancements in the front-end landscape.
               </p>
             </div>
 
@@ -99,10 +113,6 @@ const About = () => {
                     </div>
                     <div className="col-lg-6">
                       <ul>
-                        {/* <li>
-                          <i className="bi bi-chevron-right"></i>{" "}
-                          <strong>Age:</strong> <span>30</span>
-                        </li> */}
                         <li>
                           <i className="bi bi-chevron-right"></i>{" "}
                           <strong>Degree:</strong> <span>Master</span>
@@ -119,13 +129,6 @@ const About = () => {
                       </ul>
                     </div>
                   </div>
-                  {/* <p className="py-3">
-                    Officiis eligendi itaque labore et dolorum mollitia officiis
-                    optio vero. Quisquam sunt adipisci omnis et ut. Nulla
-                    accusantium dolor incidunt officia tempore. Et eius omnis.
-                    Cupiditate ut dicta maxime officiis quidem quia. Sed et
-                    consectetur qui quia repellendus itaque neque.
-                  </p> */}
                 </div>
               </div>
             </div>
