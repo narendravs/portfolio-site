@@ -85,10 +85,6 @@ const About = () => {
                   <div className="row">
                     <div className="col-lg-6">
                       <ul>
-                        {/* <li>
-                          <i className="bi bi-chevron-right"></i>{" "}
-                          <strong>Birthday:</strong> <span>1 May 1995</span>
-                        </li> */}
                         <li>
                           <i className="bi bi-chevron-right"></i>{" "}
                           <strong>Website:</strong>{" "}
