@@ -39,9 +39,11 @@ const About = () => {
                   with document-based and database-driven conversations. I am
                   skilled in converting application databases into vector search
                   engines using Hugging Face embeddings and Pinecone for
-                  advanced conversational AI. Committed to writing clean,
-                  efficient, and well-tested code while staying current with the
-                  latest industry advancements.{" "}
+                  advanced conversational AI. I have also developed multi-step
+                  AI agents capable of performing complex tasks like booking
+                  appointments based on natural language prompts. Committed to
+                  writing clean, efficient, and well-tested code while staying
+                  current with the latest industry advancements.{" "}
                 </span>
                 , As a '3+ year React developer,' I possess a strong
                 understanding of the React ecosystem and can proficiently build
