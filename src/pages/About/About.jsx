@@ -34,12 +34,14 @@ const About = () => {
                 </span>
                 <span style={{ fontWeight: "700", color: "blue" }}>
                   {" "}
-                  Latestly using and exploring modern AI libraries OpenAI
-                  LangChain LangGraph. 1.Implemented Chatbot with documents
-                  either pdf or text. 2.Converted data bases of the applications
-                  into vector search using hugging face embeddings and pincone
-                  vector data base, with the chatbot prompt you can chat with
-                  your data base.{" "}
+                  My recent work includes implementing cutting-edge AI solutions
+                  using OpenAI and LangChain, developing intelligent chatbots
+                  with document-based and database-driven conversations. I am
+                  skilled in converting application databases into vector search
+                  engines using Hugging Face embeddings and Pinecone for
+                  advanced conversational AI. Committed to writing clean,
+                  efficient, and well-tested code while staying current with the
+                  latest industry advancements.{" "}
                 </span>
                 , As a '3+ year React developer,' I possess a strong
                 understanding of the React ecosystem and can proficiently build
