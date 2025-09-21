@@ -1,5 +1,31 @@
 [
   {
+    "projectId": "healthcare app",
+    "category": "Nextjs Healthcare Application",
+    "gitUrl": "https://github.com/narendravs/healthcare",
+    "tmpUrl": "https://github.com/healthcare",
+    "image": "../assets/img/portfolio/healthcare.jpg",
+    "description": "A full-stack application designed to modernize and automate core hospital administrative functions. By leveraging AI-powered document analysis and a conversational agent, this system addresses key inefficiencies in patient records management and appointment scheduling. The platform provides a unified interface for doctors and staff to manage patient data, enabling rapid access to information through semantic search and freeing up clinical time by automating routine tasks.",
+    "skills": [
+      "Frontend Development: Next.js, React, React Hook Form, TanStack/React-Table, Shadcn/ui",
+      "Styling: Tailwind CSS, CSS",
+      "State Management & Data: React Context API",
+      "Backend & APIs: Appwrite, LangChain, Hugging Face",
+      "Databases: Appwrite, Pinecone (Vector Database)",
+      "Validation: Zod",
+      "Languages: TypeScript, JavaScript"
+    ],
+    "features": [
+      "Developed a full-stack healthcare application using Next.js and TypeScript to streamline the analysis and summarization of medical documents.",
+      "Engineered an AI-powered data processing pipeline by integrating LangChain and Hugging Face for deep text analysis, including the deployment of a conversational AI agent that can book appointments via natural language prompts.",
+      "Implemented a semantic search engine with Pinecone vector database to enable fast, intelligent retrieval of patient records and research documents.",
+      "Built a modern, responsive user interface with Tailwind CSS and Shadcn/ui, ensuring a seamless and accessible experience for healthcare professionals.",
+      "Enforced data integrity and security by managing complex form state and validation using React Hook Form and Zod.",
+      "Optimized data visualization for large datasets of patient information using TanStack/React-Table, improving usability and workflow efficiency.",
+      "Managed user authentication and data persistence securely with Appwrite."
+    ]
+  },
+  {
     "projectId": "blog app",
     "category": "React Blog Application",
     "gitUrl": "https://github.com/narendravs/reactblogapp",
@@ -7,28 +33,23 @@
     "image": "../assets/img/portfolio/blog-app.jpg",
     "description": "A React blog application provides a dynamic,user-friendly, and often performant platform for content sharing. Leveraging React's strengths, it offers features for content display, navigation, user interaction, and often incorporates enhancements for SEO, analytics, and administrative management. The specific features and complexity can vary greatly depending on the project's requirements.",
     "skills": [
-      "Component-Based Architecture:The blog is built using reusable React components for different parts of the UI (e.g., post cards, navigation bar, comment section).",
-      "State Management:Utilizes React's built-in useState and useContext hooks or external state management libraries like Redux or Zustand to manage application data.",
-      " Routing:Implements client-side routing using libraries like React Router to handle navigation between different blog pages without full page reloads.",
-      "API Interactions:If the blog has a separate backend, it uses fetch or libraries like Axios to communicate with the API for fetching blog post data, submitting comments, etc.",
-      "Styling: Uses CSS, CSS Modules, Styled Components, or CSS-in-JS libraries for styling the blog's appearance."
+      "Frontend Development:React, React Router Dom",
+      "Backend Development: Express.js, Node.js (implied)",
+      "API Client: Axios",
+      "SQL Driver: MySQL2",
+      "Authentication & Security: Bcrypt, JSON Web Token (JWT), Cookie Parser",
+      "Database: MySQL",
+      "UI/Styling: Sass/SCSS, CSS react-quill (Rich Text Editor), react-read-more-read-less, moment",
+      "AI Integration:  OpenAI",
+      "Testing: React Testing Library (@testing-library/react, @testing-library/jest-dom, @testing-library/user-event)"
     ],
     "features": [
-      "Individual Post Pages: Dedicated pages for each blog post, displaying the full content, author information,and publication details.",
-      "Categorization and Tagging: Allows users to browse content based on predefined categories and tags, making it easier to find relevant articles.",
-      "Navigation: Clear and intuitive navigation to different sections of the blog (homepage, categories, tags, about page, contact page, etc.).",
-      "Pagination for handling a large number of posts across multiple pages.",
-      "Search Functionality: Enables users to search for specific content within the blog using keywords.",
-      "Author Profiles: Pages dedicated to showcasing the blog authors, their biographies, and potentially links to their other work or social media.",
-      "Date and Time Display: Clearly shows the publication date and time of each blog post.",
-      "Responsive Design: Ensures the blog is accessible and visually appealing on various devices (desktops,tablets, and mobile phones).",
-      "Enhanced Features (Often Included): Comments Section: Allows users to engage with the content by leaving comments, fostering a community around the blog. This often integrates with third-party commenting platforms like Disqus or a custom-built solution.",
-      "Social Sharing: Buttons or links to easily share blog posts on various social media platforms.",
-      "Related Posts: Suggests other relevant articles to readers, encouraging further engagement. Image and Media Handling: Ability to embed images, videos, and other media within blog posts. Syntax Highlighting: For technical blogs, automatically highlights code snippets for better readability. Markdown Support: Allows authors to write blog posts in Markdown, which is then rendered into HTML.",
-      "Admin Interface (Often a Separate Application): A backend or separate React application for administrators to create, edit, delete, and manage blog posts,categories, tags, and users. This might involve API calls to a backend server.",
-      "SEO Optimization: Implementation of meta tags, semantic HTML, and potentially server-side rendering (SSR) or static site generation (SSG) (often using frameworks like Next.js or Gatsby) to improve search engine visibility.",
-      "Analytics Integration: Integration with tools like Google Analytics to track website traffic and user behavior. Newsletter Subscription: Allows users to subscribe to receive updates on new blog posts.",
-      " Accessibility Features: Implementation of ARIA attributes and semantic HTML to make the blog accessible to users with disabilities."
+      "Engineered a full-stack blog application using React on the frontend and a Node.js/Express.js backend, with a MySQL database for structured data management. The application provides users with a complete platform to write, publish, and manage their blog posts.",
+      "Developed a secure user authentication system that utilized Bcrypt for password hashing and JSON Web Token (JWT) for a stateless authentication flow. Cookie-parser was implemented to securely store tokens on the client side, managing sessions for logged-in users.",
+      "Implemented a powerful content creation workflow using React-Quill, a rich text editor that allowed users to format posts, embed images, and create compelling articles. Multer was integrated on the backend to handle all image uploads, storing them in a designated server directory.",
+      "Integrated an AI-powered content assistant using the OpenAI API, a unique feature that provided users with AI-generated titles and summaries for their blog posts, streamlining the writing process.",
+      "Built a dynamic frontend where blog posts were fetched from the API with Axios and displayed with a clean UI. React-read-more-read-less was used to preview content on the main page, and Moment was used for user-friendly date formatting. Client-side routing was handled with React Router Dom.",
+      "Ensured the application's reliability by implementing component and integration tests with React Testing Library, verifying critical user flows such as post creation and user authentication. The application's styling was managed with Sass/SCSS for maintainable and organized CSS."
     ]
   },
   {
@@ -39,21 +60,20 @@
     "image": "../assets/img/portfolio/leetcode.jpg",
     "description": "LeetCode is a popular online platform widely used by software engineers and developers to practice and improve their coding skills, particularly in algorithms and data structures. It provides a vast library of coding problems categorized by difficulty (Easy, Medium, Hard), topic (e.g., Arrays, Linked Lists, Trees, Dynamic Programming, Graph), and company (problems asked in interviews at specific tech companies).",
     "skills": [
-      "Component-Based Architecture:The application is built using Next components for different parts of the UI.",
-      "State Management:Utilizes React's built-in useState and useContext hooks or external state management libraries like Redux or Zustand to manage application data.",
-      " Routing:Implements client-side and SSR (server-side-rendering) routing using libraries like React Router to handle navigation between different pages without full page reloads.",
-      "API Interactions:It has used MongoDb for the backend, it uses fetch libraries like Axios to communicate with the API for fetching data from the data base etc.",
-      "Styling: Uses CSS, Tailwind CSS, Styled Components libraries for styling the leetcode application appearance."
+      "Frontend Development: Next.js, React, TypeScript",
+      "State Management: Recoil",
+      "Backend & Cloud Services: Firebase (react-firebase-hooks)",
+      "UI/Styling: Tailwind CSS, PostCSS, Autoprefixer",
+      "UI/Components: React Icons, React Toastify, React Confetti, React YouTube",
+      "Code Editor Integration: CodeMirror (@uiw/react-codemirror, @uiw/codemirror-theme-vscode, @codemirror/lang-javascript)"
     ],
     "features": [
-      "Extensive Problem Set: LeetCode boasts thousands of coding problems covering a wide range of algorithmic and data structure concepts. New problems are added regularly.",
-      "Categorization and Filtering: Problems can be filtered by difficulty, topic, frequency (how often they appear in interviews), and company. This allows users to focus their practice on specific areas.",
-      "Online Code Editor: The platform provides an integrated code editor where users can write and run their solutions in various programming languages (e.g., Python, Java, C++, JavaScript, Go, Ruby, Swift, C#, Kotlin).",
-      "Test Cases and Submission: Users can test their code against a set of predefined test cases. Once they believe their solution is correct, they can submit it for evaluation against more comprehensive test cases.",
-      "Solutions and Discussions: For each problem, LeetCode often provides official solutions and a community discussion forum where users can share their approaches, ask questions, and learn from others.",
-      "Mock Interviews and Contests: LeetCode offers features like mock interviews to simulate the interview experience and competitive programming contests (LeetCode Weekly and Biweekly Contests) where users can test their skills against others in a timed setting.",
-      "Study Plans and Explore Cards: The platform provides structured study plans and Explore Cards that guide users through specific topics with curated problems and explanations.",
-      " Premium Subscription: LeetCode Premium offers additional features such as:Company-specific problem sets: Access to problems frequently asked in interviews at specific companies.Frequency lists: Insights into how often certain problems appear in interviews.Detailed solutions and articles: More in-depth explanations and resources.Debugger: An integrated debugger for easier troubleshooting.Concurrency and Database problem sets."
+      "Engineered a complete, full-stack coding platform using Next.js and TypeScript to provide a seamless and type-safe environment. The application's architecture was designed to handle server-side rendering for optimal performance and SEO.",
+      "Implemented a secure and scalable backend powered by Firebase, which handled user authentication, problem data storage, and user submission tracking. The react-firebase-hooks library was used to simplify the integration of Firebase services into the React components.",
+      "Developed a custom, interactive code editor by integrating the CodeMirror library with @uiw/react-codemirror. This included support for syntax highlighting (@codemirror/lang-javascript) and a familiar user experience with the VS Code theme.",
+      "Managed application-wide state using Recoil, providing a lightweight and predictable state management solution for the user's progress, current problem, and live code changes.",
+      "Designed a clean, responsive, and modern user interface with Tailwind CSS, allowing for rapid styling and a consistent design system. react-icons were used for intuitive visual cues, and react-toastify provided non-intrusive notifications for events like successful code submissions.",
+      "Enhanced the user experience with dynamic components such as react-youtube for problem explanations and react-confetti to celebrate successful problem completions."
     ]
   },
   {
@@ -64,24 +84,23 @@
     "image": "../assets/img/portfolio/ticketbooking.jpg",
     "description": "A ticket booking app is a software application designed to streamline the process of purchasing tickets for various events, transportation, and activities. It provides users with a convenient and efficient way to browse, select, and pay for tickets directly from their mobile devices or web browsers.",
     "skills": [
-      "Component-Based Architecture:The application is built using React components for different parts of the UI.",
-      "State Management:Utilizes React's built-in useState and useContext hooks or external state management libraries like Redux or Zustand to manage application data.",
-      " Routing:Implements client-side routing using libraries like React Router to handle navigation between different pages without full page reloads.",
-      "API Interactions:It has used MongoDb for the backend, it uses fetch libraries to communicate with the API for fetching data from the data base etc.",
-      "Styling: Uses CSS, Tailwind CSS, Styled Components libraries for styling the ticketbooking application appearance."
+      "Frontend Development: React, React Router Dom",
+      "UI/Component Libraries: Material-UI (@mui/material, @mui/x-data-grid), Font Awesome (@fortawesome)",
+      "Data Visualization: Recharts, React Circular Progressbar",
+      "Backend Development: Express.js, http-proxy-middleware",
+      "Authentication & Security: JSON Web Token (JWT), bcrypt",
+      "Database: Mongoose (MongoDB)",
+      "State Management: Redux, React's built-in useState and useContext hooks",
+      "API Interactions: Axios for making HTTP requests to the backend server",
+      "Styling: CSS",
+      "Languages: JavaScript"
     ],
     "features": [
-      "Event/Service Discovery: Allows users to browse and search for tickets based on various criteria such as event type (movies, concerts, sports, theater), location, date, time, venue, and transportation (flights, trains, buses).",
-      "Detailed Information: Provides comprehensive details about the event or service, including descriptions, schedules, seat maps (for venues), amenities, and rules/regulations.",
-      "Availability and Pricing: Displays real-time availability of tickets and their corresponding prices, often including different tiers or classes.",
-      "Seat Selection (for venues): Enables users to view seating charts and select specific seats based on their preferences and budget.",
-      "Filtering and Sorting: Offers options to filter and sort results based on price, date, time, category, and other relevant criteria.",
-      "Secure Payment Gateway Integration: Facilitates secure online payments through various methods like credit/debit cards, digital wallets, and other online payment options.",
-      "Booking Confirmation and Ticket Delivery: Provides instant booking confirmation and delivers tickets electronically (e.g., QR codes, mobile tickets, email attachments) or offers options for physical ticket collection.",
-      "User Accounts and Booking History: Allows users to create accounts to save their preferences, view past and upcoming bookings, and manage their information.",
-      "Notifications and Reminders: Sends alerts about upcoming events, booking confirmations, and other relevant information.",
-      "Cancellation and Rescheduling (subject to policies): May offer options to cancel or reschedule bookings based on the terms and conditions set by the event organizer or service provider.",
-      "Customer Support: Provides access to customer support channels for assistance with bookings, cancellations, or other queries."
+      "Engineered and deployed a full-stack web application using React and Express.js to serve as a secure dashboard for user management and data visualization. The application's core logic and state were handled with React's built-in useState and useContext hooks, creating a scalable architecture without relying on external state management libraries.",
+      "Developed a secure backend API with Express.js and Mongoose to handle all server-side logic and interact with a MongoDB database. bcrypt was implemented for secure password hashing and jsonwebtoken (JWT) was used to manage user sessions and authentication, ensuring secure, token-based access to protected routes. API requests from the frontend were efficiently routed using http-proxy-middleware.",
+      "Built a professional and responsive user interface using Material-UI (@mui/material) for a consistent design system and utilized CSS for custom styling. Complex data was displayed in an organized, user-friendly manner using @mui/x-data-grid, which provided features like pagination, sorting, and filtering.",
+      "Integrated a suite of data visualization components using Recharts and React Circular Progressbar to present key performance indicators (KPIs) and analytics in an intuitive, graphical format. These visualizations were dynamically updated with data fetched from the backend using Axios for all HTTP requests, ensuring real-time insights for users.",
+      "Managed application navigation using React Router Dom to create a multi-page, single-page application (SPA) experience. Icons from Font Awesome (@fortawesome) were used to enhance the UI's visual appeal and usability."
     ]
   },
   {
@@ -92,21 +111,25 @@
     "image": "../assets/img/portfolio/hotelbooking.jpg",
     "description": "A hotel booking app is a software application designed to streamline the process of searching for, comparing, and reserving accommodations at various hotels, resorts, and other lodging establishments, including those in Bengaluru and around the world. It offers convenience and efficiency for both travelers and hotel owners in Bengaluru and globally.",
     "skills": [
-      "Component-Based Architecture:The application is built using React components for different parts of the UI.",
-      "State Management:Utilizes React's built-in useState and useContext hooks or external state management libraries like Redux or Zustand to manage application data.",
-      " Routing:Implements client-side routing using libraries like React Router to handle navigation between different pages without full page reloads.",
-      "API Interactions:It has used MongoDb for the backend, it uses fetch libraries to communicate with the API for fetching data from the data base etc.",
-      "Styling: Uses CSS, Tailwind CSS, Styled Components libraries for styling the hotelbooking application appearance."
+      "Frontend Development: React, React Router Dom, Vite",
+      "State Management & Data: React Hook Form, @tanstack/react-query, @tanstack/react-query-devtools",
+      "UI/Styling: Tailwind CSS, react-icons, React Datepicker, CSS",
+      "Backend Development: Express.js, express-validator, http-proxy-middleware",
+      "Authentication & Security: jsonwebtoken (JWT), bcryptjs, cookie-parser",
+      "Database: MongoDB, Mongoose",
+      "File Management: Multer, Cloudinary",
+      "Payments: Stripe (@stripe/react-stripe-js, @stripe/stripe-js)",
+      "API Interactions: TanStack Query Mutations (@tanstack/react-query), Axios",
+      "Languages: TypeScript, JavaScript"
     ],
     "features": [
-      "Search Functionality: Enables users to search for hotels in Bengaluru, other cities, or specific locations based on criteria like dates, guests, price, and amenities.",
-      "Hotel Information: Provides details about hotels in Bengaluru and other locations, including descriptions, photos, room types, amenities, and policies.",
-      "Availability and Pricing: Displays real-time availability and prices for hotels in Bengaluru and other destinations, often with deals.",
-      "Comparison Tools: Allows comparison of hotels in Bengaluru and other areas based on various factors.",
-      "Reviews and Ratings: Offers reviews from previous guests who stayed in Bengaluru hotels and others worldwide.",
-      "Booking and Payment: Facilitates secure booking and payment for hotels in Bengaluru and globally.",
-      "Booking Confirmation and Management: Sends confirmations and allows users to manage reservations for Bengaluru hotels and others.",
-      "User Accounts: Saves preferences and booking history for users booking hotels in Bengaluru and other locations."
+      "Developed a complete hotel management platform using a Vite-powered React frontend and a robust Express.js backend, all built with TypeScript to ensure type safety. React Router Dom was used for client-side routing, and Tailwind CSS with react-icons provided a clean and responsive user interface. React Datepicker was integrated to enable a user-friendly room reservation and date-range selection system.",
+      "Established a secure user and staff authentication system by implementing JSON Web Token (JWT) for token-based authentication and bcryptjs for secure password hashing. cookie-parser was used to manage user sessions.",
+      "Managed a MongoDB database with Mongoose, creating schemas for rooms, reservations, guests, and hotel staff. All reservation and guest data handling was implemented using React Hook Form for optimized performance and validation. express-validator was used on the backend to ensure data integrity and security for all incoming booking requests.",
+      "Integrated a secure payment gateway by using Stripe to handle all reservation payments, providing a seamless and safe checkout experience for guests.",
+      "Architected the application's data-fetching layer using TanStack Query, leveraging its hooks to handle data fetching, caching, and background synchronization. This approach ensured real-time updates for room availability and reservation status, significantly improving performance. Axios was used as the underlying HTTP client for these requests.",
+      "Enabled file uploads for hotel room images and user profiles by configuring Multer on the backend and integrating Cloudinary for scalable cloud-based image storage.",
+      "Configured a development proxy with http-proxy-middleware to seamlessly route API requests from the React frontend to the Express backend."
     ]
   },
   {
@@ -117,48 +140,24 @@
     "image": "../assets/img/portfolio/delivery.jpg",
     "description": "A React Native delivery app is a mobile application built using the React Native framework that enables users in Bengaluru, and potentially beyond, to request and track the delivery of goods or services directly from their smartphones. Leveraging React Native's cross-platform capabilities, a single codebase can often target both iOS and Android users in Bengaluru and other regions.",
     "skills": [
-      "Component-Based Architecture:The application is built using React-Native components for different parts of the UI.",
-      "State Management:Utilizes React's built-in useState and useContext hooks or external state management libraries like Redux or Zustand to manage application data.",
-      " Routing:Implements client-side routing using libraries like React-Native Navigation Router to handle navigation between different pages without full page reloads.",
-      "API Interactions:It has used MongoDb for the backend, it uses fetch libraries to communicate with the API for fetching data from the data base etc.",
-      "Styling: Uses CSS, Tailwind CSS, Styled Components libraries for styling the delivery application appearance."
+      "Mobile Development: React Native, Expo",
+      "Build Tools: expo-cli, @expo/webpack-config",
+      "Cloud & Backend Services: AWS Amplify, @aws-amplify/cli, Amazon Cognito (amazon-cognito-identity-js)",
+      "Navigation & Routing: React Navigation (@react-navigation/native)",
+      "Navigators: @react-navigation/native-stack, @react-navigation/bottom-tabs, @react-navigation/material-bottom-tabs",
+      "UI/Components: Ant Design (antd, @ant-design/icons)",
+      "Custom Components: react-native-reanimated, react-native-gesture-handler, @gorhom/bottom-sheet, @react-native-picker/picker",
+      "Geolocation & Maps: React Native Maps (react-native-maps), react-native-maps-directions",
+      "Data & State Management: Async Storage (@react-native-async-storage/async-storage), @react-native-community/netinfo",
+      "Languages: JavaScript"
     ],
     "features": [
-      "Platform Agnostic: Works seamlessly on both iOS and Android devices popular in Bengaluru.",
-      "Order Placement: Allows users in Bengaluru to specify pickup and delivery locations within the city or other supported areas. They can detail the items for delivery and any special instructions.",
-      "Service Selection: May offer various delivery options relevant to Bengaluru, such as food delivery from local restaurants, package delivery, or grocery delivery.",
-      "Real-time Tracking (Map Integration): Users in Bengaluru can see the live location of their delivery person on a map within the app.",
-      "Estimated Time of Arrival (ETA): Provides an estimated delivery time specific to the user's location in Bengaluru.",
-      "Communication: May allow users in Bengaluru to communicate with the assigned delivery driver via in-app messaging or calls.",
-      "Payment Options: Integrates popular payment methods used in Bengaluru, including UPI, local digital wallets, credit/debit cards, and potentially cash on delivery.",
-      "Order History: Users in Bengaluru can view their past delivery orders.",
-      "Ratings and Reviews: Allows users in Bengaluru to rate and review their delivery experience.",
-      "Notifications: Sends timely updates about order status, pickup, and delivery within Bengaluru."
-    ]
-  },
-  {
-    "projectId": "hotelbooking app",
-    "category": "Reactjs hotelbooking Application",
-    "gitUrl": "https://github.com/narendravs/hotelmgmt",
-    "tmpUrl": "https://github.com/hotelbooking",
-    "image": "../assets/img/portfolio/hotelbooking.jpg",
-    "description": "A hotel booking app is a software application designed to streamline the process of searching for, comparing, and reserving accommodations at various hotels, resorts, and other lodging establishments, including those in Bengaluru and around the world. It offers convenience and efficiency for both travelers and hotel owners in Bengaluru and globally.",
-    "skills": [
-      "Component-Based Architecture:The application is built using React components for different parts of the UI.",
-      "State Management:Utilizes React's built-in useState and useContext hooks or external state management libraries like Redux or Zustand to manage application data.",
-      " Routing:Implements client-side routing using libraries like React Router to handle navigation between different pages without full page reloads.",
-      "API Interactions:It has used MongoDb for the backend, it uses fetch libraries to communicate with the API for fetching data from the data base etc.",
-      "Styling: Uses CSS, Tailwind CSS, Styled Components libraries for styling the hotelbooking application appearance."
-    ],
-    "features": [
-      "Search Functionality: Enables users to search for hotels in Bengaluru, other cities, or specific locations based on criteria like dates, guests, price, and amenities.",
-      "Hotel Information: Provides details about hotels in Bengaluru and other locations, including descriptions, photos, room types, amenities, and policies.",
-      "Availability and Pricing: Displays real-time availability and prices for hotels in Bengaluru and other destinations, often with deals.",
-      "Comparison Tools: Allows comparison of hotels in Bengaluru and other areas based on various factors.",
-      "Reviews and Ratings: Offers reviews from previous guests who stayed in Bengaluru hotels and others worldwide.",
-      "Booking and Payment: Facilitates secure booking and payment for hotels in Bengaluru and globally.",
-      "Booking Confirmation and Management: Sends confirmations and allows users to manage reservations for Bengaluru hotels and others.",
-      "User Accounts: Saves preferences and booking history for users booking hotels in Bengaluru and other locations."
+      "Engineered a full-stack, cross-platform mobile application for a rideshare service using React Native and Expo. The application was built to provide a seamless user experience for both riders and drivers, with dedicated views for each user type.",
+      "Implemented a secure and scalable user authentication system using AWS Amplify and Amazon Cognito to manage user sign-up, sign-in, and profile data securely. This included a robust data model for managing ride requests and user information in a real-time environment.",
+      "Integrated advanced geolocation and mapping features using React Native Maps to display real-time user and driver locations. React Native Maps Directions was used to calculate and render optimal routes for drivers, ensuring efficient navigation.",
+      "Designed a smooth and intuitive user interface with a focus on seamless user flows. This included building a dynamic ride request sheet using @gorhom/bottom-sheet and creating fluid, gesture-based animations with react-native-reanimated and react-native-gesture-handler. Ant Design components were used to accelerate UI development.",
+      "Architected the app's navigation using React Navigation, implementing a multi-stack system with a bottom tab navigator to separate the app's core functionalities (e.g., maps, profile, history).",
+      "Managed client-side data persistence for user preferences and authentication tokens using react-native-async-storage, ensuring a quick and responsive experience upon app launch."
     ]
   },
   {
@@ -169,26 +168,22 @@
     "image": "../assets/img/portfolio/subscribe.jpg",
     "description": "Stripe Subscriptions is a powerful and flexible platform offered by Stripe that allows businesses in Bengaluru and globally to easily create and manage recurring billing for their products and services. It handles the complexities of subscription management, from initial signup and payment to recurring invoices, proration, upgrades, downgrades, and cancellations,",
     "skills": [
-      "Payment gateway: Stripe api has used to implement the payment gateway",
-      "Component-Based Architecture:The application is built using React-Native components for different parts of the UI.",
-      "State Management:Utilizes React's built-in useState and useContext hooks or external state management libraries like Redux or Zustand to manage application data.",
-      " Routing:Implements client-side routing using libraries like React-Native Navigation Router to handle navigation between different pages without full page reloads.",
-      "API Interactions:It has used MongoDb for the backend, it uses fetch libraries to communicate with the API for fetching data from the data base etc.",
-      "Styling: Uses CSS, Tailwind CSS, Styled Components libraries for styling the subscription application appearance."
+      "Frontend: React, React Router Dom, Vite",
+      "Backend: Express.js, Node.js (implied by Express), Nodemon",
+      "Authentication & Database: Firebase, Firebase Admin",
+      "UI/Components: @headlessui/react, @heroicons/react",
+      "Payments: Stripe",
+      "Middleware: Body-parser",
+      "Utility Libraries: Moment",
+      "Testing: React Testing Library (@testing-library/react, @testing-library/jest-dom, @testing-library/user-event)"
     ],
     "features": [
-      "Subscription Plans: Define various subscription tiers with different prices, billing intervals (e.g., monthly, yearly), and features suitable for the Bengaluru market and international customers.",
-      "Customer Management: Securely store customer data, including billing information and subscription status for customers in Bengaluru and worldwide.",
-      "Payment Processing: Seamlessly integrates with Stripe's robust payment processing capabilities, supporting various payment methods popular in Bengaluru (like UPI, local cards) and internationally, handling failed payments with automatic retries.",
-      "Recurring Invoices: Automatically generate and send invoices to customers in Bengaluru and other regions based on their subscription schedule, complying with local regulations where applicable.",
-      "Proration: Handles billing adjustments when customers in Bengaluru or elsewhere upgrade, downgrade, or change their subscription mid-cycle.",
-      "Trials: Offer free trial periods to attract new subscribers in Bengaluru and globally.",
-      "Discounts and Coupons: Create and manage promotional discounts and coupon codes for customers in Bengaluru and internationally.",
-      "Tax Handling: Automates the calculation and collection of sales tax and GST relevant to transactions within Bengaluru and handles VAT/other taxes for international customers.",
-      "Email Notifications: Automatically send customizable email notifications for events like successful payments, failed payments, upcoming renewals, and trial endings to customers in Bengaluru and worldwide.",
-      "Customer Portal: Provides a customizable self-service portal where customers in Bengaluru and other locations can manage their subscriptions, update payment information, view invoices, and cancel their plans.",
-      "Webhooks: Allows businesses in Bengaluru to receive real-time notifications about subscription events, enabling integration with other local and global systems.",
-      "Analytics and Reporting: Offers dashboards and reports to track subscription metrics like MRR (Monthly Recurring Revenue), churn rate, and customer lifetime value for both Bengaluru and international customers."
+      "Developed and deployed a complete subscription platform with a modern React frontend and a robust Express.js backend, powered by Vite for a fast development and build process. React Router Dom was used to manage client-side routing, creating a seamless single-page application experience.",
+      "Engineered a secure and scalable authentication system using Firebase for user sign-ups and logins. User roles and permissions were managed on the backend with Firebase Admin, allowing for different content tiers (e.g., free vs. premium) based on a user's subscription status.",
+      "Implemented a secure payment gateway by integrating Stripe to handle all payment processing for subscription plans. The backend, built with Express.js and using Body-parser middleware, was configured to manage Stripe-related API calls and webhook events.",
+      "Crafted a professional and accessible user interface using the unstyled components of @headlessui/react for functionality, which were visually enhanced with the icon set from @heroicons/react.",
+      "Used a fast development workflow by leveraging Nodemon to automatically restart the server on code changes, significantly improving productivity. Date-related features, such as subscription renewal dates, were handled efficiently with the Moment utility library.",
+      "Ensured the application's reliability and quality by writing unit and integration tests for critical components and features, such as user login and the checkout process, using the React Testing Library suite."
     ]
   },
   {
@@ -199,27 +194,22 @@
     "image": "../assets/img/portfolio/social-app.jpg",
     "description": "A social app is a mobile or web-based application designed to facilitate communication, connection, sharing, and interaction among users in Bengaluru, across India, and globally. These platforms leverage various features to enable individuals and communities to build relationships, share content, express themselves, and stay informed about the activities and interests of others, both within Bengaluru and worldwide.",
     "skills": [
-      "Component-Based Architecture:The application is built using React components for different parts of the UI.",
-      "State Management:Utilizes React's built-in useState and useContext hooks or external state management libraries like Redux or Zustand to manage application data.",
-      " Routing:Implements client-side routing using libraries like Router to handle navigation between different pages without full page reloads.",
-      "API Interactions:It has used MongoDb for the backend, it uses fetch libraries to communicate with the API for fetching data from the data base etc.",
-      "Styling: Uses CSS, Tailwind CSS, Styled Components libraries for styling the social application appearance."
+      "Frontend Development:React, React Router Dom",
+      "Backend Development: Express.js, Node.js (implied by Express)",
+      "Middleware: morgan, multer, path, helmet, body-parser (often used with Express)",
+      "API Client: Axios",
+      "Database:MongoDB, Mongoose (MongoDB ODM)",
+      "Authentication & Security:Bcrypt",
+      "UI/Components:@material-ui/icons timeago.js",
+      "Testing: React Testing Library (@testing-library/react, @testing-library/jest-dom, @testing-library/user-event)",
+      "Developer Tools: nodemon"
     ],
     "features": [
-      "User Profiles: Each user typically has a personal profile where they can share information about themselves, including name, bio, photos, and interests relevant to their connections in Bengaluru and beyond.",
-      "Content Sharing: Users in Bengaluru and elsewhere can share various forms of content, such as text updates, photos, videos, links, and stories about their lives and interests.",
-      "Connecting with Others: The core functionality involves connecting with friends, family, colleagues, and people with shared interests in Bengaluru, India, and around the world through following, friending, or other connection mechanisms.",
-      "Feeds/Timelines: A central stream of content from the users and communities a person follows, often algorithmically curated to show relevant content from Bengaluru and global sources.",
-      "Messaging (Direct and Group): Features for private one-on-one conversations and group chats with individuals in Bengaluru and across the globe.",
-      "Notifications: Alerts to keep users informed about new activity related to their connections and content (e.g., likes, comments, follows, messages) from both local Bengaluru interactions and global ones.",
-      "Groups and Communities: Spaces dedicated to specific topics, interests, or organizations relevant to users in Bengaluru and their wider online communities.",
-      "Search and Discovery: Tools to find other users, groups, and content based on keywords, hashtags, or location, allowing users in Bengaluru to discover local content and connect with others nearby.",
-      "Engagement Features: Ways for users to interact with content, such as liking, commenting, sharing, and saving posts from Bengaluru and around the world.",
-      "Privacy Settings: Controls that allow users in Bengaluru to manage the visibility of their profiles and content to local connections and the broader internet.",
-      "Personalization: Features that tailor the user experience based on their interests and interactions, potentially highlighting content and connections relevant to Bengaluru.",
-      "Location-Based Services: Some social apps utilize location data for features like finding nearby friends or local events happening in Bengaluru.",
-      "Live Streaming: The ability for users in Bengaluru to broadcast live video content to their followers, both locally and globally.",
-      "Stories/Ephemeral Content: Short-lived content (photos, videos) that disappears after a set period, popular among users in Bengaluru and worldwide."
+      "Engineered a full-stack social media application using the MERN stack, with a React frontend and a secure Express.js API. The application was developed to allow users to create profiles, share content, and interact with posts.",
+      "Developed a secure and scalable backend with Express.js, managing user authentication and data persistence with MongoDB and Mongoose. Bcrypt was implemented to securely hash user passwords, and the helmet middleware was used to enhance API security against common web vulnerabilities.",
+      "Implemented a robust API to handle all user-facing logic. This included configuring multer to manage multi-part form data for image uploads, and using morgan to log HTTP requests, aiding in development and debugging. All API calls from the frontend were efficiently managed with Axios.",
+      "Built a dynamic and intuitive user interface using React and React Router Dom to create a seamless, single-page application experience. The UI incorporated professional icons from @material-ui/icons and displayed post timing using timeago.js, creating a clean and user-friendly feed.",
+      "Ensured the application's reliability and quality by writing unit and integration tests for critical components and user flows with React Testing Library, verifying user interactions and component behavior."
     ]
   }
 ]
