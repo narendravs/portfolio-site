@@ -33,9 +33,7 @@ const Resume = () => {
                 <div class="d-flex justify-content-between align-items-center pb-1 mb-4 border-2 border-bottom border-primary text-dark">
                   <h2>Resume</h2>
                   <ul class="list-unstyled">
-                    <li>Name: Narendra</li>
                     <li>Location: Bangalore, India</li>
-                    <li>(+91) 6362 949 010</li>
                     <li>narendravs228@gmail.com</li>
                     <li>
                       github:{" "}
