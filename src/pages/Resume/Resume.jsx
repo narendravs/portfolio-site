@@ -34,7 +34,7 @@ const Resume = () => {
                   <h2>Resume</h2>
                   <ul class="list-unstyled">
                     <li>Location: Bangalore, India</li>
-                    <li>narendravs228@gmail.com</li>
+                    <li>Email: narendravs228@gmail.com</li>
                     <li>
                       github:{" "}
                       <a href="https://github.com/narendravs">
