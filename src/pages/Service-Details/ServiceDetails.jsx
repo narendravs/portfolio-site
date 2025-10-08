@@ -5,7 +5,7 @@ import useWindowDimensions from "../Dimensions/Dimensions";
 
 const ServiceDetails = () => {
   const { width } = useWindowDimensions();
-  const [react, setReact] = useState(false);
+  const [react, setReact] = useState(true);
   const [next, setNext] = useState(false);
   const [native, setNative] = useState(false);
   return (
@@ -101,11 +101,10 @@ const ServiceDetails = () => {
                         Building and Maintaining User Interfaces (UIs) with
                         <span style={{ fontWeight: "500" }}> Next.js</span>{" "}
                         Developing Reusable Next Components, State Management
-                        Implementation, Front-End Routing Implementation, API
-                        Integration, Performance Optimization, Unit and
-                        Integration Testing, Responsive Design Implementation,{" "}
-                        Cross-Browser Compatibility, Code Review and Best
-                        Practices etc..
+                        Implementation,API Integration, Performance
+                        Optimization, Unit and Integration Testing, Responsive
+                        Design Implementation, Cross-Browser Compatibility, Code
+                        Review and Best Practices etc..
                       </p>
                     )}
                     {native && (
@@ -117,11 +116,10 @@ const ServiceDetails = () => {
                           React-Native,
                         </span>{" "}
                         Developing Reusable React-Native Components, State
-                        Management Implementation, Front-End Routing
+                        Management Implementation, Routing/navigation stack
                         Implementation, API Integration, Performance
-                        Optimization, Unit and Integration Testing, Responsive
-                        Design Implementation, Cross-Browser Compatibility, Code
-                        Review and Best Practices etc..
+                        Optimization, Unit and Integration Testing, Code Review
+                        and Best Practices etc..
                       </p>
                     )}
                   </div>
