@@ -51,78 +51,53 @@ const Resume = () => {
               {/* <!-- End Section Title --> */}
 
               <div className="container">
-                <div className="row">
-                  <div>
-                    <h3 className="resume-title">Sumary</h3>
-                    <div className="resume-item pb-0">
-                      {/* <h4>Narendra</h4> */}
+                <div>
+                  <h3 className="resume-title">Sumary</h3>
+                  <div className="resume-item pb-0">
+                    <p>
                       <p>
-                        {/* Building and maintaining complex and interactive user
-                        interfaces using React.js and its core
-                        principles.Effectively utilizing state management
-                        libraries like Redux or the Context API to manage
-                        application data flow.Designing and implementing
-                        reusable and well-structured React components.Strong
-                        grasp of JavaScript (ES6+), HTML, and CSS, including
-                        responsive design principles.Seamlessly integrating
-                        front-end applications with RESTful APIs and handling
-                        asynchronous operations.Writing unit, integration, and
-                        potentially end-to-end tests using tools like Jest and
-                        React Testing Library to ensure code quality.Identifying
-                        and resolving front-end related bugs and performance
-                        issues.Working effectively within a team, participating
-                        in code reviews, and communicating technical concepts
-                        clearly.Familiarity with Agile methodologies and using
-                        tools like Git for version control.Keeping up-to-date
-                        with the latest trends and best practices in the React
-                        ecosystem. */}
-                        <p>
-                          <span class="fw-bold">
-                            Pioneering AI/LLM Development:
-                          </span>
-                          Recently leveraged OpenAI, LangChain, and LangGraph to
-                          implement advanced conversational interfaces.
-                          Successfully created a vector-search chatbot for
-                          dynamic document and database querying, utilizing
-                          Hugging Face embeddings and Pinecone vector database.
-                        </p>
-                        <p>
-                          <span class="fw-bold">
-                            Modern Full-Stack Proficiency (3+ Yrs):
-                          </span>
-                          Expert in building high-performance web and mobile
-                          solutions using React.js, Next.js, React Native, and
-                          TypeScript. Proficient in back-end development with
-                          Node.js/Express.js, GraphQL, Prisma, and MongoDB.
-                        </p>
-                        <p>
-                          <span class="fw-bold">
-                            Enterprise Foundation (7+ Yrs):
-                          </span>
-                          Built a strong, scalable foundation across Automobile,
-                          E-commerce, and Telecom domains, specializing in Java,
-                          J2EE, Struts, Spring, and Hibernate. Experienced with
-                          enterprise tools like WebLogic and Oracle SQL.
-                        </p>
-                        <p>
-                          <span class="fw-bold"> DevOps & Practices:</span>
-                          Experienced in deploying applications on major cloud
-                          platforms (AWS EC2, Vercel, Google Cloud, Heroku) and
-                          committed to Agile/Scrum methodologies, code quality,
-                          and peer review.
-                        </p>
+                        <span class="fw-bold">
+                          Pioneering AI/LLM Development:
+                        </span>
+                        Recently leveraged OpenAI, LangChain, and LangGraph to
+                        implement advanced conversational interfaces.
+                        Successfully created a vector-search chatbot for dynamic
+                        document and database querying, utilizing Hugging Face
+                        embeddings and Pinecone vector database.
                       </p>
-                      {/* <ul style={{ marginTop: "10px" }}>
-                        <li>Bangalore,Hsr Layout, Ind</li>
-                        <li>(+91) 6362 949 010</li>
-                        <li>narendravs228@gmail.com</li>
-                      </ul> */}
-                    </div>
+                      <p>
+                        <span class="fw-bold">
+                          Modern Full-Stack Proficiency (3+ Yrs):
+                        </span>
+                        Expert in building high-performance web and mobile
+                        solutions using React.js, Next.js, React Native, and
+                        TypeScript. Proficient in back-end development with
+                        Node.js/Express.js, GraphQL, Prisma, and MongoDB.
+                      </p>
+                      <p>
+                        <span class="fw-bold">
+                          Enterprise Foundation (7+ Yrs):
+                        </span>
+                        Built a strong, scalable foundation across Automobile,
+                        E-commerce, and Telecom domains, specializing in Java,
+                        J2EE, Struts, Spring, and Hibernate. Experienced with
+                        enterprise tools like WebLogic and Oracle SQL.
+                      </p>
+                      <p>
+                        <span class="fw-bold"> DevOps & Practices:</span>
+                        Experienced in deploying applications on major cloud
+                        platforms (AWS EC2, Vercel, Google Cloud, Heroku) and
+                        committed to Agile/Scrum methodologies, code quality,
+                        and peer review.
+                      </p>
+                    </p>
                   </div>
+                </div>
+                <div className="row">
                   <h3 className="resume-title">Professional Experience</h3>
                   <div
                     className="col-lg-6"
-                    // data-aos="fade-up"
+                    data-aos="fade-up"
                     data-aos-delay="200"
                   >
                     <div className="resume-item">
@@ -253,7 +228,7 @@ const Resume = () => {
                   </div>
                   <div
                     className="col-lg-6"
-                    data-aos="fade-up"
+                    data-aos="fade-up fade-down"
                     data-aos-delay="200"
                   >
                     {/* <h3 className="resume-title">Professional Experience</h3> */}
