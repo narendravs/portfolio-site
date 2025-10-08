@@ -130,7 +130,7 @@ const PortfolioDetails = () => {
                 <div className="portfolio-description">
                   <div>
                     <h2>
-                      Technical skills used to Implement this Application{" "}
+                      Technical skills used to Implement this Application :{" "}
                     </h2>
                   </div>
                   {project.skills.map((skill, index) => (
@@ -151,7 +151,7 @@ const PortfolioDetails = () => {
                   ))}
 
                   <div>
-                    <h2>Core Features </h2>
+                    <h2>Project Experience : </h2>
 
                     {project.features.map((feature, index) => (
                       <div
