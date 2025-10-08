@@ -232,7 +232,7 @@ const Resume = () => {
                   </div>
                   <div
                     className="col-lg-6"
-                    data-aos="fade-up fade-down"
+                    data-aos="fade-up"
                     data-aos-delay="200"
                   >
                     {/* <h3 className="resume-title">Professional Experience</h3> */}
