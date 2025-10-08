@@ -28,17 +28,24 @@ const Resume = () => {
           {/* <!-- Resume Section --> */}
           <section id="resume" className="resume section">
             {/* <!-- Section Title --> */}
-            <div className="container section-title" data-aos="fade-up">
+            <div className="container section-title">
               <div>
-                <h2>Resume</h2>
+                <div class="d-flex justify-content-between align-items-center pb-1 mb-4 border-2 border-bottom border-primary text-dark">
+                  <h2>Resume</h2>
+                  <ul>
+                    <li>Name: Narendra</li>
+                    <li>Bangalore,Hsr Layout, Ind</li>
+                    <li>(+91) 6362 949 010</li>
+                    <li>narendravs228@gmail.com</li>
+                  </ul>
+                </div>
                 <p>
-                  I am a Fullstack developer, over all having 10 years of IT
-                  experience, among them having 3+ years of experience in web
-                  developement by implementing applications using React js, Next
-                  js, React Native,Javascript, Typescript, Node js, Express js,
-                  Redux,Tailwind, Mongo db, graphql, Prisma, aws amplify,
-                  firebase etc.. Keeping up-to-date with the latest trends and
-                  best practices in the React ecosystem.
+                  A seasoned Full-Stack Web & Mobile Developer Engineer with
+                  over 10 years of IT experience, including 3+ years dedicated
+                  to building and deploying complex, scalable applications
+                  within the React & Next Ecosystem. Expertise spans across the
+                  full stack—from responsive, data-driven UIs to robust backend
+                  services.
                 </p>
               </div>
               {/* <!-- End Section Title --> */}
@@ -48,9 +55,9 @@ const Resume = () => {
                   <div>
                     <h3 className="resume-title">Sumary</h3>
                     <div className="resume-item pb-0">
-                      <h4>Narendra</h4>
+                      {/* <h4>Narendra</h4> */}
                       <p>
-                        Building and maintaining complex and interactive user
+                        {/* Building and maintaining complex and interactive user
                         interfaces using React.js and its core
                         principles.Effectively utilizing state management
                         libraries like Redux or the Context API to manage
@@ -68,21 +75,108 @@ const Resume = () => {
                         clearly.Familiarity with Agile methodologies and using
                         tools like Git for version control.Keeping up-to-date
                         with the latest trends and best practices in the React
-                        ecosystem.
+                        ecosystem. */}
+                        <p>
+                          <span class="fw-bold">
+                            Pioneering AI/LLM Development:
+                          </span>
+                          Recently leveraged OpenAI, LangChain, and LangGraph to
+                          implement advanced conversational interfaces.
+                          Successfully created a vector-search chatbot for
+                          dynamic document and database querying, utilizing
+                          Hugging Face embeddings and Pinecone vector database.
+                        </p>
+                        <p>
+                          <span class="fw-bold">
+                            Modern Full-Stack Proficiency (3+ Yrs):
+                          </span>
+                          Expert in building high-performance web and mobile
+                          solutions using React.js, Next.js, React Native, and
+                          TypeScript. Proficient in back-end development with
+                          Node.js/Express.js, GraphQL, Prisma, and MongoDB.
+                        </p>
+                        <p>
+                          <span class="fw-bold">
+                            Enterprise Foundation (7+ Yrs):
+                          </span>
+                          Built a strong, scalable foundation across Automobile,
+                          E-commerce, and Telecom domains, specializing in Java,
+                          J2EE, Struts, Spring, and Hibernate. Experienced with
+                          enterprise tools like WebLogic and Oracle SQL.
+                        </p>
+                        <p>
+                          <span class="fw-bold"> DevOps & Practices:</span>
+                          Experienced in deploying applications on major cloud
+                          platforms (AWS EC2, Vercel, Google Cloud, Heroku) and
+                          committed to Agile/Scrum methodologies, code quality,
+                          and peer review.
+                        </p>
                       </p>
-                      <ul style={{ marginTop: "10px" }}>
+                      {/* <ul style={{ marginTop: "10px" }}>
                         <li>Bangalore,Hsr Layout, Ind</li>
-                        <li>(+91) 9739 252 306</li>
+                        <li>(+91) 6362 949 010</li>
                         <li>narendravs228@gmail.com</li>
-                      </ul>
+                      </ul> */}
                     </div>
                   </div>
                   <h3 className="resume-title">Professional Experience</h3>
                   <div
                     className="col-lg-6"
-                    data-aos="fade-up"
+                    // data-aos="fade-up"
                     data-aos-delay="200"
                   >
+                    <div className="resume-item">
+                      <h4>
+                        Portfolio & Freelance - Fullstack web and mobile
+                        developer.
+                      </h4>
+
+                      <p>
+                        <em>Bangalore, Ind</em>
+                      </p>
+                      <ul>
+                        <li>
+                          Designed and implemented LLM-powered conversational
+                          interfaces (Chatbots) enabling users to interact
+                          directly with internal documents and database content.
+                        </li>
+                        <li>
+                          Developed complex AI Agent workflows that automate
+                          multi-step processes, such as enabling users to book
+                          appointments through a single prompt (prompt-driven
+                          automation).
+                        </li>
+                        <li>
+                          Integrated Stripe payment gateway functionality into
+                          the application to securely process ticket bookings.
+                        </li>
+                        <li>
+                          Developed and optimized responsive user interfaces
+                          (UIs) and modular components using React and its
+                          ecosystem.
+                        </li>
+                        <li>
+                          Managed and orchestrated complex client-side
+                          application state using Redux and the Context API.
+                        </li>
+                        <li>
+                          Implemented robust APIs to facilitate seamless and
+                          efficient data exchange between the React UIs and
+                          backend services.
+                        </li>
+                        <li>
+                          Engineered efficient data fetching and state
+                          synchronization for complex lists by implementing
+                          pagination functionality using Tanstack Query (React
+                          Query).
+                        </li>
+                        <li>
+                          Contributed to architectural design by designing
+                          database tables and defining UI component structure
+                          based on functional and business requirements.
+                        </li>
+                      </ul>
+                    </div>
                     <div className="resume-item">
                       <h4>Schneider electric &amp; Fullstack developer</h4>
 
@@ -91,23 +185,30 @@ const Resume = () => {
                       </p>
                       <ul>
                         <li>
-                          Independently troubleshooting complex issues,
-                          contributing to architectural decisions, and
-                          potentially mentoring junior developers.
+                          Designed and developed dynamic user interfaces (UIs)
+                          using JSP to meet functional and aesthetic
+                          requirements.
                         </li>
                         <li>
-                          Building complex UIs with React, utilizing state
-                          management solutions (like Redux or Context API),
-                          routing, and UI libraries.
+                          Developed and maintained controller and middle-layer
+                          microservices to orchestrate business logic and data
+                          flow.
                         </li>
                         <li>
-                          Proficiency in backend language and framework
-                          (Node.js/Express, Java/Spring Boot), including
-                          database design and interaction (SQL or NoSQL).
+                          Implemented robust APIs to facilitate seamless
+                          interaction between the user interface and backend
+                          services.
                         </li>
                         <li>
-                          Designing and implementing RESTful or GraphQL APIs and
-                          seamlessly integrating them with the React front-end.
+                          Led Proof-of-Concept (PoC) initiatives for new
+                          technologies and features, successfully integrating
+                          the resulting solutions into the existing application
+                          codebase.
+                        </li>
+                        <li>
+                          Actively participated in daily scrum and sprint
+                          planning meetings, contributing to Agile development
+                          processes and project delivery.
                         </li>
                       </ul>
                     </div>
@@ -122,21 +223,29 @@ const Resume = () => {
 
                       <ul>
                         <li>
-                          Seamlessly integrating front-end applications with
-                          RESTful APIs and handling asynchronous operations.
+                          Designed and implemented new user interfaces (UIs) and
+                          modular components, ensuring seamless integration into
+                          the existing application.
                         </li>
                         <li>
-                          Identifying and resolving front-end related bugs and
-                          performance issues.
+                          Developed, tested, and maintained APIs for both
+                          frontend components and middleware services to
+                          facilitate efficient interaction with the backend.
                         </li>
                         <li>
-                          Working effectively within a team, participating in
-                          code reviews, and communicating technical concepts
-                          clearly.
+                          Engineered core backend business logic by developing
+                          Entity, Entity-Manager, Model, and Descriptor classes
+                          for robust data processing.
                         </li>
                         <li>
-                          Familiarity with Agile methodologies and using tools
-                          like Git for version control.
+                          Contributed to the full application lifecycle by
+                          developing Action, Bean, Helper, and Model classes to
+                          implement and update application functionality.
+                        </li>
+                        <li>
+                          Wrote and maintained code to consume external web
+                          services, integrating third-party data and
+                          functionality into the application.
                         </li>
                       </ul>
                     </div>
@@ -156,21 +265,29 @@ const Resume = () => {
                       </p>
                       <ul>
                         <li>
-                          Building and maintaining complex and interactive user
-                          interfaces using React.js and its core principles.
+                          Modified component-level API queries to ensure
+                          efficient and accurate data exchange within the
+                          application.
                         </li>
                         <li>
-                          Effectively utilizing state management libraries like
-                          Redux or the Context API to manage application data
-                          flow.
+                          Wrote, optimized, and modified SQL queries to align
+                          with evolving business requirements and improve data
+                          retrieval performance.
                         </li>
                         <li>
-                          Designing and implementing reusable and
-                          well-structured React components.
+                          Refactored and enhanced existing application
+                          functionality and components based on new business
+                          requirements.
                         </li>
                         <li>
-                          Strong grasp of JavaScript (ES6+), HTML, and CSS,
-                          including responsive design principles.
+                          Performed debugging and bug fixing across various
+                          application layers to ensure stability and
+                          reliability.
+                        </li>
+                        <li>
+                          Actively participated in daily scrum and sprint
+                          planning meetings, contributing to Agile development
+                          processes and project delivery.
                         </li>
                       </ul>
                     </div>
@@ -184,23 +301,35 @@ const Resume = () => {
                       </p>
                       <ul>
                         <li>
-                          Independently troubleshooting complex issues,
-                          contributing to architectural decisions, and
-                          potentially mentoring junior developers.
+                          Contributed to core application functionality by
+                          developing Action, Form Bean, Model, and Helper
+                          classes to manage application state and workflow.
                         </li>
                         <li>
-                          Building complex UIs with React, utilizing state
-                          management solutions (like Redux or Context API),
-                          routing, and UI libraries.
+                          Wrote and maintained code for business functionality
+                          within the persistence layer (data access module).
                         </li>
                         <li>
-                          Proficiency in backend language and framework
-                          (Node.js/Express, Java/Spring Boot), including
-                          database design and interaction (SQL or NoSQL).
+                          Developed and optimized SQL queries to meet specific
+                          data retrieval and manipulation requirements.
                         </li>
                         <li>
-                          Designing and implementing RESTful or GraphQL APIs and
-                          seamlessly integrating them with the React front-end.
+                          Conducted manual, module-wise application testing and
+                          prepared comprehensive test cases to ensure software
+                          quality and functional alignment.
+                        </li>
+                        <li>
+                          Managed and executed the deployment of new application
+                          modules to the target environment.
+                        </li>
+                        <li>
+                          Consistently developed and shipped application
+                          functionality according to business requirements.
+                        </li>
+                        <li>
+                          Conducted manual, module-wise application testing and
+                          prepared comprehensive test cases to ensure software
+                          quality and functional alignment.
                         </li>
                       </ul>
                     </div>
