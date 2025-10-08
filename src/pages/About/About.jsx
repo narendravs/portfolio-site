@@ -20,19 +20,22 @@ const About = () => {
           }
         >
           <section id="about" className="about section">
-            <div className="container section-title " data-aos="fade-up">
+            <div
+              className="container section-title fst-italic "
+              data-aos="fade-up"
+            >
               <h2>About</h2>
               <p>
                 Having overall 10+ years into IT and having 3+ years of
                 experience in implementing web applications by using{" "}
-                <span style={{ fontWeight: "700" }}>
+                <span style={{ fontWeight: "500" }}>
                   {" "}
                   React js, Nextjs, React Native,Javascript, Typescript,
                   Tailwind, Node js, Express js, Redux,Tanskstank
                   Query/React-Query,JWT, Auth0,Clerk, Shadcn,Material/Chakra UI,
                   Mongo db, graphql , Prisma, aws amplify, firebase etc..
                 </span>
-                <span style={{ fontWeight: "700", color: "blue" }}>
+                <span style={{ fontWeight: "400", color: "blue" }}>
                   {" "}
                   My recent work includes implementing cutting-edge AI solutions
                   using OpenAI and LangChain, developing intelligent chatbots
@@ -136,7 +139,10 @@ const About = () => {
           {/* <!-- /About Section --> */}
           <section id="skills" className="skills section light-background">
             {/* <!-- Section Title --> */}
-            <div className="container section-title" data-aos="fade-up">
+            <div
+              className="container section-title fst-italic"
+              data-aos="fade-up"
+            >
               <h2>Skills</h2>
               <p>
                 As a Fullstack developer i was being expertise with the follwing
@@ -148,7 +154,7 @@ const About = () => {
             {/* <!-- End Section Title --> */}
 
             <div className="container" data-aos="fade-up" data-aos-delay="100">
-              <div className="row skills-content skills-animation">
+              <div className="row skills-content skills-animation fst-italic">
                 <div
                   className="col-lg-6"
                   style={{
