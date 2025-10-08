@@ -20,10 +20,7 @@ const About = () => {
           }
         >
           <section id="about" className="about section">
-            <div
-              className="container section-title fst-italic "
-              data-aos="fade-up"
-            >
+            <div className="container section-title " data-aos="fade-up">
               <h2>About</h2>
               <p>
                 Having overall 10+ years into IT and having 3+ years of
@@ -76,7 +73,7 @@ const About = () => {
                 </div>
                 <div className="col-lg-8 content">
                   <h2> Fullstack web &amp; mobile app developer.</h2>
-                  <p className="fst-italic py-3">
+                  <p className=" py-3">
                     Deployed applications on cloud using the aws-ec2, google
                     cloud, vercel, heroku. Good experience in developing web
                     based business applications using various Java-script
@@ -139,10 +136,7 @@ const About = () => {
           {/* <!-- /About Section --> */}
           <section id="skills" className="skills section light-background">
             {/* <!-- Section Title --> */}
-            <div
-              className="container section-title fst-italic"
-              data-aos="fade-up"
-            >
+            <div className="container section-title " data-aos="fade-up">
               <h2>Skills</h2>
               <p>
                 As a Fullstack developer i was being expertise with the follwing
@@ -154,7 +148,7 @@ const About = () => {
             {/* <!-- End Section Title --> */}
 
             <div className="container" data-aos="fade-up" data-aos-delay="100">
-              <div className="row skills-content skills-animation fst-italic">
+              <div className="row skills-content skills-animation ">
                 <div
                   className="col-lg-6"
                   style={{
