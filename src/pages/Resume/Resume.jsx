@@ -32,7 +32,7 @@ const Resume = () => {
               <div>
                 <div class="d-flex justify-content-between align-items-center pb-1 mb-4 border-2 border-bottom border-primary text-dark">
                   <h2>Resume</h2>
-                  <ul>
+                  <ul class="list-unstyled">
                     <li>Name: Narendra</li>
                     <li>Bangalore,Hsr Layout, Ind</li>
                     <li>(+91) 6362 949 010</li>
