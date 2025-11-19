@@ -146,11 +146,11 @@ const ServiceDetails = () => {
                         and related technologies. This includes creating
                         reusable components, managing component state, and
                         ensuring a consistent user experience. Writing clean,
-                        efficient, and well-documented JavaScript, HTML, and CSS
-                        code. Following best practices and coding standards.
-                        Implementing responsive designs and ensuring
-                        cross-browser compatibility. UIs will adapt seamlessly
-                        to different screen sizes and browsers.
+                        efficient, and well-documented code. Following best
+                        practices and coding standards. Implementing responsive
+                        designs and ensuring cross-browser compatibility. UIs
+                        will adapt seamlessly to different screen sizes and
+                        browsers.
                       </p>
                     </div>
                     <ul>
