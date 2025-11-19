@@ -106,11 +106,15 @@ const Resume = () => {
                   >
                     <div className="resume-item">
                       <h4>
-                        Portfolio & Freelance - Fullstack web and mobile
-                        developer.
+                        I. ntechstack &nbsp;
+                        <em style={{ fontSize: "15px" }}>
+                          (Independent Technology Consulting & Development)
+                        </em>
+                        &nbsp; - CTO & Principal Consultant.
                       </h4>
 
                       <p>
+                        <em>Jan-2022 - Present</em> |&nbsp;
                         <em>Bangalore, Ind</em>
                       </p>
                       <ul>
@@ -157,9 +161,10 @@ const Resume = () => {
                       </ul>
                     </div>
                     <div className="resume-item">
-                      <h4>Schneider electric &amp; Fullstack developer</h4>
+                      <h4>II. Schneider Electric - Fullstack developer</h4>
 
                       <p>
+                        <em>Apr-2014 - Sep-2015</em>&nbsp;
                         <em>Bangalore, Ind</em>
                       </p>
                       <ul>
@@ -194,9 +199,10 @@ const Resume = () => {
                     {/* <!-- Edn Resume Item --> */}
 
                     <div className="resume-item">
-                      <h4>Capgemini India Pvt Ltd &amp; Consultant</h4>
+                      <h4>III. Capgemini India Pvt Ltd - Consultant</h4>
                       {/* <h5>2010 - 2014</h5> */}
                       <p>
+                        <em>Jan-2011 - Nov-2013</em>&nbsp;
                         <em>Bangalore, Ind</em>
                       </p>
 
@@ -237,9 +243,10 @@ const Resume = () => {
                   >
                     {/* <h3 className="resume-title">Professional Experience</h3> */}
                     <div className="resume-item">
-                      <h4>Accenture Services India Pvt Ltd</h4>
+                      <h4>IV. Accenture - Senior Software Engineer</h4>
                       {/* <h5>2019 - Present</h5> */}
                       <p>
+                        <em>Nov-2009 - Oct-2010</em>&nbsp;
                         <em>Bangalore, Ind </em>
                       </p>
                       <ul>
@@ -273,9 +280,13 @@ const Resume = () => {
                     {/* <!-- Edn Resume Item --> */}
 
                     <div className="resume-item">
-                      <h4>Technologia Software Solutions Pvt Ltd</h4>
+                      <h4>
+                        V. Technologia Software Solutions Pvt Ltd - Software
+                        Engineer
+                      </h4>
                       {/* <h5>2017 - 2018</h5> */}
                       <p>
+                        <em>Sep-2007 - Mar-2009</em>&nbsp;
                         <em>Bangalore, Ind</em>
                       </p>
                       <ul>
