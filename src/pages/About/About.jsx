@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Header from "../../components/Header";
 import skills from "../../data/skills.json";
 import useWindowDimensions from "../Dimensions/Dimensions";
+
 const About = () => {
   const { width } = useWindowDimensions();
 
@@ -23,42 +24,28 @@ const About = () => {
             <div className="container section-title " data-aos="fade-up">
               <h2>About</h2>
               <p>
-                Having overall 10+ years into IT and having 3+ years of
-                experience in implementing web applications by using{" "}
-                <span style={{ fontWeight: "500" }}>
-                  {" "}
-                  React js, Nextjs, React Native,Javascript, Typescript,
-                  Tailwind, Node js, Express js, Redux,Tanskstank
-                  Query/React-Query,JWT, Auth0,Clerk, Shadcn,Material/Chakra UI,
-                  Mongo db, graphql , Prisma, aws amplify, firebase etc..
-                </span>
-                <span style={{ fontWeight: "400", color: "blue" }}>
-                  {" "}
-                  My recent work includes implementing cutting-edge AI solutions
-                  using OpenAI and LangChain, developing intelligent chatbots
-                  with document-based and database-driven conversations. I am
-                  skilled in converting application databases into vector search
-                  engines using Hugging Face embeddings and Pinecone for
-                  advanced conversational AI. I have also developed multi-step
-                  AI agents capable of performing complex tasks like booking
-                  appointments based on natural language prompts. Committed to
-                  writing clean, efficient, and well-tested code while staying
-                  current with the latest industry advancements.{" "}
-                </span>
-                , As a '3+ year React developer,' I possess a strong
-                understanding of the React ecosystem and can proficiently build
-                complex and interactive user interfaces. I'm adept at utilizing
-                component-based architecture, managing application state
-                effectively with tools like Redux and the Context API, and
-                integrating seamlessly with backend APIs. I have a solid grasp
-                of JavaScript (ES6+), HTML, and CSS, and I prioritize writing
-                clean, efficient, and well-tested code using libraries like Jest
-                and React Testing Library. I'm comfortable with debugging and
-                troubleshooting front-end issues and collaborating effectively
-                within a team, participating in code reviews and contributing to
-                technical discussions. I'm also committed to staying up-to-date
-                with the latest React best practices and exploring new
-                advancements in the front-end landscape.
+                I am a Seasoned Full-Stack Architect with 10+ years of
+                enterprise IT experience, including 3+ years dedicated to
+                building complex, scalable applications within the React,
+                Next.js, and React Native Ecosystems. My core value lies in
+                delivering end-to-end solutions, from responsive UIs and robust
+                backend APIs to secure cloud deployment.{" "}
+              </p>
+              &nbsp;
+              <p>
+                Pioneering AI/LLM Integration: My recent work focuses on
+                implementing cutting-edge, intelligent systems using OpenAI and
+                LangChain. I specialize in developing dynamic, vector-search
+                chatbots by leveraging Hugging Face embeddings and Pinecone, and
+                creating complex, multi-step AI Agents for process automation.
+              </p>
+              &nbsp;
+              {/* Moved soft skills into this section for flow */}
+              <p>
+                Committed to writing clean, efficient, and well-tested code
+                while operating within Agile/Scrum methodologies. I am a
+                dedicated team player, dependable, and willing to go the extra
+                mile to ensure project success.
               </p>
             </div>
 
@@ -72,20 +59,7 @@ const About = () => {
                   />
                 </div>
                 <div className="col-lg-8 content">
-                  <h2> Fullstack web &amp; mobile app developer.</h2>
-                  <p className=" py-3">
-                    Deployed applications on cloud using the aws-ec2, google
-                    cloud, vercel, heroku. Good experience in developing web
-                    based business applications using various Java-script
-                    libraries (react-router-dom,Redux,
-                    Context-api,tankstank-query, react-hook-form…etc). Involved
-                    in Coding, Documentation, Deploying and maintaining the
-                    applications. Excellent commitment, dedication and planning
-                    towards goal oriented tasks. Good team player with excellent
-                    work history as regards with work ethics, dependability and
-                    Willingness to go an extra mile.
-                  </p>
-                  <p>Following are the personal information...</p>
+                  <p>Following are the personal information.</p>
                   <div className="row">
                     <div className="col-lg-6">
                       <ul>
@@ -133,19 +107,23 @@ const About = () => {
               </div>
             </div>
           </section>
-          {/* <!-- /About Section --> */}
-          <section id="skills" className="skills section light-background">
-            {/* <!-- Section Title --> */}
+          {/* */}
+          {/* --- SPACING FIX APPLIED HERE --- */}
+          <section
+            id="skills"
+            className="skills section light-background"
+            style={{ paddingTop: "40px" }} // Adjust this value to control the gap
+          >
+            {/* */}
             <div className="container section-title " data-aos="fade-up">
               <h2>Skills</h2>
               <p>
-                As a Fullstack developer i was being expertise with the follwing
-                tect stack and have been experienced in building scalable,
-                secure and reliable web applications using various frameworks
-                and technologies.
+                Technology Stack & Architecture: Leveraging my full-stack
+                expertise, I design and build highly available, secure, and
+                performant applications using the following core technologies.
               </p>
             </div>
-            {/* <!-- End Section Title --> */}
+            {/* */}
 
             <div className="container" data-aos="fade-up" data-aos-delay="100">
               <div className="row skills-content skills-animation ">
@@ -218,7 +196,7 @@ const About = () => {
               </div>
             </div>
           </section>
-          {/* <!-- /Skills Section --> */}
+          {/* */}
         </div>
       </div>
     </div>
