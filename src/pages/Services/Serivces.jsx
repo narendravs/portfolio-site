@@ -16,17 +16,43 @@ const Serivces = () => {
             <div class="container section-title" data-aos="fade-up">
               <h2>Services</h2>
               <p>
-                Building and maintaining complex and interactive user interfaces
-                using React.js and its core principles.Effectively utilizing
-                state management libraries like Redux or the Context API to
-                manage application data flow.Designing and implementing reusable
-                and well-structured React components.Strong grasp of JavaScript
-                (ES6+), HTML, and CSS, including responsive design principles.
-                and I prioritize writing clean, efficient, and well-tested code
-                using libraries like Jest and React Testing Library. I'm
-                comfortable with debugging and troubleshooting front-end issues
-                and collaborating effectively within a team, participating in
-                code reviews and contributing to technical discussions.
+                <p>
+                  1. AI/LLM Integration & Agent Development (Your Key
+                  Differentiator) Intelligent Solutions: Design and
+                  implementation of next-generation conversational interfaces
+                  and AI-powered workflows using OpenAI, LangChain, and
+                  LangGraph. Vector Search & RAG: Architecting
+                  Retrieval-Augmented Generation (RAG) systems with Pinecone and
+                  Hugging Face embeddings to enable dynamic, database-driven
+                  chatbots.
+                </p>
+                &nbsp;
+                <p>
+                  2. Modern Full-Stack Architecture React & Next.js Development:
+                  Building high-performance, SEO-optimized web applications and
+                  server-side logic using Next.js. Focus on efficient state
+                  management (Redux, Tanstack Query) and modular component
+                  design. Backend & APIs: Engineering robust, scalable APIs with
+                  Node.js/Express.js, GraphQL, and Prisma/PostgreSQL/MongoDB for
+                  seamless data integrity and exchange. Quality & Standards:
+                  Committed to delivering clean, efficient, and well-tested code
+                  using TypeScript, Jest, and adherence to strict Agile/Scrum
+                  methodologies.
+                </p>
+                &nbsp;
+                <p>
+                  3. Mobile & Cross-Platform Delivery React Native Solutions:
+                  Developing and deploying native-feeling mobile applications
+                  for iOS and Android, ensuring single codebase efficiency via
+                  React Native (Expo).
+                </p>
+                &nbsp;
+                <p>
+                  4. DevOps & Cloud Deployment Deployment Automation: Full-cycle
+                  application deployment and maintenance on major cloud
+                  providers (AWS EC2, Vercel, Heroku), ensuring high
+                  availability and scalability.
+                </p>
               </p>
             </div>
             {/* <!-- End Section Title --> */}
