@@ -38,14 +38,15 @@ const Portfolio = () => {
             <div className="container section-title" data-aos="fade-up">
               <h2>Portfolio</h2>
               <p>
-                Following are the portfolio projects build and maintain some
-                complex and interactive user interfaces using React.js Next.js
-                React-Native and its core principles. Effectively utilizing
-                state management libraries like Redux or the Context API to
-                manage application data flow. Designing and implementing
-                reusable and well-structured React components. Seamlessly
-                integrating front-end applications with APIs and handling
-                asynchronous operations.
+                This portfolio demonstrates the ability to deliver end-to-end,
+                cross-platform solutions, ranging from high-performance web
+                applications built with React/Next.js to native mobile
+                experiences using React Native (Expo). Each project showcases
+                expertise in architectural design, including efficient state
+                management (Redux/Context API), API integration, and the
+                development of reusable, well-structured components for robust
+                and scalable systems. My recent work includes implementing
+                AI/LLM-powered features for enhanced functionality.
               </p>
             </div>
 
@@ -75,7 +76,10 @@ const Portfolio = () => {
                         className="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
                         key={ind}
                       >
-                        <div className="portfolio-content h-150" title="More Details">
+                        <div
+                          className="portfolio-content h-150"
+                          title="More Details"
+                        >
                           <img
                             style={{
                               width: "430px",
@@ -97,15 +101,14 @@ const Portfolio = () => {
                               {" "}
                               <p>{project.description}</p>
                             </Link>
-                          
-                           <Link
+
+                            <Link
                               to={`/Portfolio-details/${project.name}`}
                               title="More Details"
                               className="button"
                             >
                               <spna>View Details</spna>
                             </Link>
-                           
                           </div>
                         </div>
                       </div>
