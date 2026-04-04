@@ -11,7 +11,7 @@ const Serivces = () => {
         <div className="col-12 col-lg-9">
           {/* <!-- Services Section --> */}
 
-          <section id="services" class="services section">
+          <section id="services" className="services section">
             {/* <!-- Section Title --> */}
             <div className="section-title" data-aos="fade-up">
               <h2>Services</h2>

@@ -16,12 +16,6 @@ const Header = () => {
     >
       <i
         className={`header-toggle d-xl-none bi ${select ? "bi-x" : "bi-list"}`}
-        style={{
-          fontSize: "32px", // Increase the size of the icon
-          padding: "10px", // Increases the "tap target" area for thumbs
-          cursor: "pointer",
-          zIndex: 9999, // Ensure it stays above the hero image
-        }}
         onClick={() => {
           setSelect(!select);
         }}
@@ -77,7 +71,7 @@ const Header = () => {
               href="/home"
               onClick={(e) => {
                 e.preventDefault();
-                navigate("/");
+
                 handleNavigation("/");
               }}
             >
@@ -89,7 +83,7 @@ const Header = () => {
               href="/about"
               onClick={(e) => {
                 e.preventDefault();
-                navigate("/about");
+
                 handleNavigation("/about");
               }}
             >
@@ -101,7 +95,7 @@ const Header = () => {
               href="/resume"
               onClick={(e) => {
                 e.preventDefault();
-                navigate("/resume");
+
                 handleNavigation("/resume");
               }}
             >
@@ -113,7 +107,7 @@ const Header = () => {
               href="/portfolio"
               onClick={(e) => {
                 e.preventDefault();
-                navigate("/portfolio");
+
                 handleNavigation("/portfolio");
               }}
             >
@@ -125,7 +119,7 @@ const Header = () => {
               href="/services"
               onClick={(e) => {
                 e.preventDefault();
-                navigate("/services");
+
                 handleNavigation("/services");
               }}
             >
@@ -137,7 +131,7 @@ const Header = () => {
               href="/contact"
               onClick={(e) => {
                 e.preventDefault();
-                navigate("/contact");
+
                 handleNavigation("/contact");
               }}
             >

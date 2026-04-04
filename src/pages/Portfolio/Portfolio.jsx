@@ -59,7 +59,7 @@ const Portfolio = () => {
                 production-ready environments. To ensure zero-regression and
                 sub-second performance, I implement Automated DevOps Workflows
                 via GitHub Actions. Every commit triggers a comprehensive{" "}
-                <b>CI/CD pipeline</b>
+                <b>CI/CD pipeline {""}</b>
                 that automatically executes.
               </p>
               &nbsp;

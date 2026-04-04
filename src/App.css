@@ -1335,22 +1335,9 @@ html {
   scroll-behavior: smooth;
 }
 
-/* 3. Handle Mobile Header */
-/* If your mobile toggle header is also fixed, 
-   you might need to adjust 'top' value (e.g., top: 60px) */
-@media (max-width: 1199px) {
-  .service-page-header {
-    top: 0;
-  }
+/* Specific adjustments for very small devices if needed */
+@media (max-width: 480px) {
   .header {
-    position: fixed;
-    top: 0;
-    left: -100%; /* Hidden by default */
-    width: 80vw; /* Change from fixed px to 80% of viewport width */
-    height: 100vh;
-    transition: all 0.3s ease-in-out;
-    z-index: 9997;
-    background: #040b14;
-    overflow-y: auto;
+    width: 80vw; /* Only use 80% on actual small phones */
   }
 }
