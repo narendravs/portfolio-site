@@ -6,23 +6,17 @@ const Resume = () => {
   const { width } = useWindowDimensions();
 
   return (
-    <div className="container">
-      <div className="row">
-        <div className="col">
+    <div className="container-fluid p-0">
+      <div className="row g-0">
+        <div className="col-lg-3">
           <Header />
         </div>
         <div
-          className="col-10"
+          className="col-12 col-lg-9"
           style={
             width > 750
-              ? {
-                  display: "flex",
-                  justifyContent: "",
-                  alignItems: "center",
-                  width: "1040px",
-                  marginLeft: "200px",
-                }
-              : { width: "100%" }
+              ? { paddingLeft: "0px", paddingRight: "0px" }
+              : { paddingLeft: "0px", paddingRight: "0px" }
           }
         >
           {/* <!-- Resume Section --> */}
@@ -30,9 +24,9 @@ const Resume = () => {
             {/* <!-- Section Title --> */}
             <div className="container section-title">
               <div>
-                <div class="d-flex justify-content-between align-items-center pb-1 mb-4 border-2 border-bottom border-primary text-dark">
+                <div className="d-flex gap-3 justify-content-between align-items-center pb-1 mb-4 border-2 border-bottom border-primary text-dark">
                   <h2>Resume</h2>
-                  <ul class="list-unstyled">
+                  <ul className="list-unstyled">
                     <li>Location: Bangalore, India</li>
                     <li>Email: narendravs228@gmail.com</li>
                     <li>
@@ -43,14 +37,36 @@ const Resume = () => {
                     </li>
                   </ul>
                 </div>
-                <p>
-                  A seasoned Full-Stack Web & Mobile Developer Engineer with
-                  over 10 years of IT experience, including 3+ years dedicated
-                  to building and deploying complex, scalable applications
-                  within the React & Next Ecosystem. Expertise spans across the
-                  full stack—from responsive, data-driven UIs to robust backend
-                  services.
-                </p>
+                <div>
+                  <p className="mb-2">
+                    {" "}
+                    I am a{" "}
+                    <b>
+                      Senior Full Stack & AI Engineer with 11+ years of
+                      experience
+                    </b>{" "}
+                    architecting <b>enterprise-grade</b> systems and
+                    high-performance web/mobile applications. I specialize in
+                    bridging the gap between{" "}
+                    <b>
+                      complex Agentic AI orchestration and scalable,
+                      production-ready product delivery.
+                    </b>
+                  </p>
+
+                  <p>
+                    {" "}
+                    Throughout my career, I have successfully evolved from a
+                    foundational 7-year background in{" "}
+                    <b>core enterprise Java/Spring Boot systems</b> to mastering
+                    the <b>modern MERN/Next.js ecosystem</b> and, most recently,
+                    engineering {""}
+                    <b>autonomous AI agents (LangGraph/NodeJs)</b>. I don’t just
+                    write code; I focus on <b>"Product-First" engineering</b>
+                    —ensuring that complex AI logic, sub-second performance, and
+                    robust system design work in perfect harmony.
+                  </p>
+                </div>
               </div>
               {/* <!-- End Section Title --> */}
 
@@ -58,43 +74,60 @@ const Resume = () => {
                 <div>
                   <h3 className="resume-title">Sumary</h3>
                   <div className="resume-item pb-0">
-                    <p>
-                      <p>
-                        <span class="fw-bold">
-                          Pioneering AI/LLM Development:
+                    <div>
+                      <p className="mb-2">
+                        <span className="fw-bold">
+                          Agentic AI & LLM Orchestration:
                         </span>
-                        Recently leveraged OpenAI, LangChain, and LangGraph to
-                        implement advanced conversational interfaces.
-                        Successfully created a vector-search chatbot for dynamic
-                        document and database querying, utilizing Hugging Face
-                        embeddings and Pinecone vector database.
+                        Expert in engineering <b>autonomous AI workflows</b> and{" "}
+                        <b>RAG pipelines</b> using <b>LangGraph, LangChain</b>.
+                        Proven track record in implementing{" "}
+                        <b>vector-search systems</b> using
+                        <b>Pinecone</b> and <b>Hugging Face embeddings</b> for
+                        complex document and database querying.
+                      </p>
+                      <p className="mb-2">
+                        <span className="fw-bold">
+                          Modern Full-Stack Leadership (4+ Yrs):
+                        </span>
+                        Deep expertise in building{" "}
+                        <b>scalable, production-grade applications</b> within
+                        the <b>React and Next.js ecosystem</b>. Focused on{" "}
+                        <b>Performance Engineering (100/100 Lighthouse) {""}</b>
+                        and robust quality assurance. I have engineered {""}
+                        <b>automated CI/CD workflows using GitHub Actions</b> to
+                        trigger{" "}
+                        <b>
+                          Playwright (E2E), Jest/RTL (Unit/Integration), and
+                          Lighthouse
+                        </b>{" "}
+                        audits on every commit, ensuring {""}
+                        <b>zero-regression deployments</b> and sub-second
+                        performance. Expert in cross-platform mobile development
+                        using React Native (Expo).
+                      </p>
+                      <p className="mb-2">
+                        <span className="fw-bold">
+                          {" "}
+                          DevOps & Product-First Mindset:
+                        </span>
+                        Proficient in <b>Docker-based CI/CD</b> and cloud
+                        deployment across <b>AWS, GCP, Vercel, and Render</b>.
+                        Committed to <b>Agile excellence</b>, sub-second
+                        performance, and bridging the gap between complex AI
+                        logic and intuitive user experiences.
                       </p>
                       <p>
-                        <span class="fw-bold">
-                          Modern Full-Stack Proficiency (3+ Yrs):
-                        </span>
-                        Expert in building high-performance web and mobile
-                        solutions using React.js, Next.js, React Native, and
-                        TypeScript. Proficient in back-end development with
-                        Node.js/Express.js, GraphQL, Prisma, and MongoDB.
-                      </p>
-                      <p>
-                        <span class="fw-bold">
+                        <span className="fw-bold">
                           Enterprise Foundation (7+ Yrs):
                         </span>
-                        Built a strong, scalable foundation across Automobile,
-                        E-commerce, and Telecom domains, specializing in Java,
-                        J2EE, Struts, Spring, and Hibernate. Experienced with
-                        enterprise tools like WebLogic and Oracle SQL.
+                        Solid architectural background in large-scale{" "}
+                        <b>Java/J2EE (Spring Boot, Hibernate)</b> systems across
+                        Automobile, E-commerce, and Telecom domains. Expert in{" "}
+                        <b>SQL optimization (Oracle/PostgreSQL)</b> and
+                        enterprise middleware <b>(WebLogic)</b>.
                       </p>
-                      <p>
-                        <span class="fw-bold"> DevOps & Practices:</span>
-                        Experienced in deploying applications on major cloud
-                        platforms (AWS EC2, Vercel, Google Cloud, Heroku) and
-                        committed to Agile/Scrum methodologies, code quality,
-                        and peer review.
-                      </p>
-                    </p>
+                    </div>
                   </div>
                 </div>
                 <div className="row">
