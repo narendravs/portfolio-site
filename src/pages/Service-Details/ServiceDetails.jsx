@@ -1,199 +1,111 @@
-import React, { useState } from "react";
+import React from "react";
+import { useParams, Link } from "react-router-dom";
 import Header from "../../components/Header";
-import { Link } from "react-router-dom";
 import useWindowDimensions from "../Dimensions/Dimensions";
+import servicesData from "../../data/services.json";
 
 const ServiceDetails = () => {
   const { width } = useWindowDimensions();
-  const [react, setReact] = useState(true);
-  const [next, setNext] = useState(false);
-  const [native, setNative] = useState(false);
+  const { serviceId } = useParams();
+
+  // Get content based on URL, fallback to web-mobile if ID is invalid
+  const content = servicesData[serviceId] || servicesData["web-mobile"];
+
   return (
-    <div class="container">
-      <div class="row">
-        <div class="col">
+    <div className="container-fluid">
+      <div className="row">
+        {/* Sidebar / Header */}
+        <div className="col-12 col-lg-3">
           <Header />
         </div>
-        <div
-          class="col-9"
-          style={
-            width > 750
-              ? { width: "1060px", marginLeft: "180px" }
-              : { width: "100%" }
-          }
-        >
-          <main class="main">
-            <div class="page-title dark-background">
-              <div class="container d-lg-flex justify-content-between align-items-center">
-                <h1 class="mb-2 mb-lg-0">Service Details</h1>
-                <nav class="breadcrumbs">
-                  <ol>
-                    <li>
-                      <Link to="/">Home</Link>
-                    </li>
-                    <li class="current">Service Details</li>
-                  </ol>
-                </nav>
-              </div>
-            </div>
 
-            <section id="service-details" class="service-details section">
-              <div class="container">
-                <div class="row gy-4">
-                  <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                    <div class="services-list">
-                      <a
-                        href="#"
-                        onClick={(e) => {
-                          e.preventDefault();
-                          setNative(false);
-                          setNext(false);
-                          setReact(!react);
-                        }}
-                      >
-                        React Development
-                      </a>
-                      <a
-                        href="#"
-                        onClick={(e) => {
-                          e.preventDefault();
-                          setReact(false);
-                          setNative(false);
-                          setNext(!next);
-                        }}
-                      >
-                        Next Development
-                      </a>
-                      <a
-                        href="#"
-                        onClick={(e) => {
-                          e.preventDefault();
-                          setReact(false);
-                          setNext(false);
-                          setNative(!native);
-                        }}
-                      >
-                        React-Native Development
-                      </a>
-                      {/*  <a href="#">Graphic Design</a>
-                      <a href="#">Marketing</a> */}
+        {/* Main Content Area */}
+        <div
+          className="col-12 col-lg-9"
+          style={{ paddingLeft: "0px", paddingRight: "0px" }}
+        >
+          <main className="main">
+            <section id="service-details" className="service-details section">
+              <div className="container">
+                <div className="row gy-4">
+                  {/* Left Column: Service Selection List */}
+                  <div
+                    className="col-lg-4"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div className="services-list">
+                      {Object.keys(servicesData).map((key) => (
+                        <Link
+                          key={key}
+                          to={`/Service-details/${key}`}
+                          className={serviceId === key ? "active" : ""}
+                        >
+                          {servicesData[key].title}
+                        </Link>
+                      ))}
                     </div>
 
-                    {react && (
-                      <p>
-                        <h4>Core React Development Services</h4>
-                        Building and Maintaining User Interfaces (UIs) with
-                        <span style={{ fontWeight: "500" }}>
-                          {" "}
-                          React.js
-                        </span>{" "}
-                        Developing Reusable React Components, State Management
-                        Implementation, Front-End Routing Implementation, API
-                        Integration, Performance Optimization, Unit and
-                        Integration Testing, Responsive Design Implementation,{" "}
-                        Cross-Browser Compatibility, Code Review and Best
-                        Practices etc..
-                      </p>
-                    )}
-                    {next && (
-                      <p>
-                        <h4>Core Next Development Services</h4>
-                        Building and Maintaining User Interfaces (UIs) with
-                        <span style={{ fontWeight: "500" }}> Next.js</span>{" "}
-                        Developing Reusable Next Components, State Management
-                        Implementation,API Integration, Performance
-                        Optimization, Unit and Integration Testing, Responsive
-                        Design Implementation, Cross-Browser Compatibility, Code
-                        Review and Best Practices etc..
-                      </p>
-                    )}
-                    {native && (
-                      <p>
-                        <h4>Core React-Native Development Services</h4>
-                        Building and Maintaining User Interfaces (UIs) with
-                        <span style={{ fontWeight: "500" }}>
-                          {" "}
-                          React-Native,
-                        </span>{" "}
-                        Developing Reusable React-Native Components, State
-                        Management Implementation, Routing/navigation stack
-                        Implementation, API Integration, Performance
-                        Optimization, Unit and Integration Testing, Code Review
-                        and Best Practices etc..
-                      </p>
-                    )}
+                    <div className="mt-4">
+                      <h4>{content.title} Overview</h4>
+                      <p className="description">{content.description}</p>
+                    </div>
                   </div>
 
-                  <div class="col-lg-8">
+                  {/* Right Column: Detailed Content */}
+                  <div className="col-lg-8">
                     <div data-aos="fade-down" data-aos-delay="200">
                       <img
+                        src={content.image}
+                        alt={content.title}
+                        className="img-fluid services-img"
                         style={{
                           width: "100%",
-                          height: "350px",
+                          height: "200px",
                           objectFit: "cover",
+                          borderRadius: "8px",
+                          marginBottom: "20px",
                         }}
-                        src="assets/img/santillan.jpg"
-                        alt=""
-                        class="img-fluid services-img"
                       />
                       <h3>Core Development & Implementation</h3>
-                      <p>
-                        Building and maintaining complex user interfaces (UIs)
-                        using{" "}
-                        <span style={{ fontWeight: "500" }}>
-                          React.js Next.js Reeact-Native
-                        </span>{" "}
-                        and related technologies. This includes creating
-                        reusable components, managing component state, and
-                        ensuring a consistent user experience. Writing clean,
-                        efficient, and well-documented code. Following best
-                        practices and coding standards. Implementing responsive
-                        designs and ensuring cross-browser compatibility. UIs
-                        will adapt seamlessly to different screen sizes and
-                        browsers.
-                      </p>
+                      <p>{content.details}</p>
                     </div>
-                    <ul>
-                      <li>
-                        <i class="bi bi-check-circle"></i>{" "}
-                        <span>Authentication & Authorization.</span>
-                      </li>
-                      <li>
-                        <i class="bi bi-check-circle"></i>{" "}
-                        <span>
-                          State management with redux or the Context API.
-                        </span>
-                      </li>
-                      <li>
-                        <i class="bi bi-check-circle"></i>{" "}
-                        <span>Responsive design principles</span>
-                      </li>
-                      <li>
-                        <i class="bi bi-check-circle"></i>{" "}
-                        <span>Performance optimization</span>
-                      </li>
+
+                    <ul
+                      className="mt-4"
+                      style={{ listStyle: "none", padding: 0 }}
+                    >
+                      {content.features.map((feature, index) => (
+                        <li
+                          key={index}
+                          className="mb-3 d-flex align-items-center"
+                        >
+                          <i
+                            className="bi bi-check-circle text-primary me-2"
+                            style={{ fontSize: "1.2rem" }}
+                          ></i>
+                          <span>{feature}</span>
+                        </li>
+                      ))}
                     </ul>
-                    <p>
-                      Integrating front-end applications with RESTful APIs and
-                      other backend services. This involves fetching and
-                      displaying data, handling user interactions that trigger
-                      API calls, and managing data flow. Optimizing application
-                      performance for speed and scalability.
-                    </p>
-                    <p>
-                      Writing unit, integration, and potentially end-to-end
-                      tests to ensure code quality and reliability. Understand
-                      the importance of testing and can write effective tests
-                      using tools like Jest and React Testing Library. Debugging
-                      and troubleshooting issues across the front-end
-                      application. Identify and resolve bugs efficiently.
-                      Participating in code reviews to provide and provide
-                      constructive feedback. Understand the value of peer review
-                      in improving code quality. Staying up-to-date with the
-                      latest trends and best practices in front-end development
-                      and the React ecosystem. Actively learn and adapt to new
-                      technologies and approaches.
-                    </p>
+
+                    <div className="help-box d-flex flex-column justify-content-center align-items-center mt-5 p-4 bg-light">
+                      <i
+                        className="bi bi-headset help-icon"
+                        style={{
+                          fontSize: "2.5rem",
+                          color: "var(--accent-color)",
+                        }}
+                      ></i>
+                      <h4 className="mt-3">Need a Custom Solution?</h4>
+                      <p className="text-center">
+                        Contact me to discuss how we can implement these
+                        technologies for your specific project needs.
+                      </p>
+                      <Link to="/Contact" className="btn btn-primary mt-2">
+                        Get in Touch
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>
