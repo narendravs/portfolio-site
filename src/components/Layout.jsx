@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "./Footer";
 const Layout = ({ children }) => {
   return (
-    <div>
+    <div className="m-4">
       <div>{children}</div>
       <Footer />
     </div>
