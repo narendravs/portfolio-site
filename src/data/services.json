@@ -1,0 +1,41 @@
+{
+  "web-mobile": {
+    "title": "Web & Mobile Development",
+    "image": "/assets/img/web-development.png",
+    "description": "Engineering high-performance, SEO-optimized Next.js React web applications and native-feel React Native mobile experiences.",
+    "features": [
+      "Next.js & React.js Implementation",
+      "React Native Cross-Platform Apps",
+      "Redux & Context API State Management",
+      "Performance Optimization & Lighthouse Audits",
+      "Responsive & Adaptive UI Design"
+    ],
+    "details": "Building and maintaining complex user interfaces (UIs) using React.js and Next.js. This includes creating reusable components, managing component state, and ensuring a consistent user experience. I focus on writing clean, efficient, and well-documented code following enterprise best practices."
+  },
+  "cloud-devops": {
+    "title": "Cloud Infrastructure & DevOps",
+    "image": "/assets/img/cloud-devops.png",
+    "description": "Architecting scalable AWS and Render environments with Docker containerization and automated CI/CD performance gates.",
+    "features": [
+      "AWS & Render Cloud Hosting",
+      "Docker Containerization",
+      "GitHub Actions CI/CD Pipelines",
+      "Infrastructure as Code (IaC)",
+      "Automated Quality Gates & Playwright Testing"
+    ],
+    "details": "Designing robust cloud architectures that scale with your user base. I implement Docker to ensure environment parity and set up automated pipelines that run performance audits and integration tests before every deployment, ensuring 99.9% uptime."
+  },
+  "ai-automation": {
+    "title": "AI Automation & LLM Orchestration",
+    "image": "/assets/img/automation.png",
+    "description": "Building autonomous AI agents and precision RAG pipelines using LangGraph to automate complex business logic.",
+    "features": [
+      "LangGraph & LangChain Orchestration",
+      "Retrieval-Augmented Generation (RAG)",
+      "Vector Database Integration (Pinecone)",
+      "Autonomous Agent Workflows",
+      "Custom LLM Fine-tuning & Prompt Engineering"
+    ],
+    "details": "Developing 'fully intelligent' systems that go beyond simple chatbots. By using LangGraph, I build agents capable of multi-step reasoning, tool usage, and complex decision-making to automate manual business processes and scheduling."
+  }
+}
