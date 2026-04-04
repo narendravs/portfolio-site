@@ -35,39 +35,36 @@ const PortfolioDetails = () => {
   }
 
   const { width } = useWindowDimensions();
+
+  const renderBoldText = (text) => {
+    if (text.includes(":")) {
+      const [label, content] = text.split(":");
+      return (
+        <span>
+          <strong>{label}:</strong> {content}
+        </span>
+      );
+    }
+    return text;
+  };
   return (
-    <div className="container">
+    <div className="container-fluid">
       <div className="row">
-        <div className="col">
+        <div className="col-12 col-lg-3">
           <Header />
         </div>
         <div
-          className="col-9"
+          className="col-12 col-lg-9 ps-0"
           style={
             width > 750
               ? {
-                  display: "flex",
-                  width: "1060px",
-                  marginLeft: "185px",
+                  paddingLeft: "0px",
+                  paddingRight: "0px",
                 }
-              : { width: "100%" }
+              : { paddingLeft: "0px", paddingRight: "0px" }
           }
         >
           <main className="main">
-            <div className="page-title dark-background">
-              <div className="container d-lg-flex justify-content-between align-items-center">
-                <h1 className="mb-2 mb-lg-0">Portfolio Details</h1>
-                <nav className="breadcrumbs">
-                  <ol>
-                    <li>
-                      <Link to="/">Home</Link>
-                    </li>
-                    <li className="current">Portfolio Details</li>
-                  </ol>
-                </nav>
-              </div>
-            </div>
-
             <div id="portfolio-details" className="portfolio-details section">
               <div className="container">
                 <div className="row gy-4">
@@ -92,14 +89,43 @@ const PortfolioDetails = () => {
                         </li>
 
                         <li>
-                          <strong>Project URL</strong>:{" "}
+                          <strong>Git URL</strong>:{" "}
                           <a
                             href={project.gitUrl}
                             target="_blank"
                             style={{ color: "blue", fontWeight: "500" }}
                           >
-                            {project.tmpUrl}
+                            {project.gitUrl}
                           </a>
+                        </li>
+                        <li>
+                          <strong>Project URL</strong>:{" "}
+                          {Array.isArray(project.liveUrl) ? (
+                            // If it's an array, map through it
+                            project.liveUrl.map((url, index) => (
+                              <span key={index}>
+                                <a
+                                  href={url}
+                                  target="_blank"
+                                  rel="noreferrer"
+                                  style={{ color: "blue", fontWeight: "500" }}
+                                >
+                                  {url}
+                                </a>
+                                {index < project.liveUrl.length - 1 && " | "}
+                              </span>
+                            ))
+                          ) : (
+                            // If it's just a single string, render normally
+                            <a
+                              href={project.liveUrl}
+                              target="_blank"
+                              rel="noreferrer"
+                              style={{ color: "blue", fontWeight: "500" }}
+                            >
+                              {project.liveUrl}
+                            </a>
+                          )}
                         </li>
                       </ul>
                     </div>
@@ -139,14 +165,13 @@ const PortfolioDetails = () => {
                         color: "black",
                         backgroundColor: "white",
                         display: "flex",
-                        flexDirection: "row",
                         gap: "10px",
                         marginBottom: "10px",
                       }}
                       key={index}
                     >
-                      <span className="bi bi-check-circle" />
-                      <span>{skill}</span>
+                      <span className="bi bi-check-circle text-primary" />
+                      {renderBoldText(skill)}
                     </div>
                   ))}
 
@@ -159,14 +184,13 @@ const PortfolioDetails = () => {
                           color: "black",
                           backgroundColor: "white",
                           display: "flex",
-                          flexDirection: "row",
                           gap: "10px",
                           marginTop: "10px",
                         }}
                         key={index}
                       >
-                        <span className="bi bi-check-circle" />
-                        <span>{feature}</span>
+                        <span className="bi bi-check-circle text-primary" />
+                        {renderBoldText(feature)}
                       </div>
                     ))}
                   </div>
