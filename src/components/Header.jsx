@@ -16,6 +16,12 @@ const Header = () => {
     >
       <i
         className={`header-toggle d-xl-none bi ${select ? "bi-x" : "bi-list"}`}
+        style={{
+          fontSize: "32px", // Increase the size of the icon
+          padding: "10px", // Increases the "tap target" area for thumbs
+          cursor: "pointer",
+          zIndex: 9999, // Ensure it stays above the hero image
+        }}
         onClick={() => {
           setSelect(!select);
         }}
