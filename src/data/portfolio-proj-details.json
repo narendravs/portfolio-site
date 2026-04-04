@@ -3,213 +3,195 @@
     "projectId": "healthcare app",
     "category": "Nextjs Healthcare Application",
     "gitUrl": "https://github.com/narendravs/healthcare",
-    "tmpUrl": "https://github.com/healthcare",
+    "liveUrl": "",
     "image": "../assets/img/portfolio/healthcare.jpg",
-    "description": "A full-stack application designed to modernize and automate core hospital administrative functions. By leveraging AI-powered document analysis and a conversational agent, this system addresses key inefficiencies in patient records management and appointment scheduling. The platform provides a unified interface for doctors and staff to manage patient data, enabling rapid access to information through semantic search and freeing up clinical time by automating routine tasks.",
+    "description": "A full-stack application designed to modernize and automate core hospital administrative functions. By leveraging AI-powered document analysis and a conversational agent, this system addresses key inefficiencies in patient records management and appointment scheduling.",
     "skills": [
       "Frontend Development: Next.js, React, React Hook Form, TanStack/React-Table, Shadcn/ui",
-      "Styling: Tailwind CSS, CSS",
-      "State Management & Data: React Context API",
-      "Backend & APIs: Appwrite, LangChain, Hugging Face",
-      "Databases: Appwrite, Pinecone (Vector Database)",
-      "Validation: Zod",
-      "Languages: TypeScript, JavaScript"
+      "AI/ML Engineering: LangChain, Hugging Face, Pinecone (Vector Database)",
+      "Backend & APIs: Express, Node, Appwrite APIs",
+      "Validation & Security: Zod, TypeScript, Appwrite Auth",
+      "Styling: Tailwind CSS, CSS"
     ],
     "features": [
-      "Developed a full-stack healthcare application using Next.js and TypeScript to streamline the analysis and summarization of medical documents.",
-      "Engineered an AI-powered data processing pipeline by integrating LangChain and Hugging Face for deep text analysis, including the deployment of a conversational AI agent that can book appointments via natural language prompts.",
-      "Implemented a semantic search engine with Pinecone vector database to enable fast, intelligent retrieval of patient records and research documents.",
-      "Built a modern, responsive user interface with Tailwind CSS and Shadcn/ui, ensuring a seamless and accessible experience for healthcare professionals.",
-      "Enforced data integrity and security by managing complex form state and validation using React Hook Form and Zod.",
-      "Optimized data visualization for large datasets of patient information using TanStack/React-Table, improving usability and workflow efficiency.",
-      "Managed user authentication and data persistence securely with Appwrite."
+      "Full-Stack Development: Developed a full-stack healthcare application using Next.js and TypeScript to streamline the analysis and summarization of medical documents.",
+      "AI Engineering: Engineered an AI-powered data processing pipeline by integrating LangChain and Hugging Face for deep text analysis and conversational appointment booking.",
+      "RAG & Semantic Search: Implemented a semantic search engine with Pinecone vector database to enable fast, intelligent retrieval of patient records.",
+      "UI/UX Design: Built a modern, responsive user interface with Tailwind CSS and Shadcn/ui, ensuring a seamless and accessible experience.",
+      "Data Integrity: Enforced data integrity and security by managing complex form state and validation using React Hook Form and Zod.",
+      "Performance Optimization: Optimized data visualization for large datasets using TanStack/React-Table, improving usability and workflow efficiency."
     ]
   },
   {
     "projectId": "blog app",
     "category": "React Blog Application",
     "gitUrl": "https://github.com/narendravs/reactblogapp",
-    "tmpUrl": "https://github.com/reactblogapp",
+    "liveUrl": "",
     "image": "../assets/img/portfolio/blog-app.jpg",
-    "description": "A React blog application provides a dynamic,user-friendly, and often performant platform for content sharing. Leveraging React's strengths, it offers features for content display, navigation, user interaction, and often incorporates enhancements for SEO, analytics, and administrative management. The specific features and complexity can vary greatly depending on the project's requirements.",
+    "description": "A React blog application providing a dynamic platform for content sharing, incorporating enhancements for SEO, analytics, and AI-assisted writing.",
     "skills": [
-      "Frontend Development:React, React Router Dom",
-      "Backend Development: Express.js, Node.js (implied)",
-      "API Client: Axios",
-      "SQL Driver: MySQL2",
-      "Authentication & Security: Bcrypt, JSON Web Token (JWT), Cookie Parser",
-      "Database: MySQL",
-      "UI/Styling: Sass/SCSS, CSS react-quill (Rich Text Editor), react-read-more-read-less, moment",
-      "AI Integration:  OpenAI",
-      "Testing: React Testing Library (@testing-library/react, @testing-library/jest-dom, @testing-library/user-event)"
+      "Frontend Development: React, React Router Dom, Sass/SCSS",
+      "Backend Development: Node.js, Express.js",
+      "Database: MySQL (MySQL2 Driver)",
+      "Auth & Security: Bcrypt, JSON Web Token (JWT), Cookie Parser",
+      "AI Integration: OpenAI API",
+      "Testing: React Testing Library, Jest, Axios"
     ],
     "features": [
-      "Engineered a full-stack blog application using React on the frontend and a Node.js/Express.js backend, with a MySQL database for structured data management. The application provides users with a complete platform to write, publish, and manage their blog posts.",
-      "Developed a secure user authentication system that utilized Bcrypt for password hashing and JSON Web Token (JWT) for a stateless authentication flow. Cookie-parser was implemented to securely store tokens on the client side, managing sessions for logged-in users.",
-      "Implemented a powerful content creation workflow using React-Quill, a rich text editor that allowed users to format posts, embed images, and create compelling articles. Multer was integrated on the backend to handle all image uploads, storing them in a designated server directory.",
-      "Integrated an AI-powered content assistant using the OpenAI API, a unique feature that provided users with AI-generated titles and summaries for their blog posts, streamlining the writing process.",
-      "Built a dynamic frontend where blog posts were fetched from the API with Axios and displayed with a clean UI. React-read-more-read-less was used to preview content on the main page, and Moment was used for user-friendly date formatting. Client-side routing was handled with React Router Dom.",
-      "Ensured the application's reliability by implementing component and integration tests with React Testing Library, verifying critical user flows such as post creation and user authentication. The application's styling was managed with Sass/SCSS for maintainable and organized CSS."
+      "System Architecture: Engineered a full-stack blog application using React and Node.js/Express.js with a MySQL database for structured data management.",
+      "Secure Authentication: Developed a secure user authentication system utilizing Bcrypt for hashing and JWT for a stateless authentication flow.",
+      "Content Management: Implemented a powerful content creation workflow using React-Quill, allowing users to format posts and embed images.",
+      "AI Integration: Integrated an AI-powered content assistant using the OpenAI API to provide users with AI-generated titles and summaries.",
+      "Dynamic UI: Built a dynamic frontend where blog posts were fetched with Axios and displayed with a clean, responsive UI.",
+      "Quality Assurance: Ensured the application's reliability by implementing component and integration tests with React Testing Library."
     ]
   },
   {
     "projectId": "leet code",
     "category": "Nextjs Leet-Code Application",
     "gitUrl": "https://github.com/narendravs/nextjsleet",
-    "tmpUrl": "https://github.com/leet-code",
+    "liveUrl": "",
     "image": "../assets/img/portfolio/leetcode.jpg",
-    "description": "LeetCode is a popular online platform widely used by software engineers and developers to practice and improve their coding skills, particularly in algorithms and data structures. It provides a vast library of coding problems categorized by difficulty (Easy, Medium, Hard), topic (e.g., Arrays, Linked Lists, Trees, Dynamic Programming, Graph), and company (problems asked in interviews at specific tech companies).",
+    "description": "A high-performance coding platform for practicing algorithms and data structures. This project features a custom-integrated testing and performance auditing suite to ensure enterprise-grade speed and reliability.",
     "skills": [
       "Frontend Development: Next.js, React, TypeScript",
+      "Automated Testing: Playwright (E2E), Jest, React Testing Library (Unit/Integration)",
+      "Performance Auditing: Google Lighthouse, Web Vitals, Performance Budgets",
       "State Management: Recoil",
-      "Backend & Cloud Services: Firebase (react-firebase-hooks)",
-      "UI/Styling: Tailwind CSS, PostCSS, Autoprefixer",
-      "UI/Components: React Icons, React Toastify, React Confetti, React YouTube",
-      "Code Editor Integration: CodeMirror (@uiw/react-codemirror, @uiw/codemirror-theme-vscode, @codemirror/lang-javascript)"
+      "Cloud Services: Firebase (Auth, Firestore), React Firebase Hooks",
+      "Code Editor: CodeMirror (@uiw/react-codemirror), VS Code Theme",
+      "UI/Styling: Tailwind CSS, PostCSS, Autoprefixer"
     ],
     "features": [
-      "Engineered a complete, full-stack coding platform using Next.js and TypeScript to provide a seamless and type-safe environment. The application's architecture was designed to handle server-side rendering for optimal performance and SEO.",
-      "Implemented a secure and scalable backend powered by Firebase, which handled user authentication, problem data storage, and user submission tracking. The react-firebase-hooks library was used to simplify the integration of Firebase services into the React components.",
-      "Developed a custom, interactive code editor by integrating the CodeMirror library with @uiw/react-codemirror. This included support for syntax highlighting (@codemirror/lang-javascript) and a familiar user experience with the VS Code theme.",
-      "Managed application-wide state using Recoil, providing a lightweight and predictable state management solution for the user's progress, current problem, and live code changes.",
-      "Designed a clean, responsive, and modern user interface with Tailwind CSS, allowing for rapid styling and a consistent design system. react-icons were used for intuitive visual cues, and react-toastify provided non-intrusive notifications for events like successful code submissions.",
-      "Enhanced the user experience with dynamic components such as react-youtube for problem explanations and react-confetti to celebrate successful problem completions."
+      "Full-Stack Engineering: Engineered a complete, full-stack coding platform using Next.js and TypeScript for a seamless and type-safe environment.",
+      "Automated Quality Gates: Integrated Playwright and Google Lighthouse to automate performance auditing, ensuring the platform maintains high Core Web Vitals scores.",
+      "Testing Infrastructure: Implemented a comprehensive testing suite using Jest and React Testing Library to verify component interactions and prevent regressions.",
+      "Interactive Editor: Developed a custom, interactive code editor by integrating CodeMirror with syntax highlighting and a VS Code theme.",
+      "Backend Integration: Implemented a secure and scalable backend powered by Firebase, handling authentication and problem data storage.",
+      "Performance Optimization: Leveraged Playwright to simulate real user journeys while simultaneously running Lighthouse audits to identify rendering bottlenecks."
     ]
   },
   {
     "projectId": "ticketbooking app",
     "category": "Reactjs ticketbooking Application",
     "gitUrl": "https://github.com/narendravs/ticketbooking",
-    "tmpUrl": "https://github.com/ticketbooking",
+    "liveUrl": [
+      "https://ticketbooking-client.vercel.app/",
+      "https://ticketbooking-admin.vercel.app/login"
+    ],
     "image": "../assets/img/portfolio/ticketbooking.jpg",
-    "description": "A ticket booking app is a software application designed to streamline the process of purchasing tickets for various events, transportation, and activities. It provides users with a convenient and efficient way to browse, select, and pay for tickets directly from their mobile devices or web browsers.",
+    "description": "A comprehensive ticket booking dashboard designed to streamline the process of purchasing tickets and visualizing event data.",
     "skills": [
       "Frontend Development: React, React Router Dom",
-      "UI/Component Libraries: Material-UI (@mui/material, @mui/x-data-grid), Font Awesome (@fortawesome)",
-      "Data Visualization: Recharts, React Circular Progressbar",
       "Backend Development: Express.js, http-proxy-middleware",
-      "Authentication & Security: JSON Web Token (JWT), bcrypt",
-      "Database: Mongoose (MongoDB)",
-      "State Management: Redux, React's built-in useState and useContext hooks",
-      "API Interactions: Axios for making HTTP requests to the backend server",
-      "Styling: CSS",
-      "Languages: JavaScript"
+      "Database & ODM: MongoDB, Mongoose",
+      "UI Framework: Material-UI (@mui/material, @mui/x-data-grid)",
+      "Data Visualization: Recharts, React Circular Progressbar",
+      "Auth & Security: JSON Web Token (JWT), Bcrypt"
     ],
     "features": [
-      "Engineered and deployed a full-stack web application using React and Express.js to serve as a secure dashboard for user management and data visualization. The application's core logic and state were handled with React's built-in useState and useContext hooks, creating a scalable architecture without relying on external state management libraries.",
-      "Developed a secure backend API with Express.js and Mongoose to handle all server-side logic and interact with a MongoDB database. bcrypt was implemented for secure password hashing and jsonwebtoken (JWT) was used to manage user sessions and authentication, ensuring secure, token-based access to protected routes. API requests from the frontend were efficiently routed using http-proxy-middleware.",
-      "Built a professional and responsive user interface using Material-UI (@mui/material) for a consistent design system and utilized CSS for custom styling. Complex data was displayed in an organized, user-friendly manner using @mui/x-data-grid, which provided features like pagination, sorting, and filtering.",
-      "Integrated a suite of data visualization components using Recharts and React Circular Progressbar to present key performance indicators (KPIs) and analytics in an intuitive, graphical format. These visualizations were dynamically updated with data fetched from the backend using Axios for all HTTP requests, ensuring real-time insights for users.",
-      "Managed application navigation using React Router Dom to create a multi-page, single-page application (SPA) experience. Icons from Font Awesome (@fortawesome) were used to enhance the UI's visual appeal and usability."
+      "Dashboard Architecture: Engineered and deployed a full-stack web application using React and Express.js for secure user management.",
+      "API Development: Developed a secure backend API with Express.js and Mongoose to interact with a MongoDB database.",
+      "Professional UI: Built a responsive user interface using Material-UI for a consistent design system and custom CSS for branding.",
+      "Data Analytics: Integrated data visualization components using Recharts to present KPIs and analytics in an intuitive format.",
+      "Navigation Strategy: Managed application navigation using React Router Dom to create a multi-page SPA experience."
     ]
   },
   {
     "projectId": "hotelbooking app",
     "category": "Reactjs hotelbooking Application",
     "gitUrl": "https://github.com/narendravs/hotelmgmt",
-    "tmpUrl": "https://github.com/hotelbooking",
+    "liveUrl": "https://hotelmgmt-eta.vercel.app/",
     "image": "../assets/img/portfolio/hotelbooking.jpg",
-    "description": "A hotel booking app is a software application designed to streamline the process of searching for, comparing, and reserving accommodations at various hotels, resorts, and other lodging establishments, including those in Bengaluru and around the world. It offers convenience and efficiency for both travelers and hotel owners in Bengaluru and globally.",
+    "description": "A full-featured hotel management platform facilitating search, comparison, and reservations with integrated payment processing.",
     "skills": [
-      "Frontend Development: React, React Router Dom, Vite",
-      "State Management & Data: React Hook Form, @tanstack/react-query, @tanstack/react-query-devtools",
-      "UI/Styling: Tailwind CSS, react-icons, React Datepicker, CSS",
-      "Backend Development: Express.js, express-validator, http-proxy-middleware",
-      "Authentication & Security: jsonwebtoken (JWT), bcryptjs, cookie-parser",
-      "Database: MongoDB, Mongoose",
-      "File Management: Multer, Cloudinary",
-      "Payments: Stripe (@stripe/react-stripe-js, @stripe/stripe-js)",
-      "API Interactions: TanStack Query Mutations (@tanstack/react-query), Axios",
-      "Languages: TypeScript, JavaScript"
+      "Frontend Development: React, Vite, React Router Dom",
+      "State Management: React Hook Form, TanStack Query (v5)",
+      "Backend Development: Express.js, Express-Validator",
+      "Payments & Storage: Stripe API, Multer, Cloudinary",
+      "Auth & Security: JWT, Bcryptjs, Cookie-Parser",
+      "Database & ODM: MongoDB, Mongoose"
     ],
     "features": [
-      "Developed a complete hotel management platform using a Vite-powered React frontend and a robust Express.js backend, all built with TypeScript to ensure type safety. React Router Dom was used for client-side routing, and Tailwind CSS with react-icons provided a clean and responsive user interface. React Datepicker was integrated to enable a user-friendly room reservation and date-range selection system.",
-      "Established a secure user and staff authentication system by implementing JSON Web Token (JWT) for token-based authentication and bcryptjs for secure password hashing. cookie-parser was used to manage user sessions.",
-      "Managed a MongoDB database with Mongoose, creating schemas for rooms, reservations, guests, and hotel staff. All reservation and guest data handling was implemented using React Hook Form for optimized performance and validation. express-validator was used on the backend to ensure data integrity and security for all incoming booking requests.",
-      "Integrated a secure payment gateway by using Stripe to handle all reservation payments, providing a seamless and safe checkout experience for guests.",
-      "Architected the application's data-fetching layer using TanStack Query, leveraging its hooks to handle data fetching, caching, and background synchronization. This approach ensured real-time updates for room availability and reservation status, significantly improving performance. Axios was used as the underlying HTTP client for these requests.",
-      "Enabled file uploads for hotel room images and user profiles by configuring Multer on the backend and integrating Cloudinary for scalable cloud-based image storage.",
-      "Configured a development proxy with http-proxy-middleware to seamlessly route API requests from the React frontend to the Express backend."
+      "Full-Stack Development: Developed a complete hotel management platform using a Vite-powered React frontend and a robust Express.js backend.",
+      "Security Protocols: Established a secure user and staff authentication system by implementing JWT and bcryptjs for password hashing.",
+      "Database Architecture: Managed a MongoDB database with Mongoose, creating schemas for rooms, reservations, and staff.",
+      "Payment Gateway: Integrated a secure payment gateway using Stripe to handle all reservation payments and checkouts.",
+      "Data Orchestration: Architected the data-fetching layer using TanStack Query, leveraging hooks for caching and background synchronization.",
+      "Media Management: Enabled file uploads for room images and user profiles by configuring Multer and Cloudinary storage."
     ]
   },
   {
     "projectId": "delivery app",
     "category": "React-Native delivery Application",
     "gitUrl": "https://github.com/narendravs/react-native-ubereats",
-    "tmpUrl": "https://github.com/deliveryapp",
+    "liveUrl": "",
     "image": "../assets/img/portfolio/delivery.jpg",
-    "description": "A React Native delivery app is a mobile application built using the React Native framework that enables users in Bengaluru, and potentially beyond, to request and track the delivery of goods or services directly from their smartphones. Leveraging React Native's cross-platform capabilities, a single codebase can often target both iOS and Android users in Bengaluru and other regions.",
+    "description": "A cross-platform mobile delivery application built with React Native, featuring real-time tracking and AWS integration.",
     "skills": [
-      "Mobile Development: React Native, Expo",
-      "Build Tools: expo-cli, @expo/webpack-config",
-      "Cloud & Backend Services: AWS Amplify, @aws-amplify/cli, Amazon Cognito (amazon-cognito-identity-js)",
-      "Navigation & Routing: React Navigation (@react-navigation/native)",
-      "Navigators: @react-navigation/native-stack, @react-navigation/bottom-tabs, @react-navigation/material-bottom-tabs",
-      "UI/Components: Ant Design (antd, @ant-design/icons)",
-      "Custom Components: react-native-reanimated, react-native-gesture-handler, @gorhom/bottom-sheet, @react-native-picker/picker",
-      "Geolocation & Maps: React Native Maps (react-native-maps), react-native-maps-directions",
-      "Data & State Management: Async Storage (@react-native-async-storage/async-storage), @react-native-community/netinfo",
-      "Languages: JavaScript"
+      "Mobile Development: React Native, Expo, Webpack",
+      "Cloud Infrastructure: AWS Amplify, Amazon Cognito",
+      "Maps & Geolocation: React Native Maps, Maps Directions API",
+      "Navigation: React Navigation (Stack, Bottom Tabs)",
+      "Animations: React Native Reanimated, Gesture Handler",
+      "UI Components: Ant Design (mobile), Gorhom Bottom Sheet"
     ],
     "features": [
-      "Engineered a full-stack, cross-platform mobile application for a rideshare service using React Native and Expo. The application was built to provide a seamless user experience for both riders and drivers, with dedicated views for each user type.",
-      "Implemented a secure and scalable user authentication system using AWS Amplify and Amazon Cognito to manage user sign-up, sign-in, and profile data securely. This included a robust data model for managing ride requests and user information in a real-time environment.",
-      "Integrated advanced geolocation and mapping features using React Native Maps to display real-time user and driver locations. React Native Maps Directions was used to calculate and render optimal routes for drivers, ensuring efficient navigation.",
-      "Designed a smooth and intuitive user interface with a focus on seamless user flows. This included building a dynamic ride request sheet using @gorhom/bottom-sheet and creating fluid, gesture-based animations with react-native-reanimated and react-native-gesture-handler. Ant Design components were used to accelerate UI development.",
-      "Architected the app's navigation using React Navigation, implementing a multi-stack system with a bottom tab navigator to separate the app's core functionalities (e.g., maps, profile, history).",
-      "Managed client-side data persistence for user preferences and authentication tokens using react-native-async-storage, ensuring a quick and responsive experience upon app launch."
+      "Mobile Engineering: Engineered a full-stack, cross-platform mobile application for a rideshare service using React Native and Expo.",
+      "Cloud Infrastructure: Implemented a secure and scalable user authentication system using AWS Amplify and Amazon Cognito.",
+      "Geolocation Services: Integrated advanced geolocation and mapping features using React Native Maps to display real-time driver locations.",
+      "UX Implementation: Designed a smooth user interface with fluid, gesture-based animations using React Native Reanimated.",
+      "Navigation Architecture: Architected the app's navigation using React Navigation, implementing a multi-stack system with bottom tabs.",
+      "Data Persistence: Managed client-side data persistence for user preferences and tokens using Async Storage."
     ]
   },
   {
     "projectId": "subscription app",
     "category": "React subscription Application",
     "gitUrl": "https://github.com/narendravs/subscription",
-    "tmpUrl": "https://github.com/subscription",
+    "liveUrl": "",
     "image": "../assets/img/portfolio/subscribe.jpg",
-    "description": "Stripe Subscriptions is a powerful and flexible platform offered by Stripe that allows businesses in Bengaluru and globally to easily create and manage recurring billing for their products and services. It handles the complexities of subscription management, from initial signup and payment to recurring invoices, proration, upgrades, downgrades, and cancellations,",
+    "description": "A specialized recurring billing platform integrated with Stripe for managing professional subscription services.",
     "skills": [
-      "Frontend: React, React Router Dom, Vite",
-      "Backend: Express.js, Node.js (implied by Express), Nodemon",
-      "Authentication & Database: Firebase, Firebase Admin",
-      "UI/Components: @headlessui/react, @heroicons/react",
-      "Payments: Stripe",
-      "Middleware: Body-parser",
-      "Utility Libraries: Moment",
-      "Testing: React Testing Library (@testing-library/react, @testing-library/jest-dom, @testing-library/user-event)"
+      "Frontend Development: React, Vite, React Router Dom",
+      "Backend Development: Node.js, Express.js",
+      "Authentication: Firebase Auth, Firebase Admin",
+      "Payments: Stripe Subscriptions API",
+      "UI/UX: Headless UI, Heroicons",
+      "Testing: React Testing Library, Jest"
     ],
     "features": [
-      "Developed and deployed a complete subscription platform with a modern React frontend and a robust Express.js backend, powered by Vite for a fast development and build process. React Router Dom was used to manage client-side routing, creating a seamless single-page application experience.",
-      "Engineered a secure and scalable authentication system using Firebase for user sign-ups and logins. User roles and permissions were managed on the backend with Firebase Admin, allowing for different content tiers (e.g., free vs. premium) based on a user's subscription status.",
-      "Implemented a secure payment gateway by integrating Stripe to handle all payment processing for subscription plans. The backend, built with Express.js and using Body-parser middleware, was configured to manage Stripe-related API calls and webhook events.",
-      "Crafted a professional and accessible user interface using the unstyled components of @headlessui/react for functionality, which were visually enhanced with the icon set from @heroicons/react.",
-      "Used a fast development workflow by leveraging Nodemon to automatically restart the server on code changes, significantly improving productivity. Date-related features, such as subscription renewal dates, were handled efficiently with the Moment utility library.",
-      "Ensured the application's reliability and quality by writing unit and integration tests for critical components and features, such as user login and the checkout process, using the React Testing Library suite."
+      "Platform Development: Developed and deployed a complete subscription platform with a modern React frontend and Express.js backend.",
+      "User Authorization: Engineered a secure authentication system using Firebase, managing tiered content roles with Firebase Admin.",
+      "Recurring Billing: Implemented a secure payment gateway by integrating Stripe to handle subscription plans and webhook events.",
+      "Accessible Design: Crafted a professional and accessible user interface using unstyled components from Headless UI.",
+      "Workflow Efficiency: Used a fast development workflow by leveraging Nodemon and handling date logic with Moment.js.",
+      "Reliability: Ensured application quality by writing unit and integration tests for critical checkout and login flows."
     ]
   },
   {
     "projectId": "social app",
     "category": "React social Application",
-    "gitUrl": "https://github.com/narendravs/react-native-ubereats",
-    "tmpUrl": "https://github.com/social-app",
+    "gitUrl": "https://github.com/narendravs/Social-mern-app",
+    "liveUrl": "https://social-mern-app-two.vercel.app/login",
     "image": "../assets/img/portfolio/social-app.jpg",
-    "description": "A social app is a mobile or web-based application designed to facilitate communication, connection, sharing, and interaction among users in Bengaluru, across India, and globally. These platforms leverage various features to enable individuals and communities to build relationships, share content, express themselves, and stay informed about the activities and interests of others, both within Bengaluru and worldwide.",
+    "description": "A MERN stack social media platform facilitating real-time communication and content sharing among users.",
     "skills": [
-      "Frontend Development:React, React Router Dom",
-      "Backend Development: Express.js, Node.js (implied by Express)",
-      "Middleware: morgan, multer, path, helmet, body-parser (often used with Express)",
-      "API Client: Axios",
-      "Database:MongoDB, Mongoose (MongoDB ODM)",
-      "Authentication & Security:Bcrypt",
-      "UI/Components:@material-ui/icons timeago.js",
-      "Testing: React Testing Library (@testing-library/react, @testing-library/jest-dom, @testing-library/user-event)",
-      "Developer Tools: nodemon"
+      "Full-Stack Development: MERN Stack (MongoDB, Express, React, Node.js)",
+      "Real-Time Communication: WebSockets (Socket.io), Event-Driven Architecture",
+      "Performance & Caching: Redis, Distributed Caching, Query Optimization",
+      "Security: Helmet, Bcrypt, Morgan (Logging)",
+      "File Handling: Multer (Multipart/form-data), Cloudinary",
+      "UI Components: Material-UI Icons, Timeago.js",
+      "Database & ODM: MongoDB, Mongoose"
     ],
     "features": [
-      "Engineered a full-stack social media application using the MERN stack, with a React frontend and a secure Express.js API. The application was developed to allow users to create profiles, share content, and interact with posts.",
-      "Developed a secure and scalable backend with Express.js, managing user authentication and data persistence with MongoDB and Mongoose. Bcrypt was implemented to securely hash user passwords, and the helmet middleware was used to enhance API security against common web vulnerabilities.",
-      "Implemented a robust API to handle all user-facing logic. This included configuring multer to manage multi-part form data for image uploads, and using morgan to log HTTP requests, aiding in development and debugging. All API calls from the frontend were efficiently managed with Axios.",
-      "Built a dynamic and intuitive user interface using React and React Router Dom to create a seamless, single-page application experience. The UI incorporated professional icons from @material-ui/icons and displayed post timing using timeago.js, creating a clean and user-friendly feed.",
-      "Ensured the application's reliability and quality by writing unit and integration tests for critical components and user flows with React Testing Library, verifying user interactions and component behavior."
+      "Real-Time Interaction: Orchestrated real-time features including instant messaging and live notifications using WebSockets (Socket.io) for bi-directional communication.",
+      "Distributed Caching: Integrated Redis to cache frequently accessed user profiles and feed data, significantly reducing database load and improving API response times.",
+      "MERN Stack Engineering: Engineered a scalable full-stack social media application using the MERN stack with a secure, event-driven Express.js API.",
+      "Backend Security: Implemented a hardened backend using Helmet middleware and Bcrypt hashing to ensure enterprise-grade data protection.",
+      "API Implementation: Developed a robust RESTful API with optimized Mongoose queries and Multer integration for efficient multi-part image uploads.",
+      "UX Implementation: Built a highly responsive user interface with React and React Router Dom, ensuring a seamless single-page application (SPA) experience."
     ]
   }
 ]
