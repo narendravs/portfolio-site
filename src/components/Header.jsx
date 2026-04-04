@@ -3,44 +3,23 @@ import { useNavigate, Link } from "react-router-dom";
 const Header = () => {
   const navigate = useNavigate();
   const [select, setSelect] = useState(false);
+
+  const handleNavigation = (path) => {
+    navigate(path);
+    setSelect(false); // Close menu on navigation
+  };
+
   return (
-    <header id="header" className="header dark-background d-flex flex-column">
-      <div
-        className="header-toggle d-xl-none bi bi-list"
+    <header
+      id="header"
+      className={`header dark-background d-flex flex-column ${select ? "header-show" : ""}`}
+    >
+      <i
+        className={`header-toggle d-xl-none bi ${select ? "bi-x" : "bi-list"}`}
         onClick={() => {
           setSelect(!select);
         }}
-      >
-        {select && (
-          <div>
-            <div
-              onClick={() => {
-                setSelect(false);
-              }}
-              className="menu"
-            >
-              <span className="span">
-                <Link to="/">Home</Link>
-              </span>
-              <span className="span">
-                <Link to="/about">About</Link>
-              </span>
-              <span className="span">
-                <Link to="/services">Services</Link>
-              </span>
-              <span className="span">
-                <Link to="/portfolio">Portfolio</Link>
-              </span>
-              <span className="span">
-                <Link to="/resume">Resume</Link>
-              </span>
-              <span className="span">
-                <Link to="/contact">Contact</Link>
-              </span>
-            </div>
-          </div>
-        )}
-      </div>
+      />
 
       <div className="profile-img">
         <img
@@ -77,7 +56,7 @@ const Header = () => {
           <i className="bi bi-github"></i>
         </a>
         <a
-          href="https://www.linkedin.com/in/narendra-narendra-792546147/"
+          href="https://www.linkedin.com/in/narendra-vs-792546147/"
           className="linkedin"
           target="_blank"
         >
@@ -93,6 +72,7 @@ const Header = () => {
               onClick={(e) => {
                 e.preventDefault();
                 navigate("/");
+                handleNavigation("/");
               }}
             >
               <i className="bi bi-house navicon"></i>Home
@@ -104,6 +84,7 @@ const Header = () => {
               onClick={(e) => {
                 e.preventDefault();
                 navigate("/about");
+                handleNavigation("/about");
               }}
             >
               <i className="bi bi-person navicon"></i> About
@@ -115,6 +96,7 @@ const Header = () => {
               onClick={(e) => {
                 e.preventDefault();
                 navigate("/resume");
+                handleNavigation("/resume");
               }}
             >
               <i className="bi bi-file-earmark-text navicon"></i> Resume
@@ -126,6 +108,7 @@ const Header = () => {
               onClick={(e) => {
                 e.preventDefault();
                 navigate("/portfolio");
+                handleNavigation("/portfolio");
               }}
             >
               <i className="bi bi-images navicon"></i> Portfolio
@@ -137,6 +120,7 @@ const Header = () => {
               onClick={(e) => {
                 e.preventDefault();
                 navigate("/services");
+                handleNavigation("/services");
               }}
             >
               <i className="bi bi-hdd-stack navicon"></i> Services
@@ -148,6 +132,7 @@ const Header = () => {
               onClick={(e) => {
                 e.preventDefault();
                 navigate("/contact");
+                handleNavigation("/contact");
               }}
             >
               <i className="bi bi-envelope navicon"></i> Contact
