@@ -214,6 +214,13 @@ h6 {
   .header ~ #footer {
     margin-left: 300px;
   }
+  .header {
+    width: 300px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+  }
 }
 
 @media (max-width: 1199px) {
@@ -1334,5 +1341,16 @@ html {
 @media (max-width: 1199px) {
   .service-page-header {
     top: 0;
+  }
+  .header {
+    position: fixed;
+    top: 0;
+    left: -100%; /* Hidden by default */
+    width: 80vw; /* Change from fixed px to 80% of viewport width */
+    height: 100vh;
+    transition: all 0.3s ease-in-out;
+    z-index: 9997;
+    background: #040b14;
+    overflow-y: auto;
   }
 }
