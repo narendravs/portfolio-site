@@ -3,123 +3,176 @@ import Header from "../../components/Header";
 import { Link } from "react-router-dom";
 const Serivces = () => {
   return (
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col">
+    <div className="container-fluid">
+      <div className="row">
+        <div className="col-12 col-lg-3">
           <Header />
         </div>
-        <div class="col-9" style={{ marginRight: "40px" }}>
+        <div className="col-12 col-lg-9">
           {/* <!-- Services Section --> */}
 
           <section id="services" class="services section">
             {/* <!-- Section Title --> */}
-            <div class="container section-title" data-aos="fade-up">
+            <div className="section-title" data-aos="fade-up">
               <h2>Services</h2>
-              <p>
-                <p>
-                  1. AI/LLM Integration & Agent Development (Your Key
-                  Differentiator) Intelligent Solutions: Design and
-                  implementation of next-generation conversational interfaces
-                  and AI-powered workflows using OpenAI, LangChain, and
-                  LangGraph. Vector Search & RAG: Architecting
-                  Retrieval-Augmented Generation (RAG) systems with Pinecone and
-                  Hugging Face embeddings to enable dynamic, database-driven
-                  chatbots.
-                </p>
-                &nbsp;
-                <p>
-                  2. Modern Full-Stack Architecture React & Next.js Development:
-                  Building high-performance, SEO-optimized web applications and
-                  server-side logic using Next.js. Focus on efficient state
-                  management (Redux, Tanstack Query) and modular component
-                  design. Backend & APIs: Engineering robust, scalable APIs with
-                  Node.js/Express.js, GraphQL, and Prisma/PostgreSQL/MongoDB for
-                  seamless data integrity and exchange. Quality & Standards:
-                  Committed to delivering clean, efficient, and well-tested code
-                  using TypeScript, Jest, and adherence to strict Agile/Scrum
-                  methodologies.
-                </p>
-                &nbsp;
-                <p>
-                  3. Mobile & Cross-Platform Delivery React Native Solutions:
-                  Developing and deploying native-feeling mobile applications
-                  for iOS and Android, ensuring single codebase efficiency via
-                  React Native (Expo).
-                </p>
-                &nbsp;
-                <p>
-                  4. DevOps & Cloud Deployment Deployment Automation: Full-cycle
-                  application deployment and maintenance on major cloud
-                  providers (AWS EC2, Vercel, Heroku), ensuring high
-                  availability and scalability.
-                </p>
+              {/* 1. Agentic AI & LLM Orchestration */}
+              <p className="mb-4">
+                <span className="fw-bold">
+                  1. Agentic AI & LLM Orchestration: {""}
+                </span>
+                Architecting next-generation
+                <b> autonomous agents</b> and conversational interfaces using{" "}
+                <b>LangGraph and LangChain</b>. I specialize in moving beyond
+                simple chatbots to building AI that can execute
+                <b> multi-step business logic</b>. Designing
+                <b> Retrieval-Augmented Generation (RAG)</b> pipelines with{" "}
+                <b>Pinecone</b> and
+                <b> Hugging Face</b> embeddings. I enable LLMs to securely query
+                your internal databases and documents with{" "}
+                <b>high precision and low latency.</b>
+                <br />
+                <span className="fw-bold d-inline-block mt-2">
+                  Enterprise RAG & Data Pipelines:
+                </span>{" "}
+                I design end-to-end {""}
+                <b>Retrieval-Augmented Generation (RAG)</b> systems, including
+                automated <b>document-to-vector embedding pipelines</b>. Using{" "}
+                <b>Pinecone and Hugging Face</b>, I transform unstructured data
+                and relational databases into high-performance{" "}
+                <b>vector stores</b>. This ensures LLMs can securely query your
+                internal knowledge base with{" "}
+                <b>
+                  semantic precision, sub-second latency, and zero
+                  hallucinations.
+                </b>
+              </p>
+
+              {/* 2. Modern Full-Stack Architecture */}
+              <p className="mb-4">
+                <span className="fw-bold">
+                  2. Modern Full-Stack Architecture: {""}
+                </span>
+                Engineering
+                <b> SEO-optimized, sub-second applications</b> using{" "}
+                <b>Next.js (App Router)</b> and React. I focus on advanced
+                patterns like <b>Server Components and streaming</b> to ensure
+                elite user experiences. Developed robust backends with
+                <b> Node.js, Express, and GraphQL</b>. From{" "}
+                <b>Prisma/PostgreSQL to MongoDB</b>, ensuring data integrity and
+                high-concurrency handling for enterprise-grade traffic. I
+                deliver type-safe, <b>"Production-Ready"</b> codebases using
+                TypeScript, enforced by automated CI/CD workflows. Every commit
+                triggers a comprehensive suite of{" "}
+                <b>
+                  Playwright (E2E), Jest/RTL (Unit/Integration), and Lighthouse
+                </b>{" "}
+                Performance audits to ensure peak quality and zero regressions
+                before deployment.
+              </p>
+
+              {/* 3. Mobile & Cross-Platform Delivery */}
+              <p className="mb-4">
+                <span className="fw-bold">
+                  3. Mobile & Cross-Platform Delivery: {""}
+                </span>
+                Building and deploying
+                <b> native-performance mobile applications</b> for iOS and
+                Android from a single, high-quality codebase. I focus on smooth
+                animations, offline capabilities, and
+                <b> seamless API synchronization</b>.
+              </p>
+
+              {/* 4. DevOps & Performance Engineering */}
+              <p className="mb-4">
+                <span className="fw-bold">
+                  4. DevOps & Performance Engineering: {""}
+                </span>
+                Implementing
+                <b> GitHub Actions and Docker</b> workflows that automate
+                testing and performance audits (<b>Lighthouse</b>) on every
+                commit. Deployment and scaling on
+                <b> AWS, Vercel, and Render</b>, ensuring your application
+                remains highly available and <b>cost-efficient</b> under heavy
+                load.
               </p>
             </div>
             {/* <!-- End Section Title --> */}
 
-            <div class="container">
-              <div class="row gy-4">
+            <div className="container">
+              <div className="row gy-4">
                 <div
-                  class="col-lg-4 col-md-6 service-item d-flex"
+                  className="col-lg-4 col-md-6 service-item d-flex"
                   data-aos="fade-up"
                   data-aos-delay="100"
                 >
-                  <div class="icon flex-shrink-0">
-                    <i class="bi bi-briefcase"></i>
+                  <div className="icon flex-shrink-0">
+                    <i className="bi bi-globe"></i>
                   </div>
                   <div>
-                    <h4 class="title">
-                      <Link to="/Service-details" class="stretched-link">
-                        React js Web-development
+                    <h4 className="title">
+                      <Link
+                        to="/Service-details/web-mobile"
+                        className="stretched-link"
+                      >
+                        Web & Mobile Development
                       </Link>
                     </h4>
-                    <p class="description">
-                      Designing developing maintaining react applications and
-                      its ecosystem.
+                    <p className="description">
+                      Engineering high-performance, SEO-optimized Next.js React
+                      web applications and native-feel React Native mobile
+                      experiences.
                     </p>
                   </div>
                 </div>
                 {/* <!-- End Service Item --> */}
 
                 <div
-                  class="col-lg-4 col-md-6 service-item d-flex"
+                  className="col-lg-4 col-md-6 service-item d-flex"
                   data-aos="fade-up"
                   data-aos-delay="200"
                 >
-                  <div class="icon flex-shrink-0">
-                    <i class="bi bi-card-checklist"></i>
+                  <div className="icon flex-shrink-0">
+                    <i className="bi bi-gpu-card"></i>
                   </div>
                   <div>
-                    <h4 class="title">
-                      <Link to="/Service-details" class="stretched-link">
-                        Next js Web-development
+                    <h4 className="title">
+                      <Link
+                        to="/Service-details/cloud-devops"
+                        class="stretched-link"
+                      >
+                        Cloud Infrastructure & DevOps.
                       </Link>
                     </h4>
-                    <p class="description">
-                      Imlementing the server side applications, deploying and
-                      maintaining.
+                    <p className="description">
+                      Architecting scalable AWS and Render environments with
+                      Docker containerization and automated CI/CD performance
+                      gates.
                     </p>
                   </div>
                 </div>
                 {/* <!-- End Service Item --> */}
 
                 <div
-                  class="col-lg-4 col-md-6 service-item d-flex"
+                  className="col-lg-4 col-md-6 service-item d-flex"
                   data-aos="fade-up"
                   data-aos-delay="300"
                 >
-                  <div class="icon flex-shrink-0">
-                    <i class="bi bi-bar-chart"></i>
+                  <div className="icon flex-shrink-0">
+                    <i className="bi bi-robot"></i>
                   </div>
                   <div>
-                    <h4 class="title">
-                      <Link to="/Service-details" class="stretched-link">
-                        React-Native Mobile-development
+                    <h4 className="title">
+                      <Link
+                        to="/Service-details/ai-automation"
+                        className="stretched-link"
+                      >
+                        AI Automation & LLM Orchestration
                       </Link>
                     </h4>
-                    <p class="description">
-                      Developing native mobile apllocations, deploying and
-                      maintaining the projects.
+                    <p className="description">
+                      Building autonomous AI agents and precision RAG pipelines
+                      using LangGraph to automate complex, multi-step business
+                      logic.
                     </p>
                   </div>
                 </div>
