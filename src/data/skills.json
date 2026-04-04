@@ -18,6 +18,12 @@
       "expertise": "Expert"
     }
   ],
+  "AI/ML": [
+    { "language": "Agentic AI (LangGraph)", "percentage": 90 },
+    { "language": "RAG & Vector DB (Pinecone)", "percentage": 95 },
+    { "language": "LLM Orchestration (LangChain)", "percentage": 95 },
+    { "language": "OpenAI & Hugging Face", "percentage": 90 }
+  ],
   "frontEnd": [
     { "language": "react", "percentage": "90", "expertise": "Expert" },
     { "language": "next", "percentage": "80", "expertise": "Intermediate" },
