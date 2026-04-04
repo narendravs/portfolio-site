@@ -30,6 +30,7 @@ const Home = () => {
                 alt=""
                 className="img-fluid "
                 loading="eager"
+                fetchPriority="high"
                 style={{ width: "100%" }}
               />
             </div>
@@ -38,14 +39,11 @@ const Home = () => {
               <h2>Narendra</h2>
               <ReactTyped
                 strings={[
-                  "Designer",
-                  "Developer",
                   "Freelancer",
                   "Web Developer",
-                  "Web Designer",
                   "Full Stack Developer",
                   "Best Code Customiser",
-                  "Familiar Open AI Library",
+                  "AI Developer",
                 ]}
                 typeSpeed={40}
                 backSpeed={50}
