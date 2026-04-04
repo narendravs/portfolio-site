@@ -5,22 +5,17 @@ import useWindowDimensions from "../Dimensions/Dimensions";
 const Home = () => {
   const { width } = useWindowDimensions();
   return (
-    <div className="container">
-      <div className="row">
-        <div className="col">
+    <div className="container-fluid p-0">
+      <div className="row g-0">
+        <div className="col-12 col-lg-3">
           <Header />
         </div>
         <div
-          className="col-10"
+          className="col-12 col-lg-9 ps-0"
           style={
             width > 750
-              ? {
-                  display: "flex",
-
-                  width: "1040px",
-                  marginLeft: "200px",
-                }
-              : { width: "100%" }
+              ? { paddingLeft: "0px", paddingRight: "0px" }
+              : { paddingLeft: "0px", paddingRight: "0px" }
           }
         >
           <section id="home" className="hero section dark-background">
