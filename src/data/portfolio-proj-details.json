@@ -3,7 +3,7 @@
     "projectId": "healthcare app",
     "category": "Nextjs Healthcare Application",
     "gitUrl": "https://github.com/narendravs/healthcare",
-    "liveUrl": "",
+    "liveUrl": "https://healthcare-4q9e.onrender.com",
     "image": "../assets/img/portfolio/healthcare.jpg",
     "description": "A full-stack application designed to modernize and automate core hospital administrative functions. By leveraging AI-powered document analysis and a conversational agent, this system addresses key inefficiencies in patient records management and appointment scheduling.",
     "skills": [
@@ -50,7 +50,7 @@
     "projectId": "leet code",
     "category": "Nextjs Leet-Code Application",
     "gitUrl": "https://github.com/narendravs/nextjsleet",
-    "liveUrl": "",
+    "liveUrl": "https://nextjsleet-tau.vercel.app/",
     "image": "../assets/img/portfolio/leetcode.jpg",
     "description": "A high-performance coding platform for practicing algorithms and data structures. This project features a custom-integrated testing and performance auditing suite to ensure enterprise-grade speed and reliability.",
     "skills": [
@@ -149,7 +149,7 @@
     "projectId": "subscription app",
     "category": "React subscription Application",
     "gitUrl": "https://github.com/narendravs/subscription",
-    "liveUrl": "",
+    "liveUrl": "https://subscription-dusky-eight.vercel.app/",
     "image": "../assets/img/portfolio/subscribe.jpg",
     "description": "A specialized recurring billing platform integrated with Stripe for managing professional subscription services.",
     "skills": [
