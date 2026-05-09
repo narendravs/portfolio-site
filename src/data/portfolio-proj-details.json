@@ -3,7 +3,7 @@
     "projectId": "healthcare app",
     "category": "Nextjs Healthcare Application",
     "gitUrl": "https://github.com/narendravs/healthcare",
-    "liveUrl": "https://healthcare-4q9e.onrender.com",
+    "liveUrl": "https://healthcare-three-snowy.vercel.app/",
     "image": "../assets/img/portfolio/healthcare.jpg",
     "description": "A full-stack application designed to modernize and automate core hospital administrative functions. By leveraging AI-powered document analysis and a conversational agent, this system addresses key inefficiencies in patient records management and appointment scheduling.",
     "skills": [
