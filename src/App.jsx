@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import "./App.css";
-//import Index from "./pages/Index";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./pages/Home/Home";

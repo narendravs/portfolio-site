@@ -68,7 +68,7 @@ const Header = () => {
         <ul>
           <li>
             <a
-              href="/home"
+              href="/Home"
               onClick={(e) => {
                 e.preventDefault();
 
@@ -80,11 +80,11 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="/about"
+              href="/About"
               onClick={(e) => {
                 e.preventDefault();
 
-                handleNavigation("/about");
+                handleNavigation("/About");
               }}
             >
               <i className="bi bi-person navicon"></i> About
@@ -92,11 +92,11 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="/resume"
+              href="/Resume"
               onClick={(e) => {
                 e.preventDefault();
 
-                handleNavigation("/resume");
+                handleNavigation("/Resume");
               }}
             >
               <i className="bi bi-file-earmark-text navicon"></i> Resume
@@ -104,11 +104,11 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="/portfolio"
+              href="/Portfolio"
               onClick={(e) => {
                 e.preventDefault();
 
-                handleNavigation("/portfolio");
+                handleNavigation("/Portfolio");
               }}
             >
               <i className="bi bi-images navicon"></i> Portfolio
@@ -116,11 +116,11 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="/services"
+              href="/Services"
               onClick={(e) => {
                 e.preventDefault();
 
-                handleNavigation("/services");
+                handleNavigation("/Services");
               }}
             >
               <i className="bi bi-hdd-stack navicon"></i> Services
@@ -128,11 +128,11 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="/contact"
+              href="/Contact"
               onClick={(e) => {
                 e.preventDefault();
 
-                handleNavigation("/contact");
+                handleNavigation("/Contact");
               }}
             >
               <i className="bi bi-envelope navicon"></i> Contact
