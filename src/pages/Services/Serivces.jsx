@@ -18,7 +18,7 @@ const Serivces = () => {
               {/* 1. Agentic AI & LLM Orchestration */}
               <p className="mb-4">
                 <span className="fw-bold">
-                  1. Agentic AI & LLM Orchestration: {""}
+                  1. Agentic AI, MCP & LLM Orchestration: {""}
                 </span>
                 Architecting next-generation
                 <b> autonomous agents</b> and conversational interfaces using{" "}
@@ -43,8 +43,12 @@ const Serivces = () => {
                 internal knowledge base with{" "}
                 <b>
                   semantic precision, sub-second latency, and zero
-                  hallucinations.
+                  hallucinations. {""}
                 </b>
+                By implementing <b>Model Context Protocol (MCP)</b> servers, I
+                enable agents to securely discover, execute tools, and query
+                internal databases and document repositories with high precision
+                and low latency.
               </p>
 
               {/* 2. Modern Full-Stack Architecture */}
@@ -54,9 +58,10 @@ const Serivces = () => {
                 </span>
                 Engineering
                 <b> SEO-optimized, sub-second applications</b> using{" "}
-                <b>Next.js (App Router)</b> and React. I focus on advanced
-                patterns like <b>Server Components and streaming</b> to ensure
-                elite user experiences. Developed robust backends with
+                <b>Next.js, </b>
+                <b>React, React-Native </b>and its eco-system. I focus on
+                advanced patterns like <b>Server Components and streaming</b> to
+                ensure elite user experiences. Developed robust backends with
                 <b> Node.js, Express, and GraphQL</b>. From{" "}
                 <b>Prisma/PostgreSQL to MongoDB</b>, ensuring data integrity and
                 high-concurrency handling for enterprise-grade traffic. I
@@ -172,7 +177,7 @@ const Serivces = () => {
                     <p className="description">
                       Building autonomous AI agents and precision RAG pipelines
                       using LangGraph to automate complex, multi-step business
-                      logic.
+                      logic with MCP integration.
                     </p>
                   </div>
                 </div>
