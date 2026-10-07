@@ -19,9 +19,7 @@ const Resume = () => {
               : { paddingLeft: "0px", paddingRight: "0px" }
           }
         >
-          {/* <!-- Resume Section --> */}
           <section id="resume" className="resume section">
-            {/* <!-- Section Title --> */}
             <div className="container section-title">
               <div>
                 <div className="d-flex gap-3 justify-content-between align-items-center pb-1 mb-4 border-2 border-bottom border-primary text-dark">
@@ -42,12 +40,12 @@ const Resume = () => {
                     {" "}
                     I am a{" "}
                     <b>
-                      Senior Full Stack & AI Engineer with 11+ years of
+                      Senior Full Stack & AI Engineer with 12+ years of
                       experience
                     </b>{" "}
-                    architecting <b>enterprise-grade</b> systems and
-                    high-performance web/mobile applications. I specialize in
-                    bridging the gap between{" "}
+                    architecting enterprise-grade systems and high-performance
+                    web/mobile applications. I specialize in bridging the gap
+                    between{" "}
                     <b>
                       complex Agentic AI orchestration and scalable,
                       production-ready product delivery.
@@ -57,12 +55,12 @@ const Resume = () => {
                   <p>
                     {" "}
                     Throughout my career, I have successfully evolved from a
-                    foundational 7-year background in{" "}
+                    foundational 8-year background in{" "}
                     <b>core enterprise Java/Spring Boot systems</b> to mastering
-                    the <b>modern MERN/Next.js ecosystem</b> and, most recently,
-                    engineering {""}
+                    the <b>modern MERN/Next.js ecosystem</b> with 4+ years and
+                    most recently engineering in {""}
                     <b>autonomous AI agents (LangGraph/NodeJs)</b>. I don’t just
-                    write code; I focus on <b>"Product-First" engineering</b>
+                    write code. I focus on <b>"Product-First" engineering</b>
                     —ensuring that complex AI logic, sub-second performance, and
                     robust system design work in perfect harmony.
                   </p>
@@ -72,23 +70,28 @@ const Resume = () => {
 
               <div className="container">
                 <div>
-                  <h3 className="resume-title">Sumary</h3>
+                  <h3 className="resume-title">Summary</h3>
                   <div className="resume-item pb-0">
                     <div>
                       <p className="mb-2">
                         <span className="fw-bold">
-                          Agentic AI & LLM Orchestration:
+                          Agentic AI, MCP & LLM Orchestration: {""}
                         </span>
                         Expert in engineering <b>autonomous AI workflows</b> and{" "}
                         <b>RAG pipelines</b> using <b>LangGraph, LangChain</b>.
                         Proven track record in implementing{" "}
-                        <b>vector-search systems</b> using
-                        <b>Pinecone</b> and <b>Hugging Face embeddings</b> for
-                        complex document and database querying.
+                        <b>vector-search systems</b> using <b>Pinecone</b> and{" "}
+                        <b>Hugging Face embeddings</b> for complex document and
+                        database querying. Integrated{" "}
+                        <b>Model Context Protocol (MCP)</b> servers to enable
+                        standardized, secure tool execution and dynamic
+                        retrieval across vector stores (Pinecone, Hugging Face
+                        embeddings), enterprise documentation, and relational
+                        databases.
                       </p>
                       <p className="mb-2">
                         <span className="fw-bold">
-                          Modern Full-Stack Leadership (4+ Yrs):
+                          Modern Full-Stack Leadership (4+ Yrs): {""}
                         </span>
                         Deep expertise in building{" "}
                         <b>scalable, production-grade applications</b> within
@@ -109,7 +112,7 @@ const Resume = () => {
                       <p className="mb-2">
                         <span className="fw-bold">
                           {" "}
-                          DevOps & Product-First Mindset:
+                          DevOps & Product-First Mindset: {""}
                         </span>
                         Proficient in <b>Docker-based CI/CD</b> and cloud
                         deployment across <b>AWS, GCP, Vercel, and Render</b>.
@@ -119,7 +122,7 @@ const Resume = () => {
                       </p>
                       <p>
                         <span className="fw-bold">
-                          Enterprise Foundation (7+ Yrs):
+                          Enterprise Foundation (8 Yrs): {""}
                         </span>
                         Solid architectural background in large-scale{" "}
                         <b>Java/J2EE (Spring Boot, Hibernate)</b> systems across
@@ -139,13 +142,12 @@ const Resume = () => {
                   >
                     <div className="resume-item">
                       <h4>
-                        I. ntechstack &nbsp;
+                        I. Ntechstack &nbsp;
                         <em style={{ fontSize: "15px" }}>
                           (Independent Technology Consulting & Development)
                         </em>
                         &nbsp; - CTO & Principal Consultant.
                       </h4>
-
                       <p>
                         <em>Jan-2022 - Present</em> |&nbsp;
                         <em>Bangalore, Ind</em>
@@ -161,6 +163,24 @@ const Resume = () => {
                           multi-step processes, such as enabling users to book
                           appointments through a single prompt (prompt-driven
                           automation).
+                        </li>
+                        <li>
+                          Deployed Model Context Protocol (MCP) servers to
+                          bridge the LLM to database and document layers,
+                          replacing ad-hoc prompt assembly with a standardized,
+                          auditable context-injection interface.
+                        </li>
+                        <li>
+                          Added bi-directional voice interaction with
+                          Speech-to-Text and Text-to-Speech pipelines in
+                          Next.js, enabling hands-free document search with
+                          synthesized spoken results.
+                        </li>
+                        <li>
+                          Instrumented the agent with LangSmith for tracing and
+                          observability, and used Redis to persist multi-turn
+                          conversation state across stateless serverless
+                          instances.
                         </li>
                         <li>
                           Integrated Stripe payment gateway functionality into
@@ -195,7 +215,6 @@ const Resume = () => {
                     </div>
                     <div className="resume-item">
                       <h4>II. Schneider Electric - Fullstack developer</h4>
-
                       <p>
                         <em>Apr-2014 - Sep-2015</em>&nbsp;
                         <em>Bangalore, Ind</em>
@@ -229,11 +248,14 @@ const Resume = () => {
                         </li>
                       </ul>
                     </div>
-                    {/* <!-- Edn Resume Item --> */}
-
+                  </div>
+                  <div
+                    className="col-lg-6"
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                  >
                     <div className="resume-item">
                       <h4>III. Capgemini India Pvt Ltd - Consultant</h4>
-                      {/* <h5>2010 - 2014</h5> */}
                       <p>
                         <em>Jan-2011 - Nov-2013</em>&nbsp;
                         <em>Bangalore, Ind</em>
@@ -267,17 +289,8 @@ const Resume = () => {
                         </li>
                       </ul>
                     </div>
-                    {/* <!-- Edn Resume Item --> */}
-                  </div>
-                  <div
-                    className="col-lg-6"
-                    data-aos="fade-up"
-                    data-aos-delay="200"
-                  >
-                    {/* <h3 className="resume-title">Professional Experience</h3> */}
                     <div className="resume-item">
                       <h4>IV. Accenture - Senior Software Engineer</h4>
-                      {/* <h5>2019 - Present</h5> */}
                       <p>
                         <em>Nov-2009 - Oct-2010</em>&nbsp;
                         <em>Bangalore, Ind </em>
@@ -310,14 +323,11 @@ const Resume = () => {
                         </li>
                       </ul>
                     </div>
-                    {/* <!-- Edn Resume Item --> */}
-
                     <div className="resume-item">
                       <h4>
                         V. Technologia Software Solutions Pvt Ltd - Software
                         Engineer
                       </h4>
-                      {/* <h5>2017 - 2018</h5> */}
                       <p>
                         <em>Sep-2007 - Mar-2009</em>&nbsp;
                         <em>Bangalore, Ind</em>
@@ -356,13 +366,11 @@ const Resume = () => {
                         </li>
                       </ul>
                     </div>
-                    {/* <!-- Edn Resume Item --> */}
                   </div>
                 </div>
               </div>
             </div>
           </section>
-          {/* <!-- /Resume Section --> */}
         </div>
       </div>
     </div>
