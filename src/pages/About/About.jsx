@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Header from "../../components/Header";
-import skills from "../../data/skills.json";
+import skillsData from "../../data/skills.json";
 import useWindowDimensions from "../Dimensions/Dimensions";
 
 const About = () => {
@@ -21,29 +21,30 @@ const About = () => {
           }
         >
           <section id="about" className="about section">
-            <div className="container section-title" data-aos="fade-up">
+            <div className="container section-title">
               <h2>About</h2>
               <p className="mb-4">
                 I am a{" "}
                 <b>
-                  Senior Full Stack & AI Engineer with 11+ years of experience
+                  Senior Full Stack & AI Engineer with 12+ years of experience
                 </b>{" "}
-                building enterprise-grade systems and high-performance
-                web/mobile applications. I specialize in bridging the gap
-                between{" "}
+                building enterprise-grade software, high-throughput applications
+                and autonomous AI systems. I specialize in bridging the gap
+                between cutting-edge{" "}
                 <b>
-                  complex Agentic AI orchestration and scalable product
-                  delivery.
+                  Agentic AI orchestration and robust, production-ready
+                  full-stack architecture.
                 </b>
               </p>
 
               <p>
-                Throughout my career, I have evolved from a deep foundation in{" "}
-                {""}
-                <b>core enterprise Java/Spring Boot</b> systems to mastering the{" "}
-                <b>modern MERN/Next.js ecosystem</b> and, most recently,
-                engineering {""}
-                <b>autonomous AI agents</b>.
+                My career spans the full evolution of modern software
+                engineering—from building high-concurrency enterprise backends
+                in {""}
+                <b>core enterprise Java/Spring Boot,</b> to architecting modern{" "}
+                <b>modern MERN/Next.js ecosystems,</b> to engineering {""}
+                <b>autonomous multi-agent workflows</b> autonomous multi-agent
+                workflows that automate complex business logic.
               </p>
 
               {/* Moved soft skills into this section for flow */}
@@ -59,7 +60,6 @@ const About = () => {
                       display: "flex",
                       flexDirection: "column",
                       gap: "12px",
-                      paddingLeft: "10px",
                     }}
                   >
                     <div
@@ -70,30 +70,38 @@ const About = () => {
                       }}
                     >
                       <span>🤖</span>
-                      <span>
-                        <strong>AI Orchestration:</strong> Engineering{" "}
-                        <b>RAG pipelines</b> and agentic workflows using{" "}
-                        <b>LangGraph, LangChain</b>.
-                      </span>
-                    </div>
-
-                    <div
-                      style={{
-                        display: "flex",
-                        alignItems: "start",
-                        gap: "10px",
-                      }}
-                    >
-                      <span>⚡</span>
-                      <span>
-                        <strong>Performance Engineering:</strong> Delivering
-                        <b>100/100 Lighthouse scores</b> via automated{" "}
-                        <b>CI/CD</b>. I have implemented{" "}
-                        <b>GitHub Actions workflows</b> that trigger {""}
-                        <b>Playwright (E2E)</b>, <b>Jest/RTL (Unit)</b>, and{" "}
-                        <b>Lighthouse</b> audits on every commit to ensure{" "}
-                        <b>zero-regression deployments</b>.
-                      </span>
+                      <div>
+                        <strong>Agentic AI, MCP & RAG Orchestration</strong>
+                        <ul
+                          style={{
+                            margin: "6px 0 0 0",
+                            paddingLeft: "20px",
+                            listStyleType: "disc",
+                          }}
+                        >
+                          <li>
+                            Design and deploy autonomous AI agents and
+                            structured multi-agent graphs using{" "}
+                            <b>LangGraph, LangChain</b>, and{" "}
+                            <b>AutoGen/CrewAI hybrid architectures</b>.
+                            Integrated <b>Model Context Protocol (MCP)</b>{" "}
+                            servers to enable standardized, secure tool access
+                            and context retrieval across proprietary
+                            documentation, vector indexes, and relational
+                            databases. Architect production-grade
+                            Retrieval-Augmented Generation (RAG) pipelines with
+                            strict state bounds, deterministic tool execution,
+                            and automated fallback recovery.
+                          </li>
+                          <li>
+                            Build production-grade{" "}
+                            <b>Retrieval-Augmented Generation (RAG)</b>{" "}
+                            pipelines that safely connect LLMs to proprietary
+                            company data with strict state bounds and
+                            deterministic error recovery.
+                          </li>
+                        </ul>
+                      </div>
                     </div>
 
                     <div
@@ -104,12 +112,134 @@ const About = () => {
                       }}
                     >
                       <span>🏗️</span>
-                      <span>
-                        <strong>Full-Stack Architecture:</strong> Expert in {""}
-                        <b>Node.js, React, Next.js and React Native (Expo)</b>,
-                        with a deep background in <b>PostgreSQL</b> and{" "}
-                        <b>MongoDB</b>.
-                      </span>
+                      <div>
+                        <strong>Full-Stack Web & Mobile Architecture</strong>
+                        <ul
+                          style={{
+                            margin: "6px 0 0 0",
+                            paddingLeft: "20px",
+                            listStyleType: "disc",
+                          }}
+                        >
+                          <li>
+                            <b>Web & Mobile:</b> Deep expertise in designing,
+                            architecting, and developing web applications in{" "}
+                            <b>
+                              React, Next.js, Node.js, and React Native (Expo)
+                            </b>{" "}
+                            to build responsive, cross-platform applications
+                            with seamless state management.
+                          </li>
+                          <li>
+                            <b>Database Design:</b> Proven track record in
+                            schema modeling, indexing, and performance tuning
+                            across <b>PostgreSQL, MongoDB, and Redis</b>.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "start",
+                        gap: "10px",
+                      }}
+                    >
+                      <span>⚡</span>
+                      <div>
+                        <strong>
+                          Performance & Automated Quality Assurance:
+                        </strong>
+                        <ul
+                          style={{
+                            margin: "6px 0 0 0",
+                            paddingLeft: "20px",
+                            listStyleType: "disc",
+                          }}
+                        >
+                          <li>
+                            <b>100/100 Lighthouse Performance:</b> Optimize web
+                            core vitals, server-side rendering (SSR), static
+                            generation (ISR), and client-side asset delivery.
+                          </li>
+                          <li>
+                            <b>Zero-Regression CI/CD:</b> Build robust GitHub
+                            Actions deployment pipelines integrating automated{" "}
+                            <b>Playwright (E2E)</b>,{" "}
+                            <b>Jest/React Testing Library (Unit)</b>, and
+                            continuous Lighthouse audits on every commit.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    {/* Scalability & Distributed Architecture */}
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "start",
+                        gap: "10px",
+                      }}
+                    >
+                      <span>🚀</span>
+                      <div>
+                        <strong>Scalability & Distributed Architecture:</strong>
+                        <ul
+                          style={{
+                            margin: "6px 0 0 0",
+                            paddingLeft: "20px",
+                            listStyleType: "disc",
+                          }}
+                        >
+                          <li>
+                            <b>High-Throughput Systems:</b> Design resilient
+                            microservices, asynchronous messaging queues, and
+                            load-balanced edge infrastructure to ensure minimal
+                            latency under peak traffic loads.
+                          </li>
+                          <li>
+                            <b>Self-Healing Infrastructure:</b> Implement
+                            container orchestration, auto-scaling policies, and
+                            automated failover mechanisms to maintain high
+                            availability and uninterrupted service delivery.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    {/* Security & Enterprise Compliance */}
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "start",
+                        gap: "10px",
+                      }}
+                    >
+                      <span>🔒</span>
+                      <div>
+                        <strong>Security & Enterprise Compliance:</strong>
+                        <ul
+                          style={{
+                            margin: "6px 0 0 0",
+                            paddingLeft: "20px",
+                            listStyleType: "disc",
+                          }}
+                        >
+                          <li>
+                            <b>Zero-Trust Architecture:</b> Enforce strict
+                            role-based access controls (RBAC), end-to-end data
+                            encryption, and secure API gateways to eliminate
+                            unauthorized access vectors.
+                          </li>
+                          <li>
+                            <b>Automated Threat Detection:</b> Integrate
+                            continuous SAST/DAST code scanning, dependency
+                            vulnerability management, and automated compliance
+                            checks into pre-deployment verification pipelines.
+                          </li>
+                        </ul>
+                      </div>
                     </div>
 
                     <div
@@ -120,10 +250,45 @@ const About = () => {
                       }}
                     >
                       <span>☁️</span>
+                      <div>
+                        <strong>Cloud, DevOps & Scalability:</strong>
+                        <ul
+                          style={{
+                            margin: "6px 0 0 0",
+                            paddingLeft: "20px",
+                            listStyleType: "disc",
+                          }}
+                        >
+                          <li>
+                            Deploy and manage scalable microservices and
+                            serverless architectures across{" "}
+                            <b>AWS, GCP, Vercel, and Render</b>.
+                          </li>
+                          <li>
+                            Containerize applications using <b>Docker</b> to
+                            ensure identical, secure execution across
+                            development, staging, and production environments.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "start",
+                        gap: "10px",
+                      }}
+                    >
+                      <span>💼</span>
                       <span>
-                        <strong>DevOps & Scalability:</strong> Implementing {""}
-                        <b>Docker-based CI/CD workflows</b> and deploying across{" "}
-                        <b>AWS, GCP, Vercel, and Render</b>.
+                        <strong>What I Bring to Your Project:</strong> Whether
+                        you are looking to integrate autonomous AI workflows
+                        into your existing product, architect a new
+                        enterprise-scale web/mobile application from scratch, or
+                        overhaul system performance and CI/CD pipelines, I
+                        deliver{" "}
+                        <b>clean, maintainable, and battle-tested code</b> built
+                        for long-term business growth.
                       </span>
                     </div>
                   </div>
@@ -131,7 +296,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="container" data-aos="fade-up" data-aos-delay="100">
+            <div className="container">
               <div className="row gy-4 justify-content-center">
                 <div className="col-lg-4">
                   <img
@@ -178,9 +343,24 @@ const About = () => {
                           <strong>Email:</strong>{" "}
                           <span>narendravs228@gmail.com</span>
                         </li>
+                      </ul>
+                    </div>
+                    <div>
+                      <ul>
                         <li>
                           <i className="bi bi-chevron-right"></i>{" "}
-                          <strong>Freelance:</strong> <span>Available</span>
+                          <strong>Work Preference:</strong>{" "}
+                          <span>100% Remote / Hybrid</span>
+                        </li>
+                        <li>
+                          <i className="bi bi-chevron-right"></i>{" "}
+                          <strong>Availability:</strong>{" "}
+                          <span>Open to Full-Time, Contracts & Clients</span>
+                        </li>
+                        <li>
+                          <i className="bi bi-chevron-right"></i>{" "}
+                          <strong>Client Coverage:</strong>{" "}
+                          <span>Global (US, EU, APAC Timezones)</span>
                         </li>
                       </ul>
                     </div>
@@ -194,113 +374,66 @@ const About = () => {
           <section
             id="skills"
             className="skills section light-background"
-            style={{ paddingTop: "40px" }} // Adjust this value to control the gap
+            style={{ paddingTop: "40px" }}
           >
-            {/* */}
-            <div className="container section-title " data-aos="fade-up">
-              <h2>Skills</h2>
+            <div className="container section-title">
+              <h4 style={{ fontSize: "20px", fontWeight: "bold" }}>
+                Skills & Architectural Domains
+              </h4>
               <p>
-                <b>Technical Skills & Architecture:</b> Leveraging over a decade
-                of full-stack expertise, I architect highly available, secure,
-                and performant systems. My approach integrates modern AI
-                orchestration with battle-tested enterprise patterns to deliver
-                scalable, production-grade applications.
+                <b>Technical Leadership & Architecture:</b> Leveraging over a
+                decade of full-stack expertise to design highly available,
+                secure, and performant systems. Integrating modern AI
+                orchestration with battle-tested enterprise patterns.
               </p>
             </div>
-            {/* */}
-
-            <div className="container" data-aos="fade-up" data-aos-delay="100">
-              <div className="row skills-content skills-animation ">
-                <div
-                  className="col-lg-6"
-                  style={{
-                    display: "flex",
-                    gap: "20px",
-                    flexDirection: "column",
-                  }}
-                >
-                  <span style={{ fontWeight: "500" }}>
-                    Front End & Middleware Skills
-                  </span>
-
-                  {skills.frontEnd.map((skill, i) => (
-                    <div key={i}>
-                      <div className="progress">
-                        <span className="skill">
-                          <span>{skill.language}</span>{" "}
-                          <i className="val">{skill.percentage}%</i>
-                        </span>
-                        <div className="progress-bar-wrap">
-                          <div
-                            className="progress-bar"
-                            role="progressbar"
-                            aria-valuenow={skill.percentage}
-                            aria-valuemin="0"
-                            aria-valuemax="100"
-                            style={{ width: `${skill.percentage}%` }}
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-
-                <div
-                  className="col-lg-6"
-                  style={{
-                    display: "flex",
-                    gap: "20px",
-                    flexDirection: "column",
-                  }}
-                >
-                  <span style={{ fontWeight: "500" }}>AI/ML Skills</span>
-                  <div className="bottom-10">
-                    {skills["AI/ML"].map((skill, i) => (
-                      <div key={i}>
-                        <div className="progress">
-                          <span className="skill">
-                            <span>{skill.language}</span>{" "}
-                            <i className="val">{skill.percentage}%</i>
-                          </span>
-                          <div className="progress-bar-wrap">
-                            <div
-                              className="progress-bar"
-                              style={{ width: `${skill.percentage}%` }}
-                              role="progressbar"
-                              aria-valuenow={skill.percentage}
-                              aria-valuemin="0"
-                              aria-valuemax="100"
-                            ></div>
+            <div className="container">
+              <div className="table-responsive">
+                <table className="table table-hover align-middle custom-skills-table">
+                  <thead className="table-dark">
+                    <tr>
+                      <th scope="col" style={{ width: "22%" }}>
+                        Domain
+                      </th>
+                      <th scope="col" style={{ width: "35%" }}>
+                        Technologies & Libraries
+                      </th>
+                      <th scope="col" style={{ width: "18%" }}>
+                        Proficiency
+                      </th>
+                      <th scope="col" style={{ width: "25%" }}>
+                        Architectural Scope
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {skillsData.map((domain) => (
+                      <tr key={domain.id}>
+                        <td className="fw-bold">{domain.category}</td>
+                        <td>
+                          <div className="d-flex flex-wrap gap-1">
+                            {domain.technologies.map((tech, index) => (
+                              <span
+                                key={index}
+                                className="badge bg-light text-dark border me-1 mb-1"
+                              >
+                                {tech}
+                              </span>
+                            ))}
                           </div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-
-                  <span style={{ fontWeight: "500" }}>Back End Skills</span>
-                  <div>
-                    {skills.backEnd.map((skill, i) => (
-                      <div key={i}>
-                        <div className="progress">
-                          <span className="skill">
-                            <span>{skill.language}</span>{" "}
-                            <i className="val">{skill.percentage}%</i>
+                        </td>
+                        <td>
+                          <span className="badge bg-primary fs-6">
+                            {domain.proficiency}
                           </span>
-                          <div className="progress-bar-wrap">
-                            <div
-                              className="progress-bar"
-                              style={{ width: `${skill.percentage}%` }}
-                              role="progressbar"
-                              aria-valuenow={skill.percentage}
-                              aria-valuemin="0"
-                              aria-valuemax="100"
-                            ></div>
-                          </div>
-                        </div>
-                      </div>
+                        </td>
+                        <td className="text-muted small">
+                          {domain.architecturalScope}
+                        </td>
+                      </tr>
                     ))}
-                  </div>
-                </div>
+                  </tbody>
+                </table>
               </div>
             </div>
           </section>
