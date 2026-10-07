@@ -1,14 +1,14 @@
 [
   {
     "projectId": "healthcare app",
-    "category": "Nextjs Healthcare Application",
+    "category": "Nextjs AI Powered Healthcare Application",
     "gitUrl": "https://github.com/narendravs/healthcare",
-    "liveUrl": "https://healthcare-three-snowy.vercel.app/",
+    "liveUrl": "https://healthcare-eight-mu.vercel.app/",
     "image": "../assets/img/portfolio/healthcare.jpg",
     "description": "A full-stack application designed to modernize and automate core hospital administrative functions. By leveraging AI-powered document analysis and a conversational agent, this system addresses key inefficiencies in patient records management and appointment scheduling.",
     "skills": [
       "Frontend Development: Next.js, React, React Hook Form, TanStack/React-Table, Shadcn/ui",
-      "AI/ML Engineering: LangChain, Hugging Face, Pinecone (Vector Database)",
+      "AI/ML Engineering: LangChain, Hugging Face, Pinecone (Vector Database), Model Context Protocol (MCP)",
       "Backend & APIs: Express, Node, Appwrite APIs",
       "Validation & Security: Zod, TypeScript, Appwrite Auth",
       "Styling: Tailwind CSS, CSS"
@@ -16,7 +16,11 @@
     "features": [
       "Full-Stack Development: Developed a full-stack healthcare application using Next.js and TypeScript to streamline the analysis and summarization of medical documents.",
       "AI Engineering: Engineered an AI-powered data processing pipeline by integrating LangChain and Hugging Face for deep text analysis and conversational appointment booking.",
+      "MCP Integration: Deployed Model Context Protocol (MCP) servers to bridge the LLM to database and document layers, replacing ad-hoc prompt assembly with a standardized, auditable context-injection interface.",
       "RAG & Semantic Search: Implemented a semantic search engine with Pinecone vector database to enable fast, intelligent retrieval of patient records.",
+      "Voice & Multimodal AI: Added bi-directional voice interaction with Speech-to-Text and Text-to-Speech pipelines in Next.js, enabling hands-free document search with synthesized spoken results.",
+      "Observability & State Management: Instrumented the agent with LangSmith for tracing and observability, and utilized Redis to persist multi-turn conversation state across stateless serverless instances.",
+      "Async Infrastructure / Background Job Queues: Offloaded document embedding and parsing from Next.js API routes onto Trigger.dev background queues, eliminating request-timeout failures during bulk ingestion.",
       "UI/UX Design: Built a modern, responsive user interface with Tailwind CSS and Shadcn/ui, ensuring a seamless and accessible experience.",
       "Data Integrity: Enforced data integrity and security by managing complex form state and validation using React Hook Form and Zod.",
       "Performance Optimization: Optimized data visualization for large datasets using TanStack/React-Table, improving usability and workflow efficiency."
