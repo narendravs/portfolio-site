@@ -55,7 +55,7 @@ const Portfolio = () => {
                 complex state management (Redux/Context) and robust
                 architectural design. A core focus of my recent work is{" "}
                 <b>Agentic AI Orchestration</b>, integrating autonomous agents
-                and <b>RAG pipelines (LangGraph/Node.js),</b> and{" "}
+                and <b>RAG pipelines (LangGraph/Node.js) </b> and{" "}
                 <b>Model Context Protocol (MCP)</b> into production-ready
                 environments. To ensure zero-regression and sub-second
                 performance, I implement Automated DevOps Workflows via GitHub
