@@ -26,7 +26,7 @@ const About = () => {
               <p className="mb-4">
                 I am a{" "}
                 <b>
-                  Senior Full Stack & AI Engineer with 12+ years of experience
+                  Senior Full Stack & AI Engineer with 19+ years of experience
                 </b>{" "}
                 building enterprise-grade software, high-throughput applications
                 and autonomous AI systems. I specialize in bridging the gap
