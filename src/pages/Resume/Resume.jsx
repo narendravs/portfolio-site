@@ -40,7 +40,7 @@ const Resume = () => {
                     {" "}
                     I am a{" "}
                     <b>
-                      Senior Full Stack & AI Engineer with 12+ years of
+                      Senior Full Stack & AI Engineer with 19+ years of
                       experience
                     </b>{" "}
                     architecting enterprise-grade systems and high-performance
@@ -57,7 +57,7 @@ const Resume = () => {
                     Throughout my career, I have successfully evolved from a
                     foundational 8-year background in{" "}
                     <b>core enterprise Java/Spring Boot systems</b> to mastering
-                    the <b>modern MERN/Next.js ecosystem</b> with 4+ years and
+                    the <b>modern MERN/Next.js ecosystem</b> with 10+ years and
                     most recently engineering in {""}
                     <b>autonomous AI agents (LangGraph/NodeJs)</b>. I don’t just
                     write code. I focus on <b>"Product-First" engineering</b>
