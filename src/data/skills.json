@@ -1,46 +1,95 @@
-{
-  "backEnd": [
-    { "language": "mongo", "percentage": "75", "expertise": "Expert" },
-    { "language": "postgress", "percentage": "60", "expertise": "Expert" },
-    { "language": "OpenAI Library", "percentage": "50", "expertise": "Expert" },
-    { "language": "Cloud vercel heroku", "percentage": "50", "expertise": "" },
-    { "language": "Prisma", "percentage": "50", "expertise": "" },
-    { "language": "GraphQl", "percentage": "50", "expertise": "" },
-    {
-      "language": "Stripe Payment Gateway",
-      "percentage": "50",
-      "expertise": ""
-    },
-    { "language": "cms firebase", "percentage": "50", "expertise": "Expert" },
-    {
-      "language": "cms aws-amplify",
-      "percentage": "50",
-      "expertise": "Expert"
-    }
-  ],
-  "AI/ML": [
-    { "language": "Agentic AI (LangGraph)", "percentage": 90 },
-    { "language": "RAG & Vector DB (Pinecone)", "percentage": 95 },
-    { "language": "LLM Orchestration (LangChain)", "percentage": 95 },
-    { "language": "OpenAI & Hugging Face", "percentage": 90 }
-  ],
-  "frontEnd": [
-    { "language": "react", "percentage": "90", "expertise": "Expert" },
-    { "language": "next", "percentage": "80", "expertise": "Intermediate" },
-    { "language": "react-native", "percentage": "70", "expertise": "Basic" },
-    { "language": "java-script", "percentage": "80", "expertise": "" },
-    { "language": "type-script", "percentage": "60", "expertise": "" },
-    { "language": "node", "percentage": "80", "expertise": "" },
-    { "language": "express", "percentage": "80", "expertise": "" },
-    { "language": "java", "percentage": "80", "expertise": "" },
-    { "language": "spring-boot", "percentage": "80", "expertise": "" },
-    { "language": "css", "percentage": "80", "expertise": "" },
-    { "language": "tailwind", "percentage": "80", "expertise": "" },
-    { "language": "bootstrap", "percentage": "50", "expertise": "" },
-    { "language": "MaterialUI", "percentage": "80", "expertise": "" },
-    { "language": "ChakraUI", "percentage": "80", "expertise": "" },
-    { "language": "Shadcn", "percentage": "50", "expertise": "" },
-    { "language": "Clerk", "percentage": "50", "expertise": "" },
-    { "language": "JWT", "percentage": "50", "expertise": "" }
-  ]
-}
+[
+  {
+    "id": "ai-ml",
+    "category": "AI/ML & Intelligent Systems",
+    "technologies": [
+      "Agentic AI (LangGraph)",
+      "Model Context Protocol (MCP)",
+      "Workflow Automation (n8n)",
+      "RAG & Vector DBs (Pinecone)",
+      "LLM Orchestration (LangChain)",
+      "OpenAI API",
+      "Hugging Face"
+    ],
+    "proficiency": "Expert / Lead",
+    "architecturalScope": "Agentic workflows & autonomous agents (LangGraph tool selection), Model Context Protocol (MCP) server integration, Multilingual RAG & vector search and Automated workflow orchestration (n8n)."
+  },
+  {
+    "id": "frontend-mobile",
+    "category": "Frontend & Mobile Engineering",
+    "technologies": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "JavaScript (ES6+)",
+      "TanStack Query",
+      "React Hook Form",
+      "Zod",
+      "Redux",
+      "Zustand",
+      "Recoil",
+      "Context API",
+      "React Native",
+      "Web Workers",
+      "Service Workers",
+      "Tailwind CSS",
+      "Bootstrap",
+      "CSS3",
+      "Shadcn UI",
+      "Material UI",
+      "Chakra UI"
+    ],
+    "proficiency": "Expert",
+    "architecturalScope": "SSR/SSG architectures, Design systems, Responsive UI, State management, Server-state caching, Form validation & schema parsing, Complex & nested component design, PWA/offline caching, Cross-platform web & mobile"
+  },
+  {
+    "id": "build-tooling",
+    "category": "Build Systems & CI/CD Tooling",
+    "technologies": [
+      "Vite",
+      "Webpack",
+      "Babel",
+      "GitHub Actions",
+      "CI/CD Pipelines"
+    ],
+    "proficiency": "Expert",
+    "architecturalScope": "Automated build/test workflows, Bundle optimization, Transpilation pipelines, DX"
+  },
+  {
+    "id": "backend-cloud",
+    "category": "Backend & Cloud Architecture",
+    "technologies": [
+      "Node.js",
+      "Express",
+      "Java",
+      "Spring Boot",
+      "GraphQL",
+      "REST APIs",
+      "tRpc",
+      "gRpc",
+      "WebSockets",
+      "OpenAI SDK",
+      "Stripe API"
+    ],
+    "proficiency": "Expert",
+    "architecturalScope": "Microservices, Scalable API design, Middleware, Integration services"
+  },
+  {
+    "id": "database-infra",
+    "category": "Databases, Infra & Security",
+    "technologies": [
+      "PostgreSQL",
+      "MongoDB",
+      "Prisma ORM",
+      "Docker",
+      "AWS Amplify",
+      "Firebase",
+      "Vercel",
+      "Heroku",
+      "Clerk Auth",
+      "JWT"
+    ],
+    "proficiency": "Advanced",
+    "architecturalScope": "Data modeling, Query optimization, Serverless deployments, Auth & Payments"
+  }
+]
